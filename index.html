@@ -71,6 +71,7 @@
   }
   .left p { margin-bottom: 10px; }
   .left p:last-child { margin-bottom: 0; }
+  .left u { text-decoration: underline; text-underline-offset: 3px; }
 
   /* graph/table image */
   .chart-img {
@@ -604,23 +605,33 @@ function renderQ() {
   document.getElementById('rightPanel').scrollTop = 0;
 }
 
-function passageHtml(text) {
-  // All \n in this data are PDF soft-wraps, not paragraph breaks.
-  // Join them into one continuous block; preserve any intentional blank lines as breaks.
-  return '<p>' + esc(text.replace(/\n/g, ' ').trim()) + '</p>';
+function passageHtml(text, underlinedSentence) {
+  const joined = text.replace(/\n/g, ' ').trim();
+  if (underlinedSentence) {
+    const idx = joined.indexOf(underlinedSentence);
+    if (idx !== -1) {
+      return '<p>' +
+        esc(joined.slice(0, idx)) +
+        '<u>' + esc(joined.slice(idx, idx + underlinedSentence.length)) + '</u>' +
+        esc(joined.slice(idx + underlinedSentence.length)) +
+        '</p>';
+    }
+  }
+  return '<p>' + esc(joined) + '</p>';
 }
 
 function renderLeft(q) {
   const panel = document.getElementById('leftPanel');
+  const ul = q.underlinedSentence || null;
 
   if (q.hasGraph && q.graphImage) {
     const passage = getPassage(q.question);
     let html = `<img class="chart-img" src="${q.graphImage}" alt="Chart/table for this question">`;
-    if (passage.trim()) html += passageHtml(passage);
+    if (passage.trim()) html += passageHtml(passage, ul);
     panel.innerHTML = html;
   } else {
     const passage = getPassage(q.question);
-    panel.innerHTML = passageHtml(passage);
+    panel.innerHTML = passageHtml(passage, ul);
   }
 }
 
