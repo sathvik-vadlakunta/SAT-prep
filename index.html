@@ -328,7 +328,7 @@
   <div class="hdr-right">
     <span class="hdr-stat" id="hdrStat"></span>
     <button class="btn-hdr" onclick="goHome()">Home</button>
-    <button class="btn-hdr" onclick="if(confirm('Reset all progress?')){localStorage.removeItem('sat_a');location.reload()}">Reset</button>
+    <button class="btn-hdr" onclick="resetProgress()">Reset</button>
   </div>
 </header>
 
@@ -402,6 +402,20 @@
     <div class="cards" id="homeCards"></div>
 
     <div class="section">
+      <h3>Question Bank</h3>
+      <div class="mode-grid">
+        <div class="mode-card active" data-b="rw" onclick="setBank('rw')">
+          <div class="mc-t">R&amp;W · Info &amp; Ideas</div>
+          <div class="mc-d">555 questions</div>
+        </div>
+        <div class="mode-card" data-b="sec" onclick="setBank('sec')">
+          <div class="mc-t">Standard English</div>
+          <div class="mc-d">421 questions · Conventions</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
       <h3>Mode</h3>
       <div class="mode-grid">
         <div class="mode-card active" data-m="all"     onclick="setMode(this)"><div class="mc-t">All Questions</div><div class="mc-d">Work through filtered set</div></div>
@@ -423,11 +437,7 @@
       </div>
       <div class="frow">
         <div class="flbl">Skill</div>
-        <div class="chips">
-          <div class="chip on" data-f="skill" data-v="Inferences"               onclick="toggleChip(this)">Inferences</div>
-          <div class="chip on" data-f="skill" data-v="Central Ideas and Details" onclick="toggleChip(this)">Central Ideas</div>
-          <div class="chip on" data-f="skill" data-v="Command of Evidence"       onclick="toggleChip(this)">Cmd of Evidence</div>
-        </div>
+        <div class="chips" id="skillChips"></div>
       </div>
     </div>
 
@@ -437,12 +447,19 @@
 
 <script>
 // ── Data & State ──
+const BANKS = {
+  rw:  { file: 'questions.json',  key: 'sat_a',  label: 'R&W · Information and Ideas',   skills: ['Inferences','Central Ideas and Details','Command of Evidence'] },
+  sec: { file: 'questions2.json', key: 'sat_a2', label: 'Standard English Conventions',  skills: ['Boundaries','Form Structure and Sense'] },
+};
+const bankCache = {};
+let currentBank = 'rw';
+
 let ALL = [];
 let Q = [];        // current session queue
 let idx = 0;
 let ans = {};      // qid → {chosen, correct, marked}
 let mode = 'all';
-let filters = { diff: new Set(['Easy','Medium','Hard']), skill: new Set(['Inferences','Central Ideas and Details','Command of Evidence']) };
+let filters = { diff: new Set(['Easy','Medium','Hard']), skill: new Set(BANKS.rw.skills) };
 let picked = null;
 let done = false;
 let timerInterval = null;
@@ -468,17 +485,36 @@ function updateTimerDisplay() {
 }
 
 // ── Boot ──
-(async () => {
-  try {
-    ALL = await fetch('questions.json').then(r => r.json());
-    try { ans = JSON.parse(localStorage.getItem('sat_a') || '{}'); } catch(e){}
-    renderHome();
-  } catch(e) {
-    document.getElementById('homeSub').textContent = 'Error loading questions.json — make sure the server is running from ~/sat-prep.';
-  }
-})();
+(async () => { await setBank('rw'); })();
 
-function save() { localStorage.setItem('sat_a', JSON.stringify(ans)); }
+function save() { localStorage.setItem(BANKS[currentBank].key, JSON.stringify(ans)); }
+
+// ── Bank selector ──
+async function setBank(bank) {
+  if (currentBank === bank && bankCache[bank]) return;
+  currentBank = bank;
+  document.querySelectorAll('[data-b]').forEach(c => c.classList.toggle('active', c.dataset.b === bank));
+  if (!bankCache[bank]) {
+    try {
+      bankCache[bank] = await fetch(BANKS[bank].file).then(r => r.json());
+    } catch(e) {
+      document.getElementById('homeSub').textContent = `Error loading ${BANKS[bank].file} — make sure the server is running from ~/sat-prep.`;
+      return;
+    }
+  }
+  ALL = bankCache[bank];
+  try { ans = JSON.parse(localStorage.getItem(BANKS[bank].key) || '{}'); } catch(e) { ans = {}; }
+  filters.skill = new Set(BANKS[bank].skills);
+  renderHome();
+}
+
+function resetProgress() {
+  if (confirm('Reset all progress for this bank?')) {
+    localStorage.removeItem(BANKS[currentBank].key);
+    ans = {};
+    renderHome();
+  }
+}
 
 // ── Home ──
 function renderHome() {
@@ -487,7 +523,16 @@ function renderHome() {
   const corr = Object.values(ans).filter(a => a.correct).length;
   const pct  = seen > 0 ? Math.round(corr/seen*100) : 0;
 
-  document.getElementById('homeSub').textContent = `${total} questions · SAT Reading & Writing · Information and Ideas`;
+  // Bank selector active state
+  document.querySelectorAll('[data-b]').forEach(c => c.classList.toggle('active', c.dataset.b === currentBank));
+
+  // Skill chips (dynamic per bank)
+  document.getElementById('skillChips').innerHTML = BANKS[currentBank].skills.map(s => {
+    const on = filters.skill.has(s);
+    return `<div class="chip ${on ? 'on' : ''}" data-f="skill" data-v="${s}" onclick="toggleChip(this)">${s}</div>`;
+  }).join('');
+
+  document.getElementById('homeSub').textContent = `${total} questions · SAT · ${BANKS[currentBank].label}`;
   document.getElementById('homeCards').innerHTML = [
     ['Total',    total,        'var(--blue)'],
     ['Correct',  corr,         'var(--green)'],
@@ -562,6 +607,7 @@ function renderQ() {
   picked = a?.chosen || null;
 
   // Header
+  document.getElementById('hdrLeft').textContent = currentBank === 'sec' ? 'SAT · SEC' : 'SAT · R+W';
   document.getElementById('hdrMid').textContent = q.test === 'Math' ? 'Math' : 'R+W';
   updateHdrStat();
 
