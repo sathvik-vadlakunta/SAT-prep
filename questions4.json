@@ -282,7 +282,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence of the text states that Shakti knows the woods she is walking in well. The next sentence, which is underlined, emphasizes Shakti's familiarity with, and sense of security within, the woods by describing how the tree branches are friendly and \"welcoming,\" as they are depicted as extending open arms to her. The remainder of the text also shows that Shakti is comfortable and content in the woods by describing her as \"an old friend\" of the trees. Thus, the function of the underlined portion is to emphasize Shakti's sense of belonging in the wooded landscape that she visits. Choice A is incorrect because the text and underlined portion suggest that Shakti is comfortable, not uncomfortable, in her surroundings: the trees around her are described as welcoming and reassuring. Moreover, the underlined portion discusses Shakti's feelings in the forest, not the river, since she hasn't reached the river yet. Choice B is incorrect because the text and underlined portion emphasize Shakti's familiarity with the woods. The trees are inviting, and she feels like \"an old friend\" to the woods, so she isn't lost or confused there. Choice D is incorrect because the third sentence uses the phrase \"as an old friend\" figuratively in reference to Shakti's sense of familiarity with the landscape, not in reference to her long-standing friendships with other people, and the text and underlined portion never discuss her feelings about such friendships.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "The trees seemed to extend their branches like welcoming arms."
   },
   {
     "id": "757077f9",
@@ -320,7 +321,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it directly applies the research findings described in Text 2 to the situation underlined in Text 1. The underlined sentence in Text 1 describes a common scenario in which two friends are deciding on a lunch location. Text 1 goes on to explain that people often don't reveal their true preferences in such situations, instead claiming they're fine with any option so that they can appear more easygoing and likable. Text 2 presents research that advises against this approach, stating that people who don't express their preferences aren't viewed as more likable and that this behavior actually makes decisions more difficult for others. Since Text 2 specifically argues against the strategy of concealing preferences and indicates negative outcomes from doing so, the author of Text 2 would most likely recommend stating a preference about where to eat. Choice A is incorrect because nothing in Text 2 suggests that canceling plans is a good solution. The author of Text 2 is addressing how to make joint decisions effectively (through stating your own preference), not advocating for avoiding such decisions entirely. Choice B is incorrect because asking where the friend typically likes to eat still avoids stating one's own preference. While this approach might seem considerate, it continues the pattern of not revealing true preferences that Text 2 identifies as problematic. Choice D is incorrect because changing the subject would avoid making any decision altogether, which contradicts the implied advice in Text 2. The author of Text 2 presents research suggesting that directly engaging with the decision by stating preferences helps others make decisions and makes you appear more likable.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Imagine you and your friend are trying to decide where to eat lunch."
   },
   {
     "id": "2af2016f",
@@ -529,7 +531,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes how the second sentence functions in the text as a whole. The first sentence establishes something astronomers believe with some certainty: that Betelgeuse will explode in a supernova. The second sentence then introduces a problem: astronomers aren't certain when Betelgeuse will explode because they don't have enough information about the star's internal characteristics. Finally, the third sentence indicates that researcher Sarafina El-Badry Nance and colleagues investigated a possible method of obtaining the necessary information about Betelgeuse's internal characteristics, though they found that the method wouldn't be sufficient. Thus, the function of the second sentence is to identify the problem that Nance and colleagues attempted to solve but didn't. Choice A is incorrect because the second sentence introduces the general problem Nance and colleagues hoped to solve, not a serious limitation of how Nance and colleagues tried to solve it. It is the third sentence that introduces Nance and colleagues, but no serious limitation of their approach to studying a method of determining internal stellar states is described. Choice B is incorrect because the second sentence introduces the general problem Nance and colleagues hoped to solve, not the central finding they ultimately reported. It is the third sentence that presents Nance and colleagues' conclusion that a potential method for determining internal stellar states would be insufficient. Choice D is incorrect because the second sentence doesn't indicate how other astronomers or astrophysicists responded to the work done by Nance and colleagues; the text doesn't address this information at all.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "They are much\nless confident, however, about when this will happen, since that depends on internal characteristics of Betelgeuse that are largely unknown."
   },
   {
     "id": "a1139ff8",
@@ -852,7 +855,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it most accurately describes the function of the underlined sentence in the text as a whole. The text discusses the Bayeux Tapestry, making the point that the workers who produced the huge tapestry in the eleventh century might not have ever produced a tapestry so large before. The text goes on to suggest that because of this lack of previous experience, the workers developed and refined the process of joining the tapestry's panels over time as they worked. The last sentence of the text then provides an example of an observation that suggests the workers'process changed: clear misalignment of the borders of the two panels the workers joined first and virtually invisible joins completed later. Thus, the underlined sentence serves to support an argument about the workers who produced the tapestry. Choice A is incorrect because the example given in the last sentence of the text has to do with how the panels of the Bayeux Tapestry were joined by the workers, not with what is depicted in those panels; the text never identifies any people or places depicted in the tapestry. Choice C is incorrect because the last sentence compares how early panels in the Bayeux Tapestry were joined with how later panels in the same tapestry were joined; it doesn't make any comparison between the Bayeux Tapestry and other tapestries from the same time in France. Choice D is incorrect because the last sentence doesn't address the location where the Bayeux Tapestry was created; the first sentence of the text presents it as a given that the tapestry was created in France, but nothing in the text indicates how that origin was determined.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "For example, the first join the workers completed exhibits a\nclear misalignment of the borders of the two panels, whereas the later joins are virtually invisible."
   },
   {
     "id": "9e501aaf",
@@ -947,7 +951,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it describes how the underlined portion of the sentence functions in the text as a whole. The text begins by discussing ordinary soap bubbles, objects that usually exist for less than a minute before popping due to either evaporation or gravity-induced drainage. The text then goes on to mention work by researchers Aymeric Roux and colleagues, who have discovered how to increase the longevity of bubbles by altering their chemical composition. Finally, the underlined portion of the text describes how this process works: since the bubble contains both water and glycerol, it can draw water molecules from the surrounding air to replace those lost to evaporation. Therefore, the underlined portion of the sentence describes the effects of a process devised by researchers that increases the longevity of an object described in the text. Choice B is incorrect because the circumstance that prompted the research is discussed in the first sentence of the text, not the underlined portion. Choice C is incorrect because the underlined portion of the text does not address why soap bubbles must eventually rupture. Rather, it explains how the longevity of soap bubbles can be extended. Choice D is incorrect because the underlined portion of the text does not mention any future experiments.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "a bubble with a shell\nthat contains both water and glycerol is able to draw additional water molecules from the surrounding air and thereby compensate for\nevaporation."
   },
   {
     "id": "4974b053",
@@ -1004,7 +1009,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. The author of Text 2 acknowledges that nanohybrids may be more toxic than their constituent parts, but also provides an example of a nanohybrid that has reduced toxicity compared to its components: silicon dioxide and zinc oxide together have all the benefits of zinc oxide nanoparticles without any of the DNA harm zinc oxide has on its own. Choice A is incorrect. While the author of Text 2 gives an example of a nanohybrid that isn't as toxic as its constituent parts, they don't argue that the benefit outweighs the risk. They merely argue that \"the effects of nanomaterial conjugation vary by case.\"Choice B is incorrect. The author of Text 2 states that the effects of nanomaterial conjugation \"vary by case,\"and that the attention that their potential toxicity has drawn is warranted. If the situation in Text 1 weren't representative, then there would be less attention to the potential danger of these materials. Furthermore, neither passage suggests that researchers had expected that they could predict the effects of nanomaterial conjugation. Choice C is incorrect. The author of Text 2 agrees that the potential toxicity of nanohybrids \"has drawn deserved attention,\"so they aren't denying the problem.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "conjugation may alter constituents'physiochemical properties such that\ninnocuous nanomaterials form a nanohybrid that is anything but."
   },
   {
     "id": "5f56fdec",
@@ -1099,7 +1105,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. The text describes how a new discovery expands our understanding of Denisovans. The underlined portion describes what we used to believe about Denisovans, which helps the reader understand the significance of the discovery of the molar: it suggests that they lived in more places than we'd previously thought. Choice A is incorrect. The underlined portion doesn't do this. Instead, it explains what we used to believe about Denisovans before the discovery —it doesn't dismiss the new discovery as false. Choice B is incorrect. The underlined portion doesn't do this. No term is defined here. Choice C is incorrect. The underlined portion doesn't do this. The text never tells us what the \"goal\"of the research was, just what its discovery was.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Before the discovery, Denisovans were\nthought to have lived only at high altitudes in relatively cold climates in what are now Russia and China,"
   },
   {
     "id": "153aaae2",
@@ -1118,7 +1125,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes the function of the underlined portion in the text as a whole. The text first reports that a comblike motif at Cueva Huenul 1 dates to 8,000 years ago and was reproduced over the next 3,000 years. The underlined portion then indicates that this 3,000-year period corresponds to a span of very dry environmental conditions and a slowly declining human population in the area. The text then suggests that the chronological overlap between use of the comblike motif and the ecological and demographic conditions might suggest that what the motif is meant to communicate is related to those specific factors. Thus, the underlined portion identifies a consideration that factored into an interpretation of the rock art at Cueva Huenul 1 that is presented in the text. Choice B is incorrect. Although the text suggests that Cueva Huenul 1 may have been an important site because it enabled the peoples of Patagonia to preserve cultural knowledge, nothing in the text addresses why they chose the site for their paintings. Choice C is incorrect because the text indicates that the motif was reproduced over a period of 3,000 years (beginning 8,000 years ago) without directly addressing the cessation of its use. Furthermore, nothing in the text suggests that the motif was abandoned abruptly. Choice D is incorrect because nothing in the underlined portion or the text as a whole addresses the rarity of rock art during the period in question.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "a period coinciding with extremely arid conditions and\nslightly negative population growth."
   },
   {
     "id": "ac9a3a26",
@@ -1137,7 +1145,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it best describes how the underlined portion functions in the text as a whole. The text says that the increased production quotas of food processing companies during World War II enabled employees to make better bargains in exchange for their labor. The underlined portion presents an example of this increased bargaining power: employees requested more favorable benefits, and employers complied because they were under pressure to fulfill the demanding terms of their contracts. Thus, the underlined portion of the text elaborates on a claim about labor relations in a particular industry (food processing) made earlier in the text. Choice B is incorrect because there is no indication in the text that the economic factors that influenced food processing also influenced other parts of the economy; thus, the bargaining described in the underlined portion of the text cannot be called an example of a trend. Choice C is incorrect because the underlined portion supports the historical narrative of labor activism in food processing that is sketched in the text, instead of noting an exception to that narrative. Choice D is incorrect because while the underlined portion does discuss the demands that workers made in exchange for their labor, it does not discuss the identities of the workers.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "employees insisted on more\nfavorable benefits, and employers, who were anxious to fulfill the contracts, complied."
   },
   {
     "id": "03c9f327",
@@ -1194,7 +1203,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes the function of the underlined portion in the text as a whole. The text establishes that many countries have adopted risk-disclosure requirements for financial products due to concerns that consumers don't understand the risks associated with the products. According to the text, Seira et al. found that the effects of such messaging on consumer behavior were small and temporary. The text then adds that the researchers assert that because the cost of the messaging is negligible, the approach may be worth doing even if the effects are limited. Thus, the underlined portion notes a factor—very low cost—that led the researchers to not completely dismiss risk-disclosure messaging despite their evidence of its limited utility. Choice B is incorrect because the underlined portion doesn't refer to a particular type of risk-disclosure messaging, whether Seira et al. considered it or not; the underlined portion simply indicates that the cost of the messaging (broadly) is very low, which makes the approach worth pursuing even if its effects are limited. Choice C is incorrect. Although the underlined portion does describe a consideration that led the researchers to recommend risk-disclosure messaging despite the messaging's small effects on consumer behavior, it directly states that the cost of such messaging is negligible, or very low—meaning that both the effects and the costs are small, not that the effects are small only relative to the costs. Choice D is incorrect because there's no indication that Seira et al. suggest that risk-disclosure messaging could be more effective if it had lower costs; rather, the underlined portion indicates that Seira et al. believe the already negligible cost of messaging makes the approach worth pursuing even if its effects are limited.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "given the\nnegligible cost of messaging."
   },
   {
     "id": "c4737d6a",
@@ -1232,7 +1242,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes how the first sentence functions in the text as a whole. The first sentence introduces what yawn contagion is, explaining that it occurs when an individual yawns in response to the yawn of another individual. The text goes on to describe Elisabetta Palagi and her colleagues' study of this phenomenon in a wild population of gelada monkeys. According to the text, the study showed that wild primate populations experience yawn contagion and that the behavior occurs most commonly in male monkeys and across social groups. Thus, the function of the first sentence is to define the phenomenon of yawn contagion that is discussed in the text. Choice B is incorrect. Although the first sentence introduces the text's discussion of yawn contagion, it doesn't present this behavior, or anything else, as a problem. Choice C is incorrect because the first sentence doesn't present a claim but instead explains what yawn contagion is. Moreover, the text doesn't challenge anything; it's an informative text that describes the findings of a research study about yawning in wild primate populations. Choice D is incorrect. Although the text describes a scientific study, and most scientific studies are guided by a hypothesis, the text doesn't say what Palagi and her colleagues' hypothesis was; the text discusses their findings instead.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Yawn contagion occurs when one individual yawns in response to another's yawn."
   },
   {
     "id": "710799ae",
@@ -1441,7 +1452,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. Trever thinks that the \"hyper-realistic portrayal of identifiable people\"interpretation ignores the sculptors' imagination and creativity. We can infer that Trevor thinks the facial markings on the sculptures may not have represented real skin blemishes on real people. Choice A is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in this way. Neither text compares the depictions of human faces to the depictions of plants or animals, so we have no basis to draw this conclusion. Choice B is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in this way. There's nothing in either text about multiple depictions representing the same person, so we have no basis to draw this conclusion. Choice C is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in this way. Neither text mentions the state of the vessels (damaged or intact), so we have no basis to draw this conclusion.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "scholars have interpreted\nfacial markings to represent scars and other skin irregularities."
   },
   {
     "id": "af4300b0",
@@ -1498,7 +1510,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes the function of the underlined sentence in the text as a whole. The first sentence of the text indicates that Johnson returned to the US in 1938 at which time his painting style suddenly changed. The second sentence is underlined and gives more detail about this stylistic change, noting that his earlier work consisted largely of landscapes in an expressionist style and his new works were highly stylized portraits of Black Americans. In other words, the function of the underlined sentence is to elaborate on a transitional moment in Johnson's painting career. Choice B is incorrect. Although the text does mention that Johnson spent a decade in Europe, it does not discuss what other travel Johnson might have done. Furthermore, although the text mentions African, American, and Scandinavian artistic elements in Johnson's work, it does not indicate that he traveled to different locations to learn about these practices. Choice C is incorrect because the text does not focus on Johnson's personal life nor does it address how successful his career was in general. Choice D is incorrect because, rather than call it into question, the underlined sentence continues the discussion of Johnson's career by adding further relevant detail of Johnson's artistic transformation.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Turning away from landscapes painted in an expressionist style—a style that often involves using fluid, distorted shapes and thick, textured\nbrushstrokes to express the artist's subjective experience of reality—Johnson began painting portraits of Black Americans in a bold new way."
   },
   {
     "id": "cf46f239",
@@ -1517,7 +1530,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it best describes the function of the underlined portion in the text as a whole. The text describes the failed attempt of Israel Potter to establish a farm in New England during the late eighteenth century: according to his contract, he was to receive two hundred acres in exchange for three months'work, but his employer then refused to fulfill the bargain and Israel had no recourse to law to obtain the land he was owed. Israel was therefore forced to find another means of supporting himself. To explain why Israel was particularly susceptible to his employer's dishonesty, the underlined portion states that though Israel was \"brave-hearted, and even much of a dare-devil upon a pinch,\" he also possessed \"a singular patience and mildness.\" In other words, Israel could be courageous in certain circumstances, but he was usually meek and disinclined to argument, from which it is reasonable to infer that Israel was often taken advantage of. Thus, the underlined portion suggests that if not for a certain aspect of his character, Israel might not have been as easily thwarted in his ambition to establish a farm. Choice A is incorrect because although the underlined portion describes aspects of Israel's personality, it does not address how he feels about his own personality. Choice C is incorrect because the underlined portion addresses Israel's occasional courage and frequent meekness but does not address whether he would have the skills and resolve necessary to operate a farm if he owned sufficient property. Choice D is incorrect. Though the underlined portion does indicate that Israel could be courageous in certain circumstances, it does not say that he undertook acts of courage that others avoided, but rather that he was habitually meek. Even if the underlined portion did say that Israel was more courageous than most, this would not explain why he found himself under the circumstances described in the text—that is, as a consequence of his meek nature, cheated of the property to which he had a right.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Israel—who, however brave-hearted, and even much of a dare-devil upon a pinch, seems nevertheless to have\nevinced, throughout many parts of his career, a singular patience and mildness—was"
   },
   {
     "id": "15daaded",
@@ -1612,7 +1626,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. The author of Text 2 states that Fontana's painting, which depicts a painting easel in the background, was made in 1577, eight years before Carracci's painting. Therefore, they might argue that Caracci was not \"the first artist\" to depict themself as a painter. Choice A is incorrect. The texts don't support this choice. Neither text mentions the reputation or status of either Carracci or Fontana. Choice B is incorrect. The author of Text 2 does not comment on the intention or meaning of Fontana's self-depiction in Self-Portrait at the Keyboard. This choice also holds little connection to the underlined claim. Choice C is incorrect. The texts don't support this choice. The author of Text 2 does not suggest any inspirational relationship between Fontana and Carracci. The author of Text 2 is concerned with showing that Fontana's painting is the earliest example of an artist referring to painting in their self-portrait, but makes no mention of her influence on others.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "In the city of Bologna, the first artist to depict themself painting was a man named Annibale Carracci."
   },
   {
     "id": "7d60a322",
@@ -1650,7 +1665,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes the function of the underlined sentence. The sentence indicates that scientists used time-lapse photography during both day and night to detect pollinators visiting red clover. Therefore, the underlined sentence has the function of describing an approach scientists used in the pollinator study discussed in the text. Choice B is incorrect because the underlined sentence discusses equipment the scientists used to conduct their study, and the text provides nothing to suggest these elements of their experimental design could, by themselves, question claims resulting from the study. Choice C is incorrect because nothing in either the underlined sentence or the rest of the text addresses whether moths have a preference for red clover or any other flowers. Choice D is incorrect. Although the sentences that follow the underlined sentence discuss research findings, nothing in the text suggests that these findings were unexpected. Moreover, the underlined sentence describes part of the scientists' experimental design (day and night time-lapse photography), not a finding of the scientists' study.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "address this problem, a team of scientists used time-lapse cameras to record pollinator visits to red clover all day and night."
   },
   {
     "id": "23974d6c",
@@ -1707,7 +1723,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer. The previous sentence broadly mentions \"autobiographies written by the freedom seekers.\" This sentence identifies Loguen's autobiography as a specific example. Choice B is incorrect. The sentence never explains why Loguen chose to write about his experiences. Choice C is incorrect. The previous sentence identifies autobiographies as useful sources of historical information about a specific topic, but not for \"information about geography.\" The underlined sentence provides details of one autobiography as an example of a source of information about that specific topic (interactions between Indigenous people and Black freedom seekers). Choice D is incorrect. The text never discusses other specific people who helped freedom seekers, and therefore can't make a comparison between the Neshnabé and anyone else.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "One such narrative is Jermain Loguen's autobiography, which tells about how Neshnabé (Potawatomi) villagers\noffered him food, lodging, and directions during his 1835 journey from Tennessee to Canada."
   },
   {
     "id": "190857f0",
@@ -1878,7 +1895,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer. The underline phrase qualifies (meaning adds limits or conditions to) the description of Mr. Verloc as \"steady like a rock,\"adding that he is a \"soft\"rock. Choice B is incorrect. In fact, the passage never mentions Mr. Verloc experiencing any internal struggles. Choice C is incorrect. The underlined phrase doesn't contrast Mr. Verloc with his surroundings, but is instead modifying the description of him as a rock. Choice D is incorrect. The underlined phrase doesn't reveal a private opinion Mr. Verloc holds: instead, it further describes his character for the reader.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "kind of rock—marched"
   },
   {
     "id": "5a278f24",
@@ -2049,7 +2067,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes how the underlined statement functions in the text as a whole. The underlined statement mentions a category of animals that have a feature in common: they tend to have fixed geographic ranges throughout their lifetimes. The text then presents the speculation of some researchers that the Arctic woolly mammoth might also share this characteristic. However, an examination of the content of strontium in the strata (or layers) of a woolly mammoth tusk indicated that contrary to the researchers' hypothesis, the mammoth had an expanding range in its environment that contracted in its last 1.5 years of life. Thus, the underlined statement discusses a characteristic shared by certain animals in order to explain why researchers raised a possibility that turned out not to be supported by data described later in the text. Choice B is incorrect. Though the underlined statement presents a pattern of behavior (the habit of certain animals of staying within a fixed geographic range), the rest of the text does not present a theory of exceptions to that pattern; rather, the researchers are merely concerned with whether one particular animal has behavior consistent with the pattern. Choice C is incorrect. Though the underlined statement does describe a similarity in the behavior of certain animals (their tendency to stay within a fixed geographic range), this is not done in order to show why a method described later in the text failed to show whether another animal showed that behavior; rather, the method of analysis of strata of a woolly mammoth tusk showed that the mammoth's behavior was different from that of the animals mentioned in the underlined statement. Choice D is incorrect. Though the underlined statement mentions a trait shared by a number of animals (their fixed geographic range), the rest of the text does not present a hypothesis regarding the origin of that trait; rather, the researchers are concerned with whether another particular animal shares that trait.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Individual elephants and Arctic herbivores such as caribou tend to have fixed geographic ranges throughout their lifetimes,"
   },
   {
     "id": "e26d23c4",
@@ -2182,7 +2201,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. The underlined sentence provides a concrete example to ground readers'understanding of the \"deep intersubjectivity\"described in the next sentence as central to Austen's work. Choice A is incorrect. There is no evaluation made of Austen's skill in this sentence, and no examples are given in the following sentence. This choice essentially flips the paragraph: it's this first sentence that provides an example. Choice B is incorrect. There are no other Austen protagonists mentioned in this passage, so this couldn't be the answer. Choice C is incorrect. The underlined sentence doesn't identify any \"recurring theme,\"but instead simply describes one interaction from one book. This interaction exemplifies the literary technique of \"deep intersubjectivity\"that is introduced in the next sentence.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "an almost imperceptible smile from potential suitor Henry Crawford causes the protagonist Fanny Price to\nblush; her embarrassment grows when she suspects that he is aware of it."
   },
   {
     "id": "a4ca92fd",
@@ -2334,7 +2354,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The underlined sentence establishes a difference between Uncle Katsuhisa and the narrator's father by describing Uncle Katsuhisa as \"loud\" and the narrator's father as \"quiet.\" The text then elaborates on that contrast, describing some ways Uncle Katsuhisa is very noisy even when he isn't speaking. Choice A is incorrect because the text doesn't indicate what kinds of topics Uncle Katsuhisa enjoys discussing, only that he is loud even when he isn't speaking. Choice B is incorrect because the text never indicates how Uncle Katsuhisa feels about meeting new people, only how loud he is. Choice D is incorrect because the text never describes a conversation occurring between any people; it refers to talking only when stating that Uncle Katsuhisa is loud even when he isn't speaking.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "[Uncle Katsuhisa] was as loud as my father was quiet."
   },
   {
     "id": "7d84fe2b",
@@ -2524,7 +2545,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence of the text establishes that Lily can be \"keenly sensitive to\"scenes that serve as a \"fitting background\"for her feelings—that is, she's very aware of when a setting seems to reflect her mood. The next sentence, which is underlined, then demonstrates this awareness: Lily views the landscape she's in as a large-scale reflection of her current mood, identifying with elements such as its calmness. Thus, the function of the underlined sentence is to illustrate an idea introduced in the previous sentence. Choice A is incorrect because the underlined sentence describes the scene only in very general terms, referring to its calmness, breadth, and long stretches of land. It's the next sentence that adds specific details about colors, light, and various trees nearby. Choice B is incorrect because nothing in the underlined sentence suggests that Lily is experiencing an internal conflict. In fact, the sentence indicates that Lily thinks the landscape reflects her own feeling of calmness. Choice C is incorrect because the only assertion in the underlined sentence is that Lily feels that broad aspects of the landscape, such as its calmness, reflect her current mood, and that assertion isn't expanded on in the next sentence. Instead, the next sentence describes specific details of the scene without connecting them to Lily's feelings.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "The landscape outspread below her seemed an enlargement of her present mood, and she found\nsomething of herself in its calmness, its breadth, its long free reaches."
   },
   {
     "id": "2ec0e43e",
@@ -2543,7 +2565,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes the function of the underlined portion in the text as a whole. The text begins by defining alternative-history fiction as a subgenre centered on \"what if?\"questions. The underlined portion then poses two such questions—one about India starting the Industrial Revolution and one about Soviet cosmonauts landing on the moon first. The sentence that follows refers to the two questions as \"speculative counterfactuals like these,\"confirming that the underlined questions serve as examples. Thus, the underlined portion provides examples of the types of scenarios addressed in alternative-history fiction. Choice A is incorrect because the underlined portion provides examples of \"what if?\"scenarios, not evidence of a line of influence from academic historians to fiction writers; nothing in the text addresses such a relationship. The text mentions academic historians only in the context of how alternative-history stories can supplement their work. Choice B is incorrect because the text states that counterfactuals like the ones presented in the underlined portion are \"commonly deployed by academic historians,\"indicating engagement with such questions rather than neglect. Instead of acknowledging overlooked questions, the underlined portion provides examples of the types of scenarios addressed in alternative-history fiction. Choice D is incorrect because nothing in the text indicates that the specific questions in the underlined portion originated with fiction writers or that they subsequently inspired academic historians. Instead, the underlined portion simply illustrates the kind of \"what if?\"questions typical of the alternative-history fiction subgenre.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "What if India had started the Industrial\nRevolution? What if Soviet cosmonauts had been first to land on the moon?"
   },
   {
     "id": "ed52a093",
@@ -2619,7 +2642,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first two sentences establish that birds of some species don't raise their own young; instead, they lay their eggs in the nests of birds of other species. The underlined sentence then states that female cuckoo birds engage in this behavior, having been observed specifically laying their eggs in other nests while the other birds are out finding food. According to the text, the cuckoo chicks are then raised by the other birds. Thus, the underlined sentence provides a particular detail about how female cuckoos carry out the behavior of laying eggs for other birds to raise. Choice A is incorrect. Rather than mentioning a physical feature of female cuckoos, the underlined sentence introduces a specific behavior of female cuckoos: laying eggs in the nests of birds of other species when the other birds are away. The only reference to physical features is the last sentence's general mention of cuckoo chicks looking different from chicks of other species. Choice B is incorrect because the underlined sentence refers to the nests of birds other than cuckoos and doesn't describe how any nests look, cuckoo or otherwise. Instead, the sentence addresses how female cuckoos use other birds' nests. Choice D is incorrect because the underlined sentence describes only female cuckoo behavior (laying eggs in the nests of birds of other species when the other birds are away); it's the last sentence of the text that addresses the other birds' reaction, indicating that those birds usually raise the cuckoo chicks once they've hatched.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Female cuckoos have been seen quickly laying eggs in the nests of other bird species when those birds are out looking for food."
   },
   {
     "id": "f61c22f3",
@@ -2752,7 +2776,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first sentence of the text states that the CEP had a positive impact on the Civil Rights Movement in the 1960s. The next sentence explains that the CEP organized workshops for attendees, who later used the knowledge they gained to lead civil rights initiatives. And the underlined portion indicates the number of activists—more than 7,000—who participated in the workshops. Thus, the underlined portion provides a number that underscores the extent of the CEP's impact on the Civil Rights Movement in the 1960s. Choice B is incorrect. Although the sentence that contains the underlined portion mentions some CEP workshop topics, the underlined portion itself addresses the number of participants in the CEP workshops, not the number of topics covered. Choice C is incorrect. Although the underlined portion refers to attendees of the CEP workshops, nothing in the underlined portion or the text as a whole addresses the Southern Christian Leadership Conference's philosophy or the attendees'opinions thereof. Choice D is incorrect because neither the underlined portion nor the text as a whole mentions any criticism of the CEP by members of the Southern Christian Leadership Conference.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "attendees—more than 7,000 in all—"
   },
   {
     "id": "0f2933b9",
@@ -2961,7 +2986,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The underlined portion is a parenthetical phrase directly following the word \"microfilm,\" and it describes film containing small (\"scaled-down\") images; the placement and focus of the portion indicate that it is serving to define the term \"microfilm.\" Choice A is incorrect. Although the text is about accessing the writings of a famous historical figure (Douglass), the underlined portion doesn't give information about Douglass or any other person. Instead, it explains what microfilms are. Choice C is incorrect because the text never describes any kind of debate or disagreement; it simply describes a change in how researchers can access historical documents, with the underlined portion defining an important term. Choice D is incorrect because the text never makes any mention of a particular finding, unexpected or otherwise; it simply describes a change in how researchers do some of their work, with the underlined portion defining an important term.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "(film containing scaled-down reproductions of documents)."
   },
   {
     "id": "6e3fdd1a",
@@ -3037,7 +3063,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes how the underlined phrase functions in the text as a whole. The text states that the wax produced by Liu and colleagues'reactor can be turned into a surfactant. The underlined phrase, which is set off with parentheses, then provides a definition for the term \"surfactant,\" explaining that it's a chemical compound that can be used as a detergent. Thus, the underlined portion of the text functions to clarify the meaning of a scientific term. Choice B is incorrect. Though the text as a whole focuses broadly on an environmental concern, the underlined phrase does not; it simply indicates what a surfactant is. Choice C is incorrect. Though the text as a whole focuses on a scientific discovery (Liu and colleagues'solution to the problem of plastic recycling), the underlined phrase does not explain its significance; it simply defines a scientific term used in the discussion. Choice D is incorrect. Though the text as a whole includes discussion of the result found by Liu and colleagues, the underlined phrase does not discuss it; it simply defines a scientific term used in the discussion. Additionally, at no point in the text is it mentioned that the team was confused.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "(a chemical compound usable as a detergent)."
   },
   {
     "id": "84f9b577",
@@ -3094,7 +3121,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence presents the implications of Veeraraghavan's team's study: sunshine exposure during work hours can cause overly optimistic behavior. The underlined sentence then describes the data the team consulted and how they were used (comparing predictions about earnings to what the companies actually earned), and the final sentence presents what the team found in their examination of the data. Thus, the underlined sentence mainly functions to explain part of the methodology used in the team's study. Choice A is incorrect because the underlined sentence explains in part how the team conducted their analysis of the effect of sunshine but doesn't address what the team found; a broad summary is instead given in the other two sentences. Choice B is incorrect because the underlined sentence doesn't present any specific examples from the team's comparisons of 29,000 earnings predictions to actual earnings; it simply explains in part how the team conducted their analysis. Choice D is incorrect because the underlined sentence simply explains in part how the team conducted their analysis; the text never mentions any challenges that the team encountered in their study.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Using data spanning from 1994 to 2010 for a set of US companies, the team compared over 29,000 annual earnings\nforecasts to the actual earnings later reported by those companies."
   },
   {
     "id": "735b0776",
@@ -3132,7 +3160,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer. Text 2 states that the researchers used cosmogenic nuclide dating to \"avoid the potential for misdating\" caused by the geology of Sterkfontein, which Text 1 describes as \"challenging\" and unreliable. Choice A is incorrect. Neither text suggests that the A. africanus fossils have been \"corrupted,\" but only that traditional dating methods are difficult in Sterkfontein because of floods and soil mixing where the fossils were found. Nothing is implied to have compromised the fossils themselves. Choice B is incorrect. This choice misreads Text 2. Text 2 agrees that stratigraphy and other methods are prone to error in the context of Sterkfontein: there's a \"potential for misdating\" when evaluating age based on soil layers and bones. Choice D is incorrect. Text 2 does not state that cosmogenic nuclide dating is applied to the fossils directly but rather to the breccia that surrounds them.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "assigning an age to the fossils is\nchallenging because of the unreliability of dating methods in this context."
   },
   {
     "id": "bdab32fc",
@@ -3208,7 +3237,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it accurately describes how the underlined sentence functions in the text as a whole. The text establishes that John has a strong imagination and then goes on to describe the St. John River near John's home in the Florida woods. The underlined sentence depicts John sending twigs sailing down the river while he imagines them reaching \"Jacksonville, the sea, the wide world,\" where he wishes he could follow. This suggests that John longs to expand his life experiences beyond the Florida woods. Choice A is incorrect because the second and third sentences of the text provide an extended description of the riverbank where John likes to go, whereas the underlined sentence describes what John does at that location. Choice B is incorrect because the first sentence of the text suggests that John's behavior \"was puzzling\" to others around him, whereas the underlined sentence concerns the content of John's imaginings. Choice C is incorrect because the underlined sentence elaborates on John's imagination but doesn't mention any other children to whom John could be compared.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "[John Redding] loved to wander down to the water's edge,\nand, casting in dry twigs, watch them sail away down stream to Jacksonville, the sea, the wide world and [he] wanted to follow them."
   },
   {
     "id": "6f5fc289",
@@ -3417,7 +3447,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it best describes the function of the underlined sentence in the text as a whole. The text begins by noting that companies increasingly depend on automation to improve production efficiency. The text then presents Granulo and colleagues'finding that consumers think it's preferable for one category of products (those \"with higher symbolic value\") to be human made rather than machine made. The underlined sentence highlights a practical consequence of that finding: companies, especially those specializing in such products, should balance the efficiency of automation against consumer preferences. Thus, the underlined sentence emphasizes that the research finding has practical implications that are especially relevant for businesses making a certain class of product. Choice A is incorrect. Although the text indicates that among products with high symbolic value, people prefer those made by humans over those made by machines, it doesn't address whether products with high symbolic value are preferred over those with low symbolic value. Choice B is incorrect because rather than reiterate the finding in the previous sentence—that people tend to prefer \"products with higher symbolic value\"that are human made over those that are machine made—the underlined sentence instead makes a recommendation to companies that sell such products to carefully consider a potential drawback of making their products with machines. Choice C is incorrect because nothing in the underlined sentence or the text as a whole suggests that additional research is needed to evaluate Granulo and colleagues'claim. Moreover, the researchers'finding is that consumers prefer \"products with higher symbolic value\"to be human made, not that automation affects consumers' ratings of how unique products are.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "considering automation, therefore, companies—especially those specializing in products of symbolic value—should weigh trade-offs between\nefficiency gains and consumer preferences."
   },
   {
     "id": "809addda",
@@ -3778,7 +3809,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The text establishes that Jam hears Bitter's studio door open early in the morning, when it is still dark. Jam then listens to her mother's footsteps, which seem to create a song that runs through the floorboards. The text indicates that the sound of Bitter's footsteps convey to Jam that Bitter is done painting. The underlined sentence then builds on this idea, stating explicitly that Bitter's feet sing the news of her completion of a painting. Thus, the sentence stating that \"Bitter's feet were singing the news\"further emphasizes that Bitter's footsteps themselves reveal information to Jam. Choice A is incorrect because the text provides no evidence that Jam prefers music to art. While the underlined sentence uses musical imagery to describe the vibrations Jam feels, this is figurative language that is describing the footsteps'vibrations; it isn't an indication of Jam's personal interests. Choice C is incorrect because the text doesn't suggest that Bitter herself sings while working on paintings. The references to singing in the text are figurative descriptions of how Bitter's footsteps sound or feel to Jam, not literal statements about Bitter singing. Choice D is incorrect because the underlined sentence only describes Jam's perception of her mother's footsteps. It doesn't provide any details about Aloe or his reaction to the painting; in fact, the text doesn't mention Aloe seeing the painting at all.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "feet were singing the news."
   },
   {
     "id": "9671d61d",
@@ -3873,7 +3905,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first two sentences of the text establish that in California, houses were heated by building fires year-round. The underlined portion then indicates that the fires didn't merely provide physical warmth: they also represented being \"home\" and feeling protected. The underlined portion thus illustrates that a fire provides comfort beyond physical warmth. Choice B is incorrect because the underlined portion doesn't summarize information that came before it. Whereas the previous two sentences describe fires' ability to provide physical warmth to homes, the underlined portion focuses on the psychological comfort the fires offered. Choice C is incorrect. Although the text's second sentence mentions that fires were built in the summer because fog came in, which may have cooled the house, this detail isn't the focus of the underlined portion. Instead, the underlined portion indicates that fires were built for reasons beyond physical warmth: to create a sense of being home and safe. Choice D is incorrect because the underlined portion focuses on the emotional significance the author places on having a fire going inside the home. There is no indication that the author feels equally comfortable without a fire present.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "said we were home, we had drawn the circle, we were safe through the night."
   },
   {
     "id": "ba974387",
@@ -3892,7 +3925,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because as used in the text, \"conceivable\" most nearly means capable of being thought of or imagined. The text describes a journey that, despite being \"insignificant in distance,\" was \"by no means an easy one\" because of the variety of obstacles that \"nature had determined to throw…in the way.\" To emphasize the difficulty of the journey, the author portrays nature as actively scheming to present travelers with every obstacle that can be thought of—i.e., every imaginable obstacle. Choice A is incorrect because in this context, \"conceivable\" does not mean obvious, or evident. Instead, by referring to \"every conceivable obstacle,\" the text suggests a wide variety of challenges by evoking all the potential difficulties nature could present, not just those that the travelers might reasonably expect or foresee. Choice C is incorrect because in this context, \"conceivable\" does not mean straightforward, or easy to negotiate. The text is not indicating that the obstacles were simple to respond to and overcome. Rather, the text suggests that a wide range of obstacles made the journey difficult. Choice D is incorrect because in this context, \"conceivable\" does not mean uninterrupted. Although the text suggests that the obstacles were frequent and numerous, it does not emphasize the obstacles'continuity; instead, the text conveys their unexpected variety and range.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "conceivable"
   },
   {
     "id": "c8603ed7",
@@ -4139,7 +4173,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer. The text repeatedly claims that true self-knowledge can't possibly be achieved, and this rhetorical question emphasizes that point. Choice B is incorrect. The underlined question doesn't do this. The text never expresses doubts about the value of self-knowledge—rather, the text expresses doubts about the possibility of achieving self-knowledge. Choice C is incorrect. The underlined question doesn't do this. The text doesn't provide directions for how to achieve self-knowledge—rather, it claims that true self-knowledge is impossible to achieve. Choice D is incorrect. The underlined question doesn't do this. The text doesn't ever define self-knowledge, and popularity isn't mentioned in the text at all.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Who can\ncalculate the orbit of his own soul?"
   },
   {
     "id": "592f94c2",
@@ -4196,7 +4231,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best states how the underlined portion functions in the text as a whole. The first sentence states that Tule geese typically take four days to migrate south. Then in the next sentence, which contains the underlined portion, the text describes the first part of that journey, which begins with the geese flying over the Gulf of Alaska while keeping about 100 miles from the Canadian shore. The rest of the text details the remainder of the geese's typical journey and then mentions circumstances in 2020 that resulted in the geese taking an unusually long time to complete it. Thus, the underlined portion describes part of the Tule geese's typical winter migration journey. Choice A is incorrect. Although the text concludes by stating that in 2020, Tule geese took twice as long to complete their typical migration, which suggests a change in their usual flight behavior, the underlined portion doesn't discuss this. Instead, the underlined portion describes the first part of the Tule geese's typical winter migration journey over the Gulf of Alaska. Choice B is incorrect. Although the sentence containing the underlined portion mentions that Tule geese breed in Alaska, the underlined portion doesn't explain why the geese breed in that location. Rather, the text mentions Alaska to explain that it's the starting point of the Tule geese's typical winter migration. Choice D is incorrect because the underlined portion doesn't discuss any other birds that migrate south for the winter. In fact, the text is only concerned with the migration of Tule geese.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "the birds\nbegin by flying over the Gulf of Alaska, keeping about 100 miles from the Canadian shore."
   },
   {
     "id": "479c7e82",
@@ -4253,7 +4289,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes the function of the underlined portion in the text as a whole. The underlined portion states that people commonly believe happiness is the ideal emotional state. However, the text then notes that recent research suggests that negative emotions can be beneficial, as demonstrated by an experiment by Heather Lench in which participants primed to feel anger did better at solving puzzles than did those primed to feel other emotions. This finding calls into question the belief that happiness is always the ideal state. Thus, the underlined portion notes a generally accepted belief that is called into question by a finding from the experiment. Choice A is incorrect because the study does not address why people assume happiness is ideal. Rather, the text indicates the study was designed to test whether anger can contribute to problem-solving abilities. Choice B is incorrect because rather than underlying the study's hypothesis that anger could be beneficial in some circumstances, the underlined portion presents the widely held belief that happiness is always preferable to negative emotions, which directly conflicts with that hypothesis. Choice D is incorrect because the underlined portion presents a common belief that happiness is the ideal emotional state, not an explanation for the participants'behavior in the experiment. The text reports that participants in the anger condition performed better on the puzzles but does not explain the psychological reason for this outcome.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "People tend to assume that being happy is the ideal emotional state and should be an ongoing aspiration;"
   },
   {
     "id": "74446089",
@@ -4272,7 +4309,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it most accurately describes the function of the underlined sentence in the text as a whole. The text's subject is Beverly Glenn-Copeland's 1986 album Keyboard Fantasies, notable for its innovative, experimental arrangements. According to the text, the album was not initially admired, but in recent years it has become popular among younger musicians. The underlined portion of the text mentions two of those musicians, Blood Orange and Moses Sumney, who \"cite the album as an influence.\" Therefore, the underlined portion of the text offers examples of younger musicians whose work has been impacted by Keyboard Fantasies. Choice A is incorrect because even though the underlined sentence states that Blood Orange and Moses Sumney were influenced by Keyboard Fantasies, it doesn't say that all other musicians should also embrace the album's experimental style. Choice B is incorrect. Although the text states that Keyboard Fantasies was not admired on its first release, the text doesn't present any criticism of the album by younger musicians: it only presents two younger musicians who cite it as an influence. Choice D is incorrect because the underlined sentence doesn't mention any differences between Keyboard Fantasies and the work of Blood Orange and Moses Sumney.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Alternative R&B musicians Blood Orange and Moses Sumney, among other contemporary\nrecording artists, cite the album as an influence."
   },
   {
     "id": "2e8ab360",
@@ -4462,7 +4500,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it describes how Hull's team would most likely respond to the argument in the underlined portion of Text 1, which asserts that volcanic activity in the Deccan Traps range led to changes in the climate and caused the K-Pg mass extinction event. According to Text 2, although Hull's team found that activity in the Deccan Traps did indeed alter the climate before the K-Pg event, the team determined that the climate had returned to normal before mass extinctions began. This finding and the observation that the K-Pg extinctions closely align with the Chicxulub asteroid impact suggest that Hull's team would likely dispute the claim in the underlined portion of Text 1 and say that the climate changes caused by the Deccan Traps activity were not the main cause of the extinctions. Choice A is incorrect because Text 2 describes how Hull's team found that the climate had recovered from the changes brought about by the Deccan Traps activity before the K-Pg event occurred, which suggests that Hull's team would disagree that the Deccan Traps activity caused the K-Pg event. Additionally, the claim in the underlined portion of Text 1 says nothing about how the Chicxulub impact changed the climate, so while Hull's team might believe that the impact did in fact change the climate, they could not be said to agree with the claim in Text 1 on this point. Choice C is incorrect because there is no indication in either text that any scientists assume that the Chicxulub impact caused the Deccan Traps activity, so there is no reason to conclude that Hull's team would question why the scientists referred to in Text 1 make such an assumption. Choice D is incorrect because Text 2 describes how Hull's team found that the climate had recovered from the changes brought about by the Deccan Traps activity before the K-Pg event occurred, which suggests that Hull's team would say that the Deccan Traps activity had a less enduring effect on global conditions than the scientists referenced in Text 1 believe, not that the effect on global conditions was more significant than those scientists claim.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "volcanic activity was the true cause, as the K-Pg event occurred relatively early in a long period of eruption of the Deccan\nTraps range that initially produced huge amounts of climate-altering gases."
   },
   {
     "id": "97ca2cda",
@@ -4481,7 +4520,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it accurately describes the function of the underlined phrase in the text as a whole. According to the text, advertisers were reluctant to support television in its early days. The underlined phrase then indicates that this reluctance was partly due to the US's involvement in World War II, which hindered television production. Thus, the underlined phrase identifies a specific reason behind some advertisers' hesitance to support television. Choice A is incorrect. The text merely mentions that television was expected to be financed through advertising, as radio was at the time. Nothing in the text compares the origins of radio and television. Choice C is incorrect. The underlined phrase focuses on a reason advertisers were reluctant to support television, not measures taken to convince advertisers to support television. Choice D is incorrect. The underlined phrase focuses on a reason advertisers were reluctant to support television, not what types of television programming were popular.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "particularly at a time when the manufacturing\nof new television sets was stalled due to the US's involvement in World War II."
   },
   {
     "id": "a2dd51c1",
@@ -4576,7 +4616,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because as used in the text, \"I couldn't be stopped\"most nearly means the author seemed to talk all the time. The text establishes that the author is discussing her early speaking habits, stating, \"When I started to talk on my own, I couldn't be stopped.\"The following sentences provide context that clarifies the significance of this statement: her sister's friends \"could hardly stand to ride to school\" with the author because she \"was loud and unrelenting.\"This suggests that once the author began speaking, she talked all the time—to the point of annoying others. Choice A is incorrect because although the phrase \"I couldn't be stopped\"could potentially refer to physical movement, the context clearly establishes that the author is discussing her talking habits, not her inability to sit still. The text specifically mentions that she \"was loud and unrelenting\"and that her sister's friends disliked riding in the car with her, suggesting that the issue was excessive talking, not physical restlessness. Choice B is incorrect because nothing in the text suggests that the author was fickle or frequently changed her mind. In this context, the phrase \"I couldn't be stopped\"refers to the author's persistent talking, as signaled by her characterization as \"loud and unrelenting.\" Choice C is incorrect because the text doesn't indicate that the author was popular or well liked as a child. In fact, it suggests the opposite by stating that her sister's friends \"could hardly stand\"to ride in the car with her. Because of her excessive talking, in other words, people found the author annoying as a child.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "couldn't be stopped."
   },
   {
     "id": "995358b4",
@@ -4747,7 +4788,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The text begins by pointing out one of the advantages of oral histories: that they allow researchers to document the daily experiences of people. The text then goes on to describe how Karida Brown utilized interviews with coal miners and their families for her book about twentieth-century coal mining in Kentucky. The underlined sentence affirms that the general advantages of oral histories mentioned earlier in the text were also benefits in Brown's particular case. Thus, the underlined sentence describes how Karida Brown benefited from incorporating oral history in her book. Choice A is incorrect because though the text mentions coal miners who live in Kentucky, the underlined sentence does not offer a geographical fact about Kentucky. Choice B is incorrect because the underlined sentence does not mention United States politics or that Brown is an expert in this particular area. Choice C is incorrect. Although the text mentions that Brown's book revolved around coal miners during the twentieth century, the underlined sentence does not focus on a major historical event during this time.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "By doing so, she gained valuable insights into her subjects'day-to-day lives."
   },
   {
     "id": "9645f55e",
@@ -4842,7 +4884,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because as used in the text \"reaching across to\" most nearly means stretching toward. The text begins with Mrs. Wilkins stating that she wants to have one of the oranges that she's admiring. The text then indicates that Mrs. Wilkins, staying where she is, holds out a big orange to her friend. This context suggests that when the text describes Mrs. Wilkins as reaching across to the bowl of oranges, it means that she is stretching toward the bowl. Choice A is incorrect because the text never suggests that Mrs. Wilkins is joining with, or becoming attached to, the bowl of oranges. Rather, the text indicates that she is stretching toward the bowl so she can pick out oranges for herself and her friend Rose to eat. Choice B is incorrect because the text never suggests that Mrs. Wilkins is gaining on, or overtaking in a competition or race, the bowl of oranges. The text suggests instead that the bowl is sitting still on a surface and that Mrs. Wilkins is extending her arm toward the bowl so she can pick out oranges for herself and her friend Rose to eat. Choice D is incorrect because the text doesn't indicate that Mrs. Wilkins is arriving at the bowl of oranges. In fact, the text states that Mrs. Wilkins stays where she is when reaching across to the bowl, meaning that she remains at a distance from it.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "reaching across to"
   },
   {
     "id": "70612a79",
@@ -4880,7 +4923,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The text begins with a question: have penguins always been unable to fly? The underlined sentence then presents an answer that has been offered by researchers, indicating that Theresa Cole and her team believe that penguins were once able to fly but lost that ability long ago as they began living in the sea. The text then describes the research that led to that answer. Thus, the function of the underlined sentence is to provide an answer to the question in the previous sentence. Choice A is incorrect because none of the terms used in the sentence that follows are defined in the underlined sentence; no definitions are given at all. Instead, the sentence presents Theresa Cole and her team's answer to the earlier question about penguins' ability to fly. Choice B is incorrect because there is no contradiction between the underlined sentence and the sentence that follows since both convey that at some point penguins underwent adaptations that limited their ability to fly and helped them swim and live in the sea. Instead of contradicting later information, the underlined sentence presents an answer to the earlier question about penguins' ability to fly. Choice D is incorrect because the question in the previous sentence is about penguins' ability to fly and the underlined sentence presents Theresa Cole and her team's answer to that question based on their research into penguin flight, which is described in the rest of the text.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Theresa Cole and her team argue that penguins could fly at some point, but that they lost that ability more than\n60 million years ago as they adapted to marine life."
   },
   {
     "id": "dc234d74",
@@ -5165,7 +5209,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it best describes the function of the underlined sentence in the text's overall portrayal of how the women in Ohiyesa's tribe harvested maple syrup. The text states that the women used an axe to strike the maple trees in order to find out which ones would produce sap. The underlined sentence compares the trees to people, with the sap described as the trees'\"life-blood.\"Some of the trees are ready to give out their sap, while others are unwilling to do so. Using personification, the sentence provides greater detail about the aspect of the maple trees—their potential to give sap—that the women are evaluating. Choice A is incorrect because the personalities of the women are not discussed in the text. Although the underlined sentence does mention \"individual characters,\"this reference is not to the women in the text but rather to the maple trees, which the sentence compares to people with individual character traits. Choice B is incorrect because the underlined sentence focuses on the trees'willingness or refusal to yield sap, not on the beneficial relationship between the women and the trees. Additionally, although the text does suggest that the women and their tribe benefit from the maple trees since the trees allow the women to harvest syrup, there is nothing in the text to suggest that the trees benefit from this relationship in turn. Choice C is incorrect because the underlined sentence is comparing maple trees to humans, not addressing the influence of the natural environment on how the actual humans in the text, the women, behave.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "The trees, like people, have their individual characters; some were ready to yield up their life-blood, while others were more reluctant."
   },
   {
     "id": "683f66c9",
@@ -5431,7 +5476,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The text presents the speaker's experience of viewing the sea. In the underlined portion, the speaker focuses on the idea that the waves hitting rocks on the shore are a relentless and enduring force: they are constantly pushed back (\"ever repulsed\") but always return (\"ever rushing on\"), as though they have an energy that can't be overcome (\"a life that will not know defeat\"). Choice A is incorrect. Although the underlined portion characterizes the waves as a relentless force (always \"repulsed\"but still \"rushing on\"and never being defeated), the speaker doesn't suggest that the surroundings are intimidating. Instead, the speaker presents the scene in a positive way, describing the \"deep delight\"of the \"gladsome,\"or cheerful, waves and feeling \"the heart / Leap joyous\"while viewing the sea. Choice C is incorrect because the underlined portion doesn't suggest that the speaker is ambivalent, or has mixed feelings about, the natural world. Instead, it presents a single view of one part of the immediate surroundings: the speaker characterizes the sea's waves as an unstoppable force, since they are constantly pushed back but always return (\"ever repulsed, yet ever rushing on\"). Choice D is incorrect. Although the text later suggests the speaker's view of her own thoughts by referring to a \"clouded brain\"and a heart that leaps joyously, this reference neither occurs within the underlined portion nor establishes a clear contrast with the relentless determination of the waves. The underlined portion addresses only the speaker's view of the waves and doesn't suggest what her own thoughts might be.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Ever repulsed, yet ever rushing on—\nFilled with a life that will not know defeat;"
   },
   {
     "id": "5ccbfe22",
@@ -5507,7 +5553,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer. The author of Text 2 argues that Morrison's use of the sermon is not only influenced by Ellison, but also by a \"community-wide strategy of resistance\" to literary conventions practiced by Black American authors. Ellison, Text 2 alleges, is only one of many influences on Morrison. Choice B is incorrect. Neither text specifically mentions sermons in works by authors other than Morrison or Ellison, only a tendency towards eroding \"the division between oral and written forms\" among Black American writers. Choice C is incorrect. Both texts describe similarities between the works of Ellison and Morrison, and neither points out instances of divergence. Text 2 simply suggests that Morrison was influenced by more than just Ellison. Choice D is incorrect. While Text 2 does discuss Morrison's resistance to certain literary conventions, it's unclear what it would mean for the underlined claim to be \"indebted\" to that tradition. This choice recycles language from the text, but not in a way that makes any coherent point.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "these scenes suggest Ellison's direct influence on Morrison."
   },
   {
     "id": "0d402146",
@@ -5564,7 +5611,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes the function of the underlined portion in the text. The underlined portion (\"which made me sad because that was the only thing Mago had envied me for\") directly expresses Grande's unhappiness about her sister's diminished interest in her Barbie doll. The underlined text specifically identifies that Grande feels sad and explains why Mago's disinterest particularly affects her—because it was the one rare instance where her older sister had envied her, rather than the reverse. Choice B is incorrect because the underlined portion expresses sadness, not anger. Although there is some correspondence between the emotions anger and envy and the text does indicate that Grande usually envies her sister, the underlined portion states that Grande feels sad about Mago's disinterest in Grande's Barbie, not angry about Mago's refusal to spend time with her. Choice C is incorrect. While the first part of the sentence that contains the underlined portion indicates that Mago has previously taken an interest in Grande's Barbie, implying that the sisters may regularly have played with the Barbie together in the past, the underlined portion doesn't provide an example of this. The underlined portion instead explains why Mago's recently developed disinterest in the Barbie saddens Grande. Choice D is incorrect because neither the underlined portion nor the text as a whole explains why Mago is unwilling to play with Grande. Rather than addressing Mago's motivation or reasoning, the underlined portion describes Grande's emotional reaction to Mago's disinterest in Grande's Barbie and explains why this lack of interest matters to Grande.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "which made\nme sad because that was the only thing Mago had envied me for."
   },
   {
     "id": "6a1dc7c5",
@@ -5754,7 +5802,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it best describes how the underlined sentence functions in the text as a whole. The underlined sentence explains that contrary to what several studies would suggest, recent European governments suffered electorally after the launch of fiscal austerity programs. The text goes on to indicate that the researchers generated their findings from data that didn't reveal the true political risk of austerity measures because the data were based on cases in which governments had set austerity programs to take effect after the next election, a practice the European governments that recently suffered electorally didn't adhere to, thus introducing a complicating factor resulting in a conflict between the research findings and recent events. Choice A is incorrect because the underlined sentence doesn't indicate that the discrepancy described in the text is between observations made in study settings and observations made in real-world settings. Rather, the underlined sentence indicates that the outcome of recent events is contrary to what would be expected based on the findings of several studies. Additionally, there is nothing in the text to suggest that the studies mentioned did not use real-world data; instead, the text indicates that the data used was generated under potentially different circumstances than the recent events. Choice C is incorrect because the underlined sentence doesn't present a long-standing divergence in research findings but rather a discrepancy between past research findings and recent events that the text goes on to attribute to researchers'use of data that didn't reveal the true political risk of austerity measures. Choice D is incorrect because while the underlined sentence notes that there have been some recent exceptions to a general pattern observed in several research studies, it does not go on to attribute this exception to the researchers underestimating inconsistencies in the data. Rather, the text goes on to attribute this to a circumstance (fiscal austerity measures being implemented before an election rather than after) which adds a complicating factor into the data not accounted for in past studies.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Several studies have found negligible electoral consequences for governments that impose fiscal austerity measures, yet some European\ngovernments recently suffered electorally due to their austerity programs."
   },
   {
     "id": "2d77660e",
@@ -6020,7 +6069,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence of the text establishes that scientists didn't know much about the ocean floor in the 1950s. The second sentence, which is underlined, describes what many scientists thought at the time—that the ocean floor was mostly flat. The remainder of the text establishes that the ocean floor is far from flat, citing research conducted by Marie Tharp and Bruce Heezen. Thus, the purpose of the underlined sentence is to identify a scientific belief that Tharp and Heezen showed to be wrong. Choice B is incorrect. Although Tharp and Heezen's work with sonar data in the Atlantic Ocean is mentioned later in the text, the underlined sentence doesn't describe the design of their experiment. Instead, it identifies a belief held by scientists that Tharp and Heezen demonstrated to be wrong. Choice C is incorrect because the underlined sentence presents a belief held by many scientists in the 1950s; nowhere does the text mention a disagreement between Tharp and Heezen, whom the text describes as research partners working together to map the ocean floor. Choice D is incorrect because the underlined sentence doesn't present data in support of a claim; instead, it presents a scientific belief that Tharp and Heezen's work showed to be wrong.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Many scientists at the time believed that the ocean floor was mostly flat."
   },
   {
     "id": "54c6128b",
@@ -6039,7 +6089,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence explains that Bernabei and his team studied growth rings to obtain information about the ancient oak planks found during a construction project in Rome. The next sentence presents what the researchers learned: the wood from the planks came from France's Jura region, which is far from Rome. The underlined sentence then presents the implications of the findings about the planks: the wood must have been brought to Rome by boat, a difficult task that suggests Roman trade routes were complex. Thus, the underlined sentence mainly functions to present a conclusion about Roman trade routes based on the team's findings. Choice B is incorrect because the text doesn't suggest that the team thought the ancient planks were used in the construction of a boat, nor does the underlined sentence question that conclusion. Instead, the text states that the wood could only have been transported from Jura to Rome in a boat. Choice C is incorrect because the underlined sentence simply offers a conclusion drawn from the team's findings about the likely place of origin of the ancient planks; the text never mentions why oak was chosen for the planks instead of other wood. Choice D is incorrect because neither the underlined sentence nor the text as a whole addresses any methods that Romans used in constructing subways. Instead, the underlined sentence offers a conclusion drawn from the team's findings about the likely place of origin of the ancient wooden planks discovered.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Because timber could only have been\ntransported from distant Jura to Rome by boat, the team's findings suggest the complexity of Roman trade routes."
   },
   {
     "id": "2c50ed1a",
@@ -6362,7 +6413,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The text begins by mentioning scholarly accounts of the Chicano movement, which the underlined portion describes as tending \"to focus on the most militant, outspoken figures in the movement,\" making the movement as a whole seem uniformly radical. The text then indicates that the work of geographer Juan Herrera shows that focusing less on such militant figures and instead paying more attention to manifestations of the Chicano movement in less widely known neighborhood institutions and projects would reveal that the movement's participants embraced a range of political orientations and approaches. Thus, the underlined portion describes a common approach to studying the Chicano movement that, according to the text, obscures the ideological diversity of the movement's participants. Choice A is incorrect. Though the underlined portion does present a trend in scholarship on the Chicano movement, the text does not indicate that other scholars have reevaluated their methods in light of Herrera's work. It only indicates that Herrera's work suggests that the work of those other scholars does not provide a complete picture of the Chicano movement. Choice B is incorrect. Though the underlined portion does identify an aspect of the Chicano movement that the text indicates has been overemphasized, the text does not discuss the political orientations of the scholars whose work is mentioned in the text. Choice D is incorrect. Though the underlined portion does summarize the conventional method for analyzing the Chicano movement, the rest of the text does not address the effectiveness of \"comparatively low-profile neighborhood institutions and projects.\" Instead, the text suggests that those projects were led by people with a variety of approaches to community activism.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "1970s—tend to focus on the most militant, outspoken figures in the movement,"
   },
   {
     "id": "428cd2c1",
@@ -6400,7 +6452,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer. The expression \"reconcile to\"means \"to cause (a person) to accept something difficult or disagreeable.\"The text suggests that John wants his mother to accept his desire to travel, even though she doesn't like that idea. Choice B is incorrect. This doesn't make sense. John doesn't want his mother to apologize for his own desire to travel—he wants her to accept his desire to travel. Choice C is incorrect. The text doesn't suggest that John wants his mother to match his desire to travel. Rather, he wants her to accept his desire to travel even though she doesn't like it. Choice D is incorrect. This is tempting, because it seems to pick up on the idea of people \"reconciling\"after a fight, but it actually doesn't make sense. The text never suggests that John's mother was \"united with\"the idea of him traveling in the past—if anything, it seems like she's always been against it. Besides, it would be strange to say that a person \"reunites with\"a notion.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "reconcile his mother to"
   },
   {
     "id": "4eee64fa",
@@ -6609,7 +6662,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it accurately describes how the author of Text 2 would most likely respond to the underlined claim in Text 1. Text 1 indicates that Storey found a genetic mutation in South American chickens from before the European invasion and in Polynesian chickens, which implies that chickens were first brought to South America by Polynesian people. Text 2 explains that the genetic mutation Storey found is in chickens from all over the world, thus undercutting the mutation as evidence of a Polynesian origin. However, Text 2 goes on to say \"[m]ore recently\"Luzuriaga-Neira and colleagues found multiple genetic markers shared by South American and Polynesian chickens but \"that European breeds lack,\"which strongly suggests a Polynesian origin for the South American chickens. This indicates that the author of Text 2 believes Luzuriaga-Neira's evidence for a Polynesian origin is compelling while Storey's evidence has been undermined. Thus, the author of Text 2 would most likely agree with the underlined statement and believes Luzuriaga-Neira and colleagues'evidence for the statement is stronger than Storey's evidence is. Choice A is incorrect because both texts indicate that chickens were introduced to South America before the arrival of Europeans. Text 1 states that the El Arenal chicken bone dates from \"1321–1407 CE—over a century before Europeans invaded the region\"and concludes that these chickens were likely brought to South America by Polynesians. While Text 2 is not as explicit about the time period as Text 1 is, nothing in Text 2 undermines the timing of events ascribed to Storey's account in Text 1. Choice B is incorrect because both texts agree that chickens were first brought to South America by Polynesian peoples (the underlined claim), and nothing in Text 2 suggests that this claim is in any way deficient because the possibility that animals could have been transferred from South America to Polynesia was not explicitly addressed. Choice C is incorrect because the criticism that Text 2 raises about the ideas in Text 1 is specifically about whether the single genetic mutation cited by Storey in fact supports the idea of a Polynesian origin for South American chickens. There is nothing in Text 2 to suggest that the underlined sentence (Storey's conclusion) is deficient because it is based on an assumption about the genetic uniformity of European chickens.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Polynesian peoples, not later Europeans, probably first introduced\nchickens to South America."
   },
   {
     "id": "de059199",
@@ -6628,7 +6682,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes the function of the underlined portion in the text as a whole. The text establishes that scientists developed a pellicle (a dense cellulose mesh) as an ecologically sustainable alternative to petroleum-based synthetic leather, noting that the pellicle is leatherlike except in color. The text then notes that the standard dyeing process for leather generates wastewater and other byproducts, and the underlined portion states that using such a process would be inconsistent with the ecological promise of the pellicle approach. The sentence that follows the underlined portion describes how Walker and colleagues addressed this problem by modifying bacteria to produce a pellicle with embedded pigmentation. Thus, the underlined portion describes a consideration—the incompatibility of standard dyeing methods with ecological aims—that led the researchers to employ an alternative coloring approach consistent with their goal of ecological sustainability. Choice A is incorrect because the text presents the underlined portion not as a concession that the researchers'main goal, developing an ecologically sustainable alternative to synthetic leather, will be difficult to achieve, but as a reason why adopting a particular method of dyeing would be inconsistent with that goal. Choice B is incorrect because the underlined portion addresses a problem with the standard process for dyeing leather, not a characteristic of conventional synthetic leathers themselves. The issue identified in the underlined portion concerns the environmental impact of the standard method used to dye leather, not the petroleum-based nature of conventional synthetics. Choice D is incorrect because the underlined portion identifies the problem that motivated the researchers'search for an alternative method of coloring the pellicle, not the method of coloring itself. The method of modifying bacteria to embed pigmentation is described in the sentence that follows the underlined portion.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "adopting such a regimen would run\ncounter to the ecological promise of the pellicle approach."
   },
   {
     "id": "a2be625e",
@@ -6780,7 +6835,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The text first establishes that in order to investigate visual perception of objects in dreams, LaBerge and team observed the eye movements of lucid dreamers (people who are aware of their dreaming as it occurs) when these participants signaled that they were in a dream state. The underlined portion then describes a finding that rests on a comparison: the way participants'eyes tracked objects in dream states was very similar to how sighted people track real objects when awake. Finally, the text states that the team concluded from this finding that objects in dreams are perceived as more than just products of imagination—implying that the team thinks the eye movements are an indication that the brain treats dream objects as more real than imaginary. Thus, the function of the underlined portion is to identify a circumstance that is comparable to one in the study and that helps justify LaBerge and team's conclusion, presenting the close similarity of visual tracking in wakeful and dreaming scenarios as support for the implicit idea that the brain perceives dream objects not as imaginary but as somewhat or fully real objects. Choice A is incorrect because the text never presents LaBerge and team's initial hypothesis, only what question they were interested in studying and what they found. So although the underlined portion does present evidence, that evidence doesn't serve to undermine any hypothesis in the text. Choice B is incorrect because the text gives no indication that LaBerge and team changed the focus of their study at any point or that the finding described in the underlined portion (or any other finding) was unexpected or surprising. Choice C is incorrect. Rather than illustrating an implication of the main finding by LaBerge and team, the underlined portion only presents the finding itself, stating that the team found that the movements of lucid dreamers'eyes while dreaming were very similar to those of sighted people visually tracking objects while awake. The next part of the text indicates what the finding implied to the team but still doesn't offer a real-world example as illustration.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "The smoothness with which participants'eyes tracked objects in their dreams\nclosely matched how sighted people who are awake visually track objects around them,"
   },
   {
     "id": "faee8ec7",
@@ -6799,7 +6855,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it represents how the researchers in Text 2 would most likely respond to the underlined claim in Text 1. Text 1 begins by asserting that the unintended transfer of feelings from one person to another, known as emotional contagion, seems to rely on both people being physically present and able to observe body language. Text 1 then references research that supports this assertion. Text 2 describes an experiment conducted by the researchers Yang and Ferrara in which they found evidence of emotional contagion in the absence of physical interaction, namely through text-based interactions on social media. The researchers in Text 2 wouldn't completely agree with what is asserted in the underlined portion of Text 1 (that emotional contagion seems to require physical proximity), because their study, which used a social media networking service, found that physical interaction isn't the only way that emotional contagion can take place. Thus, the researchers in Text 2 would most likely respond to the underlined claim in Text 1 by stating that it reflects an incomplete view of emotional contagion, because the phenomenon can occur without an in-person interaction. Choice A is incorrect. Although the researchers in Text 2 would likely agree that the underlined statement in Text 1 perpetuates a flawed conclusion that emotional contagion requires physical interaction, Text 2 doesn't address what the researchers thought about smiling as a sign of emotional contagion. Choice C is incorrect because the researchers in Text 2 wouldn't say that the underlined claim in Text 1 is fairly persuasive. According to Text 2, the researchers conducted a study that found emotional contagion didn't require physical interaction, because they found evidence of it in text-based online interactions. Choice D is incorrect because neither of the texts claim that emotional contagion primarily occurs when a person is exposed to negativity. Instead, Text 1 claims that physical interaction is required for emotional contagion to occur, and Text 2 describes a study that suggests emotional contagion can occur in text-based online interactions.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "It seems clear that emotional contagion (the unintentional transfer of an emotional state from one person to another) requires physical\ninteraction and the observation of body language."
   },
   {
     "id": "c19b2f77",
@@ -6818,7 +6875,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it reflects how the author of Text 2 would most likely respond to what the researchers mentioned in Text 1 contend. Text 1 discusses the lack of knowledge of how plate tectonics on Earth began. Text 1 also mentions researchers who contend that movements of tectonic plates began around 3 billion years ago. As support for this assertion, these researchers cite computer models (which are simulations, not empirical evidence) of the temperature in Earth's mantle that show that at that time, the mantle would have been sufficiently molten for plates to move. However, the author of Text 2 asserts that empirical evidence from the geological record is necessary to make plausible claims about when tectonic movement began. Text 2 mentions an analysis performed by Wriju Chowdhury and his team of the geochemistry of zircon crystals (which would constitute empirical evidence). Chowdhury and his team argue, based on this analysis, that tectonic plates may have begun to move as early as 4.2 billion years ago. Therefore, since the author of Text 2 would consider Chowdhury et al.'s empirical evidence to be more conclusive than the computer models cited in Text 1, the author of Text 2 would most likely assert that a more definitive form of evidence than the computer models suggests a different timeline for the onset of plate tectonics on Earth. Choice A is incorrect because the author of Text 2 makes no claims about the temperature of Earth's mantle and therefore wouldn't argue that the temperature of Earth's mantle 3 billion years ago was insufficient to allow tectonic movement. Choice B is incorrect because the author of Text 2 claims that empirical evidence is needed to fix the earliest date of tectonic movement. Computer models are simulations, not empirical evidence, so the author of Text 2 wouldn't distinguish between different kinds of computer models but would instead argue that no computer models can reliably predict the onset of plate tectonics. Choice C is incorrect because the author of Text 2 wouldn't consider any computer model to be able to provide evidence to support a plausible claim about tectonic movement, no matter how much such models were improved. The author of Text 2 would only accept empirical evidence.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "researchers contend"
   },
   {
     "id": "14b7dced",
@@ -7084,7 +7142,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The text presents information about a map drawn by Blackfoot chief Ac Ko Mok Ki in 1801. The underlined sentence states that the map \"demonstrates a vast amount of topographic knowledge\" and mentions that it features the \"specific names of mountains and rivers\" and includes the first-known sketch of the Missouri River's drainage network. These are all characteristics that indicate that the map was executed with remarkable skill. Thus, the underlined sentence identifies some reasons why the map is impressive. Choice A is incorrect. Though the sentence after the underlined sentence in the text mentions that Ac Ko Mok Ki included information about other tribes on his map, the underlined sentence itself does not address this topic. Choice B is incorrect because nothing in the underlined sentence indicates how Ac Ko Mok Ki became interested in mapmaking, only that his mapmaking skills are impressive. Choice D is incorrect because though the underlined sentence describes several features of the map, it does not specifically describe how the map was used.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "This work demonstrates a vast amount\nof topographic knowledge, as the map features specific names of mountains and rivers, as well as the first-known sketch of the drainage\nnetwork of the Missouri River."
   },
   {
     "id": "f4166aae",
@@ -7198,7 +7257,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first sentence presents the general claim that industrial activity is not always a threat to wildlife. The underlined portion of the sentence that follows suggests that the silver-studded blue butterfly is an example of wildlife thriving in areas of industrial activity: active limestone quarries. Thus, the function of the underlined portion is to introduce a specific example in support of the general claim in the previous sentence. Choice A is incorrect. Although the first sentence indicates that \"industrial activity is often assumed\" to harm wildlife, in the case of the silver- studded blue butterfly the text mentions neither an assumption about this species nor any challenge to such an assumption. Choice C is incorrect because the text mentions only one study: the \"survey.\" Additional studies are not mentioned in the text. Choice D is incorrect because neither the underlined portion nor any other portion of the text provides a definition for any of the terms used in the text's argument.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "(Plebejus argus):"
   },
   {
     "id": "19688783",
@@ -7293,7 +7353,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. The author of Text 2 agrees with the author of Text 1 that bumblebees may engage in play and possibly experience some kind of positive emotional state. However, the author of Text 2 also qualifies this claim by stating that emotions in insects, if they do exist, are \"likely very rudimentary.\" Choice A is incorrect. While Text 2 states that other studies might indicate \"negative emotional states\"in bees, it does not contradict the findings from the Galpayage study—that the bees might have been having fun. Choice B is incorrect. The author of Text 2 does not mention or imply that any insects, including bumblebees, are capable of experiencing complex emotional states. The author of Text 2 states that if insects do feel emotions, those emotions are \"likely very rudimentary.\"Choice C is incorrect. The author of Text 2 does not compare or contrast the behavior or emotions of insects and humans, and neither does the author of Text 1.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "bees simply appeared to be playing—and for no other reason than because they were having fun."
   },
   {
     "id": "a1d2c4d0",
@@ -7331,7 +7392,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first two sentences introduce two competing views on the origins of turtles. Genetic studies place them closer to the group that includes crocodiles, while fossil studies indicate that they're more closely related to other groups, including one that contains snakes. The next sentence, which is underlined, presents a limitation with many of the studies of fossils: their reliance on \"incomplete data sets.\" The last sentence summarizes a fossil study that used more complete data (\"more than 1,000 reptile fossils\"), which supported the genetics studies' conclusions about turtles. Thus, the underlined sentence mainly functions to describe a limitation of some studies about the origin of turtles. Choice A is incorrect because the underlined sentence doesn't address the topic of the tools used by scientists to examine fossils. Instead, the sentence introduces a shortcoming of many fossil studies conducted on turtle origins. Choice C is incorrect because neither the underlined portion nor the text as a whole discusses the evolution of crocodiles. Modern crocodiles are mentioned earlier in the text because, according to genetic studies, they are a part of the group that turtles may be closely related to. Choice D is incorrect. The underlined sentence is raising an issue with fossil studies, not genetic studies, saying that fossil studies have at times relied on incomplete data. Furthermore, the sentence doesn't reference any widely held beliefs. Earlier in the text, hypotheses are mentioned that are suggested by genetic studies and fossil studies, but the underlined sentence is just introducing a limitation of some fossil studies.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "However,\nmany of the fossil studies have relied on incomplete data sets."
   },
   {
     "id": "27d9bb69",
@@ -7445,7 +7507,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because as used in the text, \"consideration\"most nearly means calculation. The text describes Osmond as someone whose every action is a \"pose;\"that is, he adopted a deliberate appearance crafted so subtly that an unwary observer \"mistook it for impulse.\" The text further indicates that Osmond's tastes, studies, accomplishments, and collections \"were all for a purpose,\"meaning each was strategically chosen to serve some intended end. The phrase \"the land of consideration\"thus characterizes Osmond as someone whose mental life is dominated by deliberate planning—that is, calculation. Choice A is incorrect because \"deference,\"meaning submissive yielding to others'wishes, wouldn't make sense in context. The text portrays Osmond as a man who carefully crafts his own image and arranges his life \"for a purpose,\"which suggests self-direction rather than yielding to others. Choice B is incorrect because although \"consideration\"can mean courtesy, or thoughtful regard for others, this meaning wouldn't fit the text, which characterizes the calculated, purposeful nature of Osmond's behavior, not his treatment of other people. Choice D is incorrect because \"indecision,\"meaning the inability to make a choice, wouldn't make sense in context. The text portrays Osmond as decisive in his self- presentation: each pose is \"subtly considered,\"and his tastes and accomplishments serve \"a purpose,\"indicating firm choices made in service of his aims.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "consideration."
   },
   {
     "id": "6c64a8f3",
@@ -7502,7 +7565,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because it best describes how the underlined sentence functions in the text as a whole. According to the text, it was hard for Yamauchi to adapt her short story into the play And the Soul Shall Dance because the story had included little dialogue, instead describing the characters' silent thoughts. The underlined sentence offers information about how Yamauchi ultimately succeeded in adapting the story into a play: it explains that Yamauchi created situations where the characters of the play could reveal their internal thoughts while speaking with each other. Choice B is incorrect because neither the underlined sentence nor the text as a whole makes any mention of playwrights other than Yamauchi or how the play might have influenced them. Choice C is incorrect because the text states that Yamauchi is best known for her play And the Soul Shall Dance, which conveys that the play is better known than the short story it's based on is. Choice D is incorrect because neither the underlined sentence nor the text as a whole mentions the actors who performed in the play or Yamauchi's approach to choosing them.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "To transform the story into a play,\nYamauchi created situations where characters reveal their thoughts by speaking them aloud during conversations with each other."
   },
   {
     "id": "d563bf65",
@@ -7540,7 +7604,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer. Text 1 states that literary scholars ignore regional cookbooks most of all, even when they have historical significance and are well written. So the author of Text 1 wouldn't be surprised that scholars ignored Edna Lewis's cookbook. Choice A is incorrect. We can't infer that this is how the author of Text 1 would regard the situation. Text 1 never suggests that scholars are dismissive of popular works in general. Instead, Text 1 says that scholars ignore food writing specifically, despite its popularity—and despite the fact that it can be historically significant and complex. Choice C is incorrect. We can't infer that this is how the author of Text 1 would regard the situation. Text 1 never suggests that elements of other genres should be kept out of cookbooks. Choice D is incorrect. We can't infer that this is how the author of Text 1 would regard the situation. Text 1 never discusses how food writing is or should be marketed.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Yet despite its inarguable value as a piece of writing, Lewis's masterpiece has received\nalmost no attention from literary scholars."
   },
   {
     "id": "d7807ec8",
@@ -7806,7 +7871,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it most effectively describes the function of the underlined portion. The text discusses the long-standing misconception that people in medieval Europe were uninterested in cleanliness and hygiene. As evidence that this idea is false, the text cites historian Eleanor Janega's assertion that in medieval Europe, towns usually had at least one bathhouse, where people could take immersion baths or steam baths for a fee. The underlined portion then notes that mainly town dwellers had access to these bathhouses. The remainder of the text explains that those who lacked such access were nonetheless able to bathe in outdoor waterways or take sponge baths at home. Therefore, the underlined portion concedes that some people in medieval Europe lacked access to public bathhouses. Choice A is incorrect. The underlined portion establishes that amenities such as steam baths were mainly available to town dwellers, which suggests in turn that steam baths were largely unavailable to people in rural areas. Thus, the distinction made by the underlined portion is not between the popularity of steam baths in towns versus their lack of popularity in rural areas but instead between their presence in towns and absence in rural areas. Choice B is incorrect. Although the text does explain that recent historians have disproved the idea that medieval Europeans rarely bathed, it doesn't attribute that misconception to earlier historians of medieval Europe or suggest that their research was subject to limitations. Moreover, the underlined portion addresses a limitation of life in medieval Europe, not of historical research. Choice D is incorrect because the underlined portion doesn't address why historian Eleanor Janega decided to study the popularity of public bathhouses in medieval Europe—nor does any portion of the text. The text mentions Janega in passing, but it doesn't go into detail about why she decided to study the popularity of public bathhouses in medieval Europe.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "While such amenities were available mainly to town dwellers,"
   },
   {
     "id": "359b891c",
@@ -7863,7 +7929,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. This best states the function of the underlined sentence. The sentence basically says: \"He stood out, so I looked more closely at him.\"Then the rest of the text describes him in detail. Choice A is incorrect. This doesn't state the function of the underlined sentence. The previous sentence basically says: \"He was still standing in the middle of the cottage\"—it doesn't include any description of the character himself. Choice B is incorrect. This doesn't state the function of the underlined sentence. The following sentences describe the character, not the setting. Choice C is incorrect. This doesn't state the function of the underlined sentence. The underlined sentence basically says: \"He stood out, so I looked more closely at him.\"The previous sentence basically says: \"He was still standing in the middle of the cottage.\"There's no contrast between these two sentences.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "His singularity impelled a closer scrutiny."
   },
   {
     "id": "e19e8478",
@@ -7901,7 +7968,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. The text defines horizontal gene transfer and then gives one possibility for how it happens in vertebrates (via infection by parasites). The underlined part describes how that mechanism could work. Choice A is incorrect. The underlined portion doesn't do this. Parasites are only described as the mechanism that does the transferring, not the species that gives or receives the genes. Choice B is incorrect. The underlined portion doesn't do this. The text never discusses which genes are more likely to be transferred. Choice C is incorrect. The underlined portion doesn't do this. The text never discusses how horizontal gene transfer occurs among invertebrates.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "while feeding, a parasite could acquire a gene from one host, then relocate to a host from a different vertebrate\nspecies and transfer the gene to it in turn."
   },
   {
     "id": "ae2b3112",
@@ -8053,7 +8121,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first two sentences establish a natural phenomenon: there is a richness of plant life found in the Atacama Desert despite the hard soil that makes it challenging for seeds to germinate. The next sentence, which contains the underlined portion, offers a potential explanation for the phenomenon: local birds dig ground nests exposing seeds to moisture and materials in the soil necessary for germination. The last sentence summarizes a study that compared the fertileness of mounds of dirt dug up by birds to mounds that were undisturbed to support the explanation in the underlined portion. Thus, the underlined portion mainly functions to explain how certain birds promote seed germination in the Atacama Desert soil. Choice A is incorrect because the underlined portion doesn't address the topic of the soil's tough crust or its formation. Instead, the text elaborates on the idea that local birds that build ground nests may help seeds germinate in the hard soil. Choice B is incorrect because the underlined portion describes how some birds may support seed germination in Atacama Desert soil but doesn't describe how the seeds are deposited into the soil before germination begins. Choice C is incorrect because neither the underlined portion nor the text as a whole identifies a reason that a particular bird species may choose to dig ground nests in the Atacama Desert soil.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "they churn the soil, exposing buried seeds to moisture and nutrients."
   },
   {
     "id": "2c82068f",
@@ -8186,7 +8255,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer because based on Text 2, it represents how Behrenfeld and colleagues would most likely respond to the \"conventional wisdom\"discussed in Text 1. The conventional wisdom cited holds the opinion that when there is species diversity within a phytoplankton population, \"one species should emerge after outcompeting the rest\"—that is, after being so successful in competing for resources that the other species vanish from the population. However, Text 2 explains that according to Behrenfeld and colleagues, phytoplankton are so small and spaced so far apart in the water that there is \"much less\"direct competition for resources within phytoplankton populations than scientists had previously thought. Choice B is incorrect because Text 2 never discusses whether routine replenishment of ocean nutrients affects competition between phytoplankton species. Choice C is incorrect because the interspecies competition discussed in both texts is specifically between phytoplankton species, and neither text considers whether phytoplankton compete for resources with larger nonphytoplankton species. Choice D is incorrect because according to Text 2, Behrenfeld and colleagues argue that water density decreases, not increases, competition between phytoplankton species.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "conventional wisdom,"
   },
   {
     "id": "213248f7",
@@ -8224,7 +8294,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it most accurately describes the function of the third sentence within the overall structure of the text. The third sentence makes a generalization, asserting that evolutionary links between predators and prey can persist across great expanses of time and distance. This generalization is exemplified by the text's discussion of the relationship between mimosa trees and B. terrenus beetles. When mimosa trees were introduced to North America in 1785, no B. terrenus beetles were present, so the relationship between the trees and the beetles that exists in their native East Asia was disrupted. When the beetles were introduced to North America more than 200 years later, however, they quickly attacked mimosa trees, illustrating the generalization that links between predators and prey \"can persist across centuries and continents.\" Choice A is incorrect because the third sentence doesn't indicate that Chang and colleagues were investigating any hypothesis. According to the text, Chang and colleagues were simply monitoring mimosa trees when the beetles happened to be introduced to the area. Choice C is incorrect because the third sentence doesn't discuss any particular species, let alone the species mentioned elsewhere in the text, nor does the sentence explain why species spread to new locations. Choice D is incorrect because the third sentence offers a generalization about the relationship between predators and prey, not an explanation for the findings by Chang and colleagues that's an \"alternative\" to an explanation presented elsewhere in the text.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "But evolutionary links between predators and their prey can persist across centuries and continents."
   },
   {
     "id": "b4d29611",
@@ -8547,7 +8618,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it reflects how the author of Text 2 would most likely respond to the underlined claim about the Clovis people in Text 1. Text 1 explains that the idea that the Clovis people were the first human inhabitants of North America has been overturned by the unearthing of stone tools in Chiquihuite Cave in Mexico. The tools were found in a layer of earth that is over 33,000 years old—much older than the Clovis people's arrival 13,000 years ago. The text ends with the claim that the tools reveal that humans lived in the cave long before the Clovis people reached the continent. Text 2, on the other hand, disputes the idea that the stone pieces are definitely tools. Text 2 states that the pieces are so roughly shaped that they may have simply naturally broken off from rocks and, moreover, that no other signs of human activity have been found in the cave. In other words, Text 2 argues that there is no proof yet that humans made the pieces as tools or were even present in the cave. Therefore, the author of Text 2 would most likely say that the claim that humans occupied Chiquihuite Cave long before the Clovis people reached North America rests on an assumption about the stone pieces—that they are human-made tools—that is not sufficiently supported by available evidence. Choice A is incorrect because Text 1 doesn't claim that human inhabitants of Chiquihuite Cave and the Clovis people had any connection; the author of Text 1 focuses only on the timing of each group's presence in North America. Further, the author of Text 2 makes no mention of the Clovis people and indicates that it isn't clear yet that any human group did inhabit Chiquihuite Cave. Choice C is incorrect because nothing in Text 2 suggests that the author believes the stone pieces probably are human-made tools and will be confirmed as such by further analysis; instead, the author of Text 2 emphasizes the current lack of evidence of human activity in the cave. Choice D is incorrect because Text 2 focuses on the issue of characterizing the stone pieces as tools made by humans, not on the timing of any particular group's activity in North America; further, Text 1 seems to support the common belief that the Clovis people reached North America 13,000 years ago and challenges only the idea that they were the continent's first inhabitants. Therefore, there's no reason to think the author of Text 2 would say that the author of Text 1 overlooks evidence that the Clovis people were active as early as is commonly thought.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "revealing that humans occupied the cave thousands of years before the Clovis people reached the continent."
   },
   {
     "id": "03eeecf3",
@@ -8566,7 +8638,8 @@
     "correct": "C",
     "rationale": "Choice C is the best answer because it best describes the function of the underlined portion in the text as a whole. In the text, the speaker mentions the occurrence in nature of seedpods being shaken by a slight wind. The speaker then goes on to compare the black seeds to thoughts, using language that indicates that the speaker's state of mind is unsettled (e.g., \"my thoughts are spent\"; \"My thoughts tear me, I dread their fever\"). The text concludes with a comparison between the speaker's \"scattered\" state of mind and the \"hot shrivelled seeds.\" Thus, the underlined portion of the text presents an observation of an occurrence in the natural world that the speaker then expands on to convey a sense of a turbulent interior state. Choice A is incorrect because the text does not indicate that the seedpods are the cause of the speaker's state of mind; thus, they could not be responsible for any misgivings the speaker has. Choice B is incorrect because the text does not contrast the natural landscape with the speaker's state of mind or describe the wind shaking the seedpods as consistent; rather, the text suggests that the state of the natural world and the speaker's state of mind are similar in that both are unsettled. Choice D is incorrect because there is no indication in the text that the speaker regularly engages in critical self-evaluation, only that in this particular instance the speaker's state of mind is turbulent.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "A slight wind shakes the seed-pods—"
   },
   {
     "id": "441e2b9e",
@@ -8623,7 +8696,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer because it reflects how the author of Text 2 would most likely respond to the underlined claim in Text 1. Text 1 begins by noting the success of The Nutcracker but then claims that the ballet is \"stuck in the past\" and should \"no longer be produced.\" Text 2 begins by conceding that The Nutcracker is indeed outdated but argues that it should continue to be performed, states that the show can be updated to include more contemporary dance styles, and provides an example of one such modernized version, Hot Chocolate Nutcracker. Hence, the author of Text 2 would most likely respond to the underlined claim in Text 1 by suggesting that dance companies should consider offering revised versions of The Nutcracker instead of completely rejecting the show. Choice A is incorrect because the author of Text 2 advocates for using creative ways to update The Nutcracker and therefore wouldn't respond to the underlined claim by rejecting the suggestion that contemporary audiences would enjoy an updated version. Choice B is incorrect because although the authors of both texts claim that The Nutcracker is outdated, neither text suggests that contemporary audiences have largely stopped attending productions of the show. On the contrary, Text 2 states that The Nutcracker is a holiday favorite and generates substantial income for some dance companies. Choice C is incorrect because although Text 2 provides an example of a contemporized version of The Nutcracker, the text doesn't suggest that offering modernized versions is a way to increase income for most dance companies. Rather, the author of Text 2 suggests that offering modernized versions is a way to make the ballet discussed in Text 1 feel less outdated.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "But the show is stuck in the past, with an old-fashioned\nstory and references, so it should no longer be produced."
   },
   {
     "id": "ad4f7362",
@@ -8680,7 +8754,8 @@
     "correct": "D",
     "rationale": "Choice D is the best answer. The text as a whole claims that Cruse disagreed with virtually all other Civil Rights scholars and activists. The underlined sentence describes one way that Cruse both did and didn't fit in with those thinkers: he criticized Black nationalists, even though he identified as one. Choice A is incorrect. The underlined sentence doesn't do this. It describes Cruse's criticisms—it never mentions what Cruse did want the movement to do instead. Choice B is incorrect. This conflicts with the text, which argues that Cruse did disagree with almost all other scholars of the Civil Rights Movement. Choice C is incorrect. This is a step too far. The text never says that Cruse's work caused controversy within the Black nationalist movement.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "But he also sharply\ncriticized Black nationalists such as Marcus Garvey who wanted to establish independent, self-contained Black economies and societies, even\nthough Cruse himself identified as a Black nationalist."
   },
   {
     "id": "f52cc78c",
@@ -8699,7 +8774,8 @@
     "correct": "A",
     "rationale": "Choice A is the best answer. Text 2 describes how the Svalbard polar bears have adapted to the loss of sea ice by diversifying their diet and feeding on reindeer and seabird eggs, resulting in a \"stable and well nourished\" population despite environmental challenges. This counters the underlined claim that polar bears facing a loss of sea ice are at \"great risk of extinction\" by the end of the century. Choice B is incorrect. Text 2 does not challenge the fact that sea ice is rapidly declining in the Arctic due to warming ocean temperatures. In fact, it states that the Svalbard polar bears have faced \"rapidly declining sea ice in recent years.\" Choice C is incorrect. The claim in Text 1 is specific to polar bear populations affected by the loss of seal hunting habitats, so unaffected populations are irrelevant to the claim. Also, Text 2 doesn't mention any polar bear populations that haven't yet been affected by loss of seal hunting habitats. It focuses on a population that has been affected by sea-ice loss but has managed to survive and thrive nevertheless. Choice D is incorrect. Text 2 doesn't imply that polar bears rely on a single seal-hunting strategy. In fact, the researcher in Text 2 would say that Text 1 fails to account for polar bears' ability to develop other hunting strategies and food sources.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "concluded that populations affected by sea-ice loss are at great risk of extinction by the end of the\ntwenty-first century."
   },
   {
     "id": "8634bf4a",
@@ -8870,7 +8946,8 @@
     "correct": "B",
     "rationale": "Choice B is the best answer because it accurately describes how the underlined portion functions in the text as a whole. In the text, the narrator explains that she walks around her neighborhood, making a \"mental map\" of the area that she imagines herself navigating through. She then states that she rehearses \"the small world's scheme\"—that is, imagines moving through her mental map—and challenges herself to use the map in her mind while lying in bed at night. The underlined portion presents two such challenges (getting to the store through backyards and traveling from school to a friend's house) and thus provides examples of what the narrator thinks about at night. Choice A is incorrect because the underlined portion makes no mention of memorizing a telephone number. Although the narrator mentions that she had to learn the home telephone number before her mother would give her permission to walk around the neighborhood, there is nothing in the underlined portion or the rest of the text about memorizing the telephone number. Choice C is incorrect. Although the underlined portion refers to navigation tasks like finding a route to a store only through backyards, the text contains no specific directions to any store, nor is any store identified as the narrator's favorite. Choice D is incorrect because the underlined portion makes no mention of the narrator's mother and doesn't address the narrator's relationship with her. Although the narrator mentions that her mother gave her permission as a child to walk around the neighborhood, there is nothing in the underlined portion or the rest of the text about the mother or her relationship to her child.",
     "hasGraph": false,
-    "graphTitle": ""
+    "graphTitle": "",
+    "underlinedSentence": "Find the store using backyards only. Imagine a route from the school to my friend's house."
   },
   {
     "id": "e8fb0744",
