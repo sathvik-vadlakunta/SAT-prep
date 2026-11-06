@@ -405,12 +405,26 @@
       <h3>Question Bank</h3>
       <div class="mode-grid">
         <div class="mode-card active" data-b="rw" onclick="setBank('rw')">
-          <div class="mc-t">R&amp;W · Info &amp; Ideas</div>
-          <div class="mc-d">555 questions</div>
+          <div class="mc-t">Info &amp; Ideas</div>
+          <div class="mc-d">555 q · Inferences, Central Ideas</div>
         </div>
         <div class="mode-card" data-b="sec" onclick="setBank('sec')">
           <div class="mc-t">Standard English</div>
-          <div class="mc-d">421 questions · Conventions</div>
+          <div class="mc-d">421 q · Conventions</div>
+        </div>
+        <div class="mode-card" data-b="eoi" onclick="setBank('eoi')">
+          <div class="mc-t">Expression of Ideas</div>
+          <div class="mc-d">398 q · Transitions, Synthesis</div>
+        </div>
+        <div class="mode-card" data-b="cs" onclick="setBank('cs')">
+          <div class="mc-t">Craft &amp; Structure</div>
+          <div class="mc-d">471 q · Words, Text Structure</div>
+        </div>
+      </div>
+      <div style="margin-top:8px">
+        <div class="mode-card" data-b="all" onclick="setBank('all')" style="text-align:center">
+          <div class="mc-t">Practice All</div>
+          <div class="mc-d">1,845 questions across all 4 sections</div>
         </div>
       </div>
     </div>
@@ -448,10 +462,21 @@
 <script>
 // ── Data & State ──
 const BANKS = {
-  rw:  { file: 'questions.json',  key: 'sat_a',  label: 'R&W · Information and Ideas',   skills: ['Inferences','Central Ideas and Details','Command of Evidence'] },
-  sec: { file: 'questions2.json', key: 'sat_a2', label: 'Standard English Conventions',  skills: ['Boundaries','Form Structure and Sense'] },
+  rw:  { file: 'questions.json',  key: 'sat_a',  label: 'R&W · Information and Ideas',  skills: ['Inferences','Central Ideas and Details','Command of Evidence'] },
+  sec: { file: 'questions2.json', key: 'sat_a2', label: 'Standard English Conventions', skills: ['Boundaries','Form Structure and Sense'] },
+  eoi: { file: 'questions3.json', key: 'sat_a3', label: 'Expression of Ideas',          skills: ['Transitions','Rhetorical Synthesis'] },
+  cs:  { file: 'questions4.json', key: 'sat_a4', label: 'Craft and Structure',          skills: ['Words in Context','Text Structure and Purpose','Cross-Text Connections'] },
+  all: { files: ['questions.json','questions2.json','questions3.json','questions4.json'],
+         srcBanks: ['rw','sec','eoi','cs'],
+         key: null,
+         label: 'All Sections',
+         skills: ['Inferences','Central Ideas and Details','Command of Evidence',
+                  'Boundaries','Form Structure and Sense',
+                  'Transitions','Rhetorical Synthesis',
+                  'Words in Context','Text Structure and Purpose','Cross-Text Connections'] },
 };
 const bankCache = {};
+let qidBankMap = {};
 let currentBank = 'rw';
 
 let ALL = [];
@@ -487,33 +512,77 @@ function updateTimerDisplay() {
 // ── Boot ──
 (async () => { await setBank('rw'); })();
 
-function save() { localStorage.setItem(BANKS[currentBank].key, JSON.stringify(ans)); }
+function save() {
+  if (currentBank === 'all') {
+    const perBank = {};
+    BANKS.all.srcBanks.forEach(b => { perBank[b] = {}; });
+    Object.entries(ans).forEach(([qid, v]) => {
+      const b = qidBankMap[qid];
+      if (b && perBank[b]) perBank[b][qid] = v;
+    });
+    BANKS.all.srcBanks.forEach(b => {
+      localStorage.setItem(BANKS[b].key, JSON.stringify(perBank[b]));
+    });
+  } else {
+    localStorage.setItem(BANKS[currentBank].key, JSON.stringify(ans));
+  }
+}
 
 // ── Bank selector ──
 async function setBank(bank) {
-  if (currentBank === bank && bankCache[bank]) return;
+  const alreadyLoaded = currentBank === bank && bankCache[bank];
   currentBank = bank;
   document.querySelectorAll('[data-b]').forEach(c => c.classList.toggle('active', c.dataset.b === bank));
-  if (!bankCache[bank]) {
-    try {
-      bankCache[bank] = await fetch(BANKS[bank].file).then(r => r.json());
-    } catch(e) {
-      document.getElementById('homeSub').textContent = `Error loading ${BANKS[bank].file} — make sure the server is running from ~/sat-prep.`;
-      return;
+
+  if (!alreadyLoaded) {
+    if (bank === 'all') {
+      if (!bankCache.all) {
+        try {
+          const jsons = await Promise.all(BANKS.all.files.map(f => fetch(f).then(r => r.json())));
+          bankCache.all = [];
+          qidBankMap = {};
+          jsons.forEach((qs, i) => {
+            const bname = BANKS.all.srcBanks[i];
+            qs.forEach(q => { q._bank = bname; qidBankMap[q.id] = bname; });
+            bankCache.all.push(...qs);
+          });
+        } catch(e) {
+          document.getElementById('homeSub').textContent = `Error loading question banks — make sure the server is running from ~/sat-prep.`;
+          return;
+        }
+      }
+      ALL = bankCache.all;
+      ans = {};
+      BANKS.all.srcBanks.forEach(b => {
+        try { Object.assign(ans, JSON.parse(localStorage.getItem(BANKS[b].key) || '{}')); } catch(e) {}
+      });
+    } else {
+      if (!bankCache[bank]) {
+        try {
+          bankCache[bank] = await fetch(BANKS[bank].file).then(r => r.json());
+        } catch(e) {
+          document.getElementById('homeSub').textContent = `Error loading ${BANKS[bank].file} — make sure the server is running from ~/sat-prep.`;
+          return;
+        }
+      }
+      ALL = bankCache[bank];
+      try { ans = JSON.parse(localStorage.getItem(BANKS[bank].key) || '{}'); } catch(e) { ans = {}; }
     }
+    filters.skill = new Set(BANKS[bank].skills);
   }
-  ALL = bankCache[bank];
-  try { ans = JSON.parse(localStorage.getItem(BANKS[bank].key) || '{}'); } catch(e) { ans = {}; }
-  filters.skill = new Set(BANKS[bank].skills);
+
   renderHome();
 }
 
 function resetProgress() {
-  if (confirm('Reset all progress for this bank?')) {
+  if (!confirm('Reset all progress for this bank?')) return;
+  if (currentBank === 'all') {
+    BANKS.all.srcBanks.forEach(b => localStorage.removeItem(BANKS[b].key));
+  } else {
     localStorage.removeItem(BANKS[currentBank].key);
-    ans = {};
-    renderHome();
   }
+  ans = {};
+  renderHome();
 }
 
 // ── Home ──
@@ -607,7 +676,8 @@ function renderQ() {
   picked = a?.chosen || null;
 
   // Header
-  document.getElementById('hdrLeft').textContent = currentBank === 'sec' ? 'SAT · SEC' : 'SAT · R+W';
+  const HDR = { rw:'SAT · R+W', sec:'SAT · SEC', eoi:'SAT · EOI', cs:'SAT · C+S', all:'SAT · All' };
+  document.getElementById('hdrLeft').textContent = HDR[currentBank] || 'SAT · R+W';
   document.getElementById('hdrMid').textContent = q.test === 'Math' ? 'Math' : 'R+W';
   updateHdrStat();
 
