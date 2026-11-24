@@ -285,6 +285,25 @@
     "graphTitle": ""
   },
   {
+    "id": "ed7a1c14",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "Shirley \"Cha Cha\" Muldowney is famous in the world of automotive sports. She was the first person to win the Top Fuel championship, the most\nprestigious title in drag racing, three ______ in a row.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "times:",
+      "B": "times",
+      "C": "times;",
+      "D": "times,"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is punctuation use within a sentence. No punctuation is needed between \"three times\" and \"in a row\" because the prepositional phrase \"in a row\" provides essential information about how the three victories occurred. Choice A is incorrect because no punctuation is needed between \"three times\" and \"in a row.\" Choice C is incorrect because no punctuation is needed between \"three times\" and \"in a row.\" Choice D is incorrect because no punctuation is needed between \"three times\" and \"in a row.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "a7c85001",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -319,6 +338,44 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. The convention being tested is the use of punctuation within a sentence. This choice uses a semicolon in a conventional way to join the first main clause (\"The Limón…weightlessness\") and the second main clause (\"dancers…jump\"). Choice A is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction. Choice B is incorrect. The relative pronoun \"which\" can't be used in this way to join two main clauses. Choice C is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "ff4cdc8e",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "The 363-mile-long Erie Canal was completed in 1825. This waterway, the longest in the US at the time, made it much easier to transport\npassengers and goods between New York and the Great Lakes. For this reason, ______\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "it is often called \"the nation's first superhighway.\"",
+      "B": "it is often called \"the nation's first superhighway\"?",
+      "C": "is it often called \"the nation's first superhighway.\"",
+      "D": "is it often called \"the nation's first superhighway\"?"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is end-of-sentence punctuation. This choice correctly uses a period to punctuate a declarative sentence that makes a statement (\"For...superhighway\"). This statement logically follows the discussion in the previous two sentences, indicating that because the Erie Canal made it easier to transport passengers and goods it is often called \"the nation's first superhighway.\" Choice B is incorrect. It's unconventional to use a question mark in this way to punctuate a declarative sentence that makes a statement. Choice C is incorrect. In this context, it is more logical to use a declarative clause stating that the Erie Canal is often called \"the nation's first superhighway\" than to use an interrogative clause asking if it is often called \"the nation's first superhighway.\" Additionally, it's unconventional to use a period in this way to punctuate an interrogative sentence that asks a direct question. Choice D is incorrect. In this context, it is more logical to use a declarative clause stating that the Erie Canal is often called \"the nation's first superhighway\" than to use an interrogative clause asking if it is often called \"the nation's first superhighway.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "768c206b",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "A painted Chinese mural from 118 CE shows a person pushing a one-wheeled cart. Historians ______ that this is the earliest known depiction of a\nwheelbarrow.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "to have believed",
+      "B": "to believe",
+      "C": "believing",
+      "D": "believe"
+    },
+    "correct": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is the use of verb forms within a sentence. A main clause requires a finite (tensed) verb to perform the action of the subject (in this case, \"historians\"), and this choice supplies the finite present tense verb \"believe\" to indicate what historians think. Choice A is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to have believed\" doesn't supply the main clause with a finite verb. Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to believe\" doesn't supply the main clause with a finite verb. Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"believing\" doesn't supply the main clause with a finite verb.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -722,6 +779,25 @@
     "graphTitle": ""
   },
   {
+    "id": "995cdfb9",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question": "The unconventional literary philosophy with which Fernando Pessoa approached his writing is manifested in the Portuguese poet's \"heteronyms,\"\nhis term for the dozens of fictional personas in whose voices he authored many of his ______ among these personas was Ricardo Reis, author of\nclassical odes in a Horatian style.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "works and",
+      "B": "works: and",
+      "C": "works;",
+      "D": "works,"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is the use of punctuation within a sentence. This choice uses a semicolon in a conventional way to join the two main clauses in the sentence. (The first main clause is \"The unconventional… 'heteronyms,'\" followed by the supplement \"his…works\"; the second main clause is \"among…Reis,\" followed by the supplement \"author…style.\") The ideas expressed in the two clauses and their supplements are closely linked, so a semicolon is ideal for indicating the close nature of the ideas. Choice A is incorrect because when coordinating two longer main clauses such as these, it's conventional to use a comma before the coordinating conjunction. Choice B is incorrect because a colon can't be used in this way before the conjunction \"and.\" A colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause, not to precede a coordinating conjunction. Choice D is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "83617355",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -946,6 +1022,63 @@
     },
     "correct": "B",
     "rationale": "Choice B is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the past perfect verb \"had doubled\" properly indicates that the doubling of the organization's initial membership occurred during a specific period before the present (between the organization's founding in 1967 and the end of the 1990s). Choice A is incorrect because the present perfect verb \"has doubled\" doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past. Choice C is incorrect because the present tense verb \"doubles\" doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past. Choice D is incorrect because the future tense verb \"will double\" doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "39eb530f",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": "The Grootbos florilegium in South Africa contains a collection of botanical paintings, with each painting depicting a local plant species in\nexquisite detail. The florilegium includes a vignette painting by contributing artist Sibonelo Chiliza. Unlike most paintings in the florilegium, ______\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "Chiliza's vignette contextualizes a plant within an ecosystem.",
+      "B": "Chiliza contextualizes a plant within an ecosystem in his vignette.",
+      "C": "the contextualization of a plant within an ecosystem occurs in Chiliza's vignette.",
+      "D": "a plant's ecosystem is contextualized in Chiliza's vignette."
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"Chiliza's vignette\" the subject of the sentence and places it immediately after the modifying phrase \"unlike most paintings in the florilegium.\"In doing so, this choice clearly establishes that Chiliza's vignette—and not another noun in the sentence—is being contrasted with most paintings in the florilegium. Choice B is incorrect because it results in a dangling modifier. The placement of the noun \"Chiliza\"immediately after the modifying phrase illogically suggests that Chiliza (a person) is unlike most paintings in the florilegium. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the contextualization\"immediately after the modifying phrase illogically suggests that the contextualization is unlike most paintings in the florilegium. Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"a plant's ecosystem\"immediately after the modifying phrase illogically suggests that the ecosystem is unlike most paintings in the florilegium.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "2afe376b",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question": "Russian-born visual artist Helga Stentzel turns household items into strange and surprising works of art. In her prints, tan sweatpants take on the\nform of a camel as they dangle from a ______ the red handles of a pair of pliers become the thongs of flip flops—flip flops made of nails. This\n\"household surrealism,\"Stentzel says, \"is about finding magic in the mundane.\"\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "clothesline;",
+      "B": "clothesline—",
+      "C": "clothesline,",
+      "D": "clothesline:"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is the use of punctuation within a sentence. This choice uses a semicolon in a conventional way to join the first main clause (\"In…clothesline\") and the second main clause (\"the red…nails\"). A semicolon is appropriate here because the two main clauses present closely related, parallel examples of how Stentzel transforms household items into art. Choice B is incorrect. Placing a dash after \"clothesline\"would illogically suggest that the material between the two dashes (\"the red…flops\") is nonessential and could be removed without affecting the grammatical sense of the sentence, which isn't the case. The dash after \"thongs of flip flops\"introduces a supplementary phrase at the end of the sentence that further describes what the flip flops are made of (nails). Choice C is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. Choice D is incorrect. A colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause. However, the second clause (\"the red…nails\") presents a parallel example, not an explanation or amplification.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "21168f2d",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "An analysis of past earnings data for nearly 5,000 US companies indicated a link between a company's market value and its strategy for\nmanaging its vulnerability to climate change. The data, collected between 2002 and 2018, show that companies that identified their level of risk\nand developed a mitigation plan received higher valuations than companies that ______ their risks but didn't create a plan.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "will determine",
+      "B": "are determining",
+      "C": "determined",
+      "D": "determine"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past tense verb \"determined\"is consistent with the other past tense verbs (\"identified,\"\"developed,\"\"received,\"\"didn't create\") used to describe what the companies did during the period when the data were collected (2002–2018). Choice A is incorrect because the future tense verb \"will determine\"isn't consistent with the other past tense verbs used to describe what the companies did. Choice B is incorrect because the present progressive tense verb \"are determining\"isn't consistent with the other past tense verbs used to describe what the companies did. Choice D is incorrect because the present tense verb \"determine\"isn't consistent with the other past tense verbs used to describe what the companies did.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -1539,6 +1672,44 @@
     "graphTitle": ""
   },
   {
+    "id": "e8ea607a",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "Mountain goats were made to climb. In addition to having hard hooves that can dig into nearly any groove or ______ mountain goats have slender\nbodies ideal for scaling nearly ninety-degree cliffs.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "crack",
+      "B": "crack or",
+      "C": "crack,",
+      "D": "crack, or"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is the use of punctuation within a sentence. This choice correctly uses a comma to mark the boundary between the introductory phrase (\"In addition…crack\") and the main clause (\"mountain goats…cliffs\"). Choice A is incorrect because it fails to mark the boundary between the introductory phrase (\"In addition…crack\") and the main clause (\"mountain goats…cliffs\") with appropriate punctuation. Choice B is incorrect. Including the conjunction \"or\" would illogically extend the series \"groove or crack,\" making \"mountain goats\" appear to be another thing that hooves can dig into. Additionally, it fails to mark the boundary between the introductory phrase and the main clause with appropriate punctuation. Choice D is incorrect. Including the conjunction \"or\" would illogically extend the series \"groove or crack,\" making \"mountain goats\" appear to be another thing that hooves can dig into.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "d5710c15",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "Kwesi Joseph is an urban garden specialist in New York City. Working with local communities and schools, Joseph uses his expertise to help\npeople ______ healthier gardens.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "grow",
+      "B": "grow,",
+      "C": "grow;",
+      "D": "grow:"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is punctuation in a sentence. No punctuation is needed between the verb \"grow\" and its object \"healthier gardens.\" The object completes the sentence by explaining what Joseph helps people grow. In this case, any punctuation between the two results in an ungrammatical sentence. Choice B is incorrect because no punctuation is needed between the verb and its object. Choice C is incorrect because no punctuation is needed between the verb and its object. Choice D is incorrect because no punctuation is needed between the verb and its object.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "166efaa2",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -1667,7 +1838,7 @@
       "D": "formation; some"
     },
     "correct": "C",
-    "rationale": "Choice C is the best answer. The convention being tested is the use and punctuation of an integrated relative clause. In this choice, the relative pronoun \"that\" is used to create an integrated relative clause that modifies the preceding noun phrase \"a conceptual framework for pattern formation.\" No punctuation is necessary between the noun phrase and the relative clause because the relative clause is supplying essential information about the framework. Choice A is incorrect because no punctuation is needed between the noun phrase (\"a conceptual...formation\") and the integrated relative clause beginning with \"that.\" Choice B is incorrect because it results in a confusing and ungrammatical sentence. Choice D is incorrect because it results in an ungrammatical sentence. A semicolon is used to join two main clauses or items in a complex series, and what follows \"formation\" is neither of these.",
+    "rationale": "Choice C is the best answer. The convention being tested is the use and punctuation of an integrated relative clause. In this choice, the relative pronoun \"that\" is used to create an integrated relative clause that modifies the preceding noun phrase \"a conceptual framework for pattern formation.\" No punctuation is necessary between the noun phrase and the relative clause because the relative clause is supplying essential information about the framework. Choice A is incorrect because no punctuation is needed between the noun phrase (\"a conceptual…formation\") and the integrated relative clause beginning with \"that.\" Choice B is incorrect because it results in a confusing and ungrammatical sentence. Choice D is incorrect because it results in an ungrammatical sentence. A semicolon is used to join two main clauses or items in a complex series, and what follows \"formation\" is neither of these.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -1805,6 +1976,25 @@
     "graphTitle": ""
   },
   {
+    "id": "d435156c",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question": "George Saunders concludes his essay \"What Writers Really Do When They Write\"by comparing the work of fiction writing to the act of juggling.\nThe author-as-juggler performs a ______ gathering of central themes and tensions, the tossing of these elements into a dynamic narrative, and\nthe catching of the resolutions that emerge.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "routine: the",
+      "B": "routine. The",
+      "C": "routine; the",
+      "D": "routine, the"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is punctuation use between a main clause and a supplementary element. In this choice, the colon—which is conventionally used to introduce information that explains or amplifies something that came before it—is correctly used to mark the boundary between the main clause (\"The author-as-juggler performs a routine\") and the supplementary element (\"the gathering...emerge\"). Choice B is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"The gathering.\"Without a subject and finite verb, the series of phrases (\"the gathering…,\"\"the tossing…,\"and \"the catching…\") can't stand on its own as a conventional sentence. Choice C is incorrect because a semicolon can't be used in this way to join the main clause (\"The author-as-juggler...routine\") and the supplementary element (\"the gathering...emerge\"). A semicolon is conventionally used to join two main clauses, whereas a colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause. Choice D is incorrect because it results in an unclear and confusing sentence. With the other three commas present in this sentence, a comma after \"routine\"fails to clearly signal that what follows is an elaboration on what the routine consists of. A colon is a more conventional choice.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "1724dac2",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -1862,6 +2052,25 @@
     "graphTitle": ""
   },
   {
+    "id": "4b795d5a",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "Observational drawing and constructive drawing are two different approaches to ______ observational approach involves looking at a subject and\ndrawing it as you see it. For the constructive approach, however, you have to think about the shape and characteristics of a subject, and then use\nyour imagination to draw it.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "art, the",
+      "B": "art. The",
+      "C": "art (the",
+      "D": "art the"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"Observational drawing…art\") and another (\"The observational approach…see it\"). Choice A is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences. Choice C is incorrect because an opening parenthesis can't be used in this way to mark the boundary between sentences. Choice D is incorrect because it results in a run-on sentence. The sentences (\"Observational drawing...art\" and \"the observational approach...see it\") are fused without punctuation and/or a conjunction.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "e67f9967",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -1896,6 +2105,25 @@
     },
     "correct": "A",
     "rationale": "Choice A is the best answer. The convention being tested is the use of punctuation within a sentence. This choice correctly completes the parenthetical element \"as many as 200,000, by some estimates\" with a closing parenthesis, pairing with the opening parenthesis that appears earlier in the sentence. This parenthetical element functions to specify the number of residents, and the use of parentheses indicates that this element could be removed without affecting the grammatical coherence of the sentence. Choice B is incorrect. While this choice completes the parenthetical element with a closing parenthesis, no comma is needed before the prepositional phrases (\"in...size\") that provide essential information about where the residents were housed. Choice C is incorrect because a dash can't be paired with an opening parenthesis in this way to separate the parenthetical element from the rest of the sentence. Choice D is incorrect because it doesn't close the parenthetical element that was opened earlier in the sentence.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "b3b3e7a0",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "question": "The Eiger, the Mönch, the Jungfrau—Alpine summits like these were little more than wastelands to many Europeans until the eighteenth century,\nwhen attitudes toward such intimidating landscapes shifted as part of a broader aesthetic ______ by Irish philosopher Edmund Burke, this shift\nframed mountains as sublime objects capable of producing delightful terror.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "revolution initiated",
+      "B": "revolution that, initiated",
+      "C": "revolution. Initiated",
+      "D": "revolution, initiated"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"The Eiger...revolution\") and another (\"Initiated...terror\"). The participial phrase beginning with \"initiated\"modifies the subject of the second sentence, \"this shift.\" Choice A is incorrect because it results in a run-on sentence. The sentences (\"The Eiger...revolution\"and \"initiated...terror\") are fused without punctuation and/or a conjunction. Choice B is incorrect because it results in an ungrammatical sentence. The relative pronoun \"that\"can't be used in this way to join the sentences. Choice D is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -2204,6 +2432,25 @@
     "graphTitle": ""
   },
   {
+    "id": "4450d4fd",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "When ______ founded in 1846, the small town of Elkader, Iowa, was named after the Emir Abdelkader. The town's residents wished to honor\nAbdelkader, a famous Algerian resistance fighter and human rights advocate who fought against the French colonial rule of Algiers.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "he was",
+      "B": "they were",
+      "C": "it was",
+      "D": "these were"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is pronoun-antecedent agreement. The singular pronoun \"it\" agrees in number with the singular antecedent \"the small town of Elkader, Iowa\" and clearly indicates that the town was founded in 1846. Choice A is incorrect because the singular pronoun \"he\" doesn't agree with the antecedent \"the small town of Elkader, Iowa.\" Using \"he\" would illogically suggest that a person, not the town, was founded. Choice B is incorrect because the plural pronoun \"they\" doesn't agree in number with the singular antecedent \"the small town of Elkader, Iowa.\" Choice D is incorrect because the plural pronoun \"these\" doesn't agree in number with the singular antecedent \"the small town of Elkader, Iowa.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "69f031ab",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -2242,13 +2489,32 @@
     "graphTitle": ""
   },
   {
+    "id": "62edf138",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "question": "Kizomba, a genre of dance that originated in Angola, has become an international ______ 2022, the Indian dance duo known as Elvis and Namrata\ndefeated performers from around the world to win the annual Olympiads of Kizomba competition held in Paris, France, becoming the first ever\nAsian winners.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "phenomenon and in",
+      "B": "phenomenon, in",
+      "C": "phenomenon in",
+      "D": "phenomenon. In"
+    },
+    "correct": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"Kizomba...phenomenon\") and another (\"In 2022...winners\"). The prepositional phrase \"in 2022\" functions as an introductory element that establishes the time frame for the events described in the second sentence. Choice A is incorrect because without a comma preceding it, the conjunction \"and\" can't be used in this way to join two sentences. Choice B is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences. Choice C is incorrect because it results in a run-on sentence. The sentences (\"Kizomba...phenomenon\" and \"in 2022...winners\") are fused without punctuation and/or a conjunction.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "486f03da",
     "assessment": "SAT",
     "test": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "Easy",
-    "question": "The short story \"Rogue Enchantments\" by Isabel Ibañez appears in Reclaim the ______ anthology of fantasy and science fiction written by authors\nof Latin American descent.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "ez appears in Reclaim the ______ anthology of fantasy and science fiction written by authors\nof Latin American descent.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": {
       "A": "Stars. An",
       "B": "Stars, while an",
@@ -2257,6 +2523,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. The convention being tested is the use of punctuation within a sentence. This choice correctly uses a comma to mark the boundary between the main clause (\"The short...Stars\") and the supplementary element (\"an anthology...descent\") that provides additional information about what Reclaim the Stars is. Choice A is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"an anthology.\" Choice B is incorrect. Joining the main clause and the following supplementary element with the conjunction \"while\" results in a confusing and ungrammatical sentence. Choice C is incorrect because it fails to mark the boundary between the main clause and the supplementary element with appropriate punctuation.",
+    "hasGraph": true,
+    "graphTitle": "The short story \"Rogue Enchantments\" by Isabel Iba"
+  },
+  {
+    "id": "93e42194",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "Most people are familiar with the song \"Happy Birthday\" because ______ Few, however, may know the song's origin. The tune began as \"Good\nMorning to All,\" a song written by sisters Mildred and Patty Hill in the early 1890s.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "it is the most frequently sung song in the English language?",
+      "B": "it is the most frequently sung song in the English language.",
+      "C": "is it the most frequently sung song in the English language?",
+      "D": "is it the most frequently sung song in the English language."
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is end-of-sentence punctuation. This choice correctly uses a period to punctuate a declarative sentence that makes a statement (\"Most...language\"). Choice A is incorrect. It's unconventional to use a question mark in this way to punctuate a declarative sentence that makes a statement. Choice C is incorrect because the context requires a declarative clause at the end of the sentence that states that \"Happy Birthday\" is the most frequently sung song in the English language, not an interrogative clause that asks a direct question about whether \"Happy Birthday\" is the most frequently sung song in the English language. Choice D is incorrect because the context requires a declarative clause at the end of the sentence that states that \"Happy Birthday\" is the most frequently sung song in the English language, not an interrogative clause that asks a direct question about whether \"Happy Birthday\" is the most frequently sung song in the English language.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -2409,6 +2694,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\"). Choice A is incorrect. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\"). Choice B is incorrect. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\"). Choice C is incorrect. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\").",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "41f826fe",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question": "Polymers used in industrial applications are weakened by environmental stress, mechanical fatigue, and unexpected damage. However, new\ntypes of polymers have been engineered to repair ______ aided by embedded microcapsules, such materials begin to self-heal.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "themselves upon fracture,",
+      "B": "themselves. Upon fracture,",
+      "C": "themselves, upon fracture,",
+      "D": "themselves—upon fracture—"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"However…themselves\") and another (\"Upon…self-heal\"). Additionally, the comma after \"fracture\" marks the boundary between the supplementary element (\"upon fracture\") and the main clause (\"such materials begin to self-heal\") that the element modifies. Choice A is incorrect because it results in a run-on sentence. The sentences (\"However…themselves\"and \"upon…self-heal\") are fused without punctuation and/or a conjunction. Choice C is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences. Choice D is incorrect because it fails to mark the boundary between the two sentences with appropriate punctuation. Placing dashes around the phrase \"upon fracture\"suggests that it's a nonessential element and can be removed without affecting the grammatical sense of the sentence, which isn't the case. The phrase is modifying the subject of the following clause (\"such materials\") to describe the condition under which the materials begin to self-heal.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -2717,6 +3021,25 @@
     "graphTitle": ""
   },
   {
+    "id": "f51712ec",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "Pavlova, a cream-topped dessert cake with a marshmallow center, is a source of controversy. Sweet tooths around the world agree pavlova is\ndelicious, so why ______ The answer is that two countries—New Zealand and Australia—both claim to be pavlova's country of origin.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "it is considered controversial?",
+      "B": "is it considered controversial.",
+      "C": "it is considered controversial.",
+      "D": "is it considered controversial?"
+    },
+    "correct": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is end-of-sentence punctuation. This choice correctly uses a question mark to punctuate the interrogative clause \"why is it considered controversial,\"which asks a direct question at the end of the sentence. Choice A is incorrect because the context requires an interrogative clause, not a declarative one, to ask a direct question. Following a question word like \"why,\"it is conventional to invert the order of the subject and verb (\"is it\") to form an interrogative clause. Choice B is incorrect because a period can't be used in this way to punctuate an interrogative clause, such as \"why is it considered controversial,\"at the end of a sentence. Choice C is incorrect because the context requires an interrogative clause, not a declarative one, to ask a direct question. Following a question word like \"why,\"it is conventional to invert the order of the subject and verb (\"is it\") to form an interrogative clause.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "f4fd123c",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -2770,6 +3093,25 @@
     },
     "correct": "A",
     "rationale": "Choice A is the best answer. The convention being tested is the use of a colon within a sentence. In this choice, the colon is correctly used to introduce the following explanation of what the Patriot cause had grown into by 1774. Choice B is incorrect because a semicolon can't be used in this way to join the main clause (\"what…extensive\") and the supplementary element (\"a network…Congress\"). A semicolon is conventionally used to join two main clauses, whereas a colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause, making the colon the better choice in this context. Choice C is incorrect because it results in a comma splice. The addition of the pronoun and verb \"it was\" forms the start of a new main clause in the sentence, and a comma can't be used in this way to mark the boundary between two main clauses. Choice D is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"a network.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "897a01c6",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": "Before the Spanish arrived in the 1400s, the people of La Gomera, one of the Canary Islands, would use a whistled version of their native\nlanguage to \"speak\" to each other from far away. Amazingly, under Spanish rule, the ______ adapted their whistling skills to whistle to each other\nin Spanish.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "islands residents'",
+      "B": "island's resident's",
+      "C": "island's residents",
+      "D": "islands resident's"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The conventions being tested are the use of possessive and plural nouns. The singular possessive noun \"island's\" and the plural noun \"residents\" correctly indicate that multiple residents of a single island (La Gomera) adapted their whistling skills. Choice A is incorrect because the context requires the singular possessive noun \"island's\" and the plural noun \"residents,\" not the plural noun \"islands\" and the plural possessive noun \"residents'.\" Choice B is incorrect because the context requires the plural noun \"residents,\" not the singular possessive noun \"resident's.\" Choice D is incorrect because the context requires the singular possessive noun \"island's\" and the plural noun \"residents,\" not the plural noun \"islands\" and the singular possessive noun \"resident's.\"",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -3135,6 +3477,25 @@
     "graphTitle": ""
   },
   {
+    "id": "f64bb86e",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": "The International Wheelchair Basketball Federation (IWBF) is one of many sports organizations that collect and analyze data on player\nperformance. Coaches in the IWBF ______ these data to help them develop game strategies that have a high probability of success.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "use",
+      "B": "uses",
+      "C": "is using",
+      "D": "has used"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is subject-verb agreement. The plural verb \"use\" agrees in number with the plural subject \"coaches.\" Choice B is incorrect because the singular verb \"uses\" doesn't agree in number with the plural subject \"coaches.\" Choice C is incorrect because the singular verb \"is using\" doesn't agree in number with the plural subject \"coaches.\" Choice D is incorrect because the singular verb \"has used\" doesn't agree in number with the plural subject \"coaches.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "0fe5ce68",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -3149,7 +3510,7 @@
       "D": "were focused"
     },
     "correct": "A",
-    "rationale": "Choice A is the best answer. The convention being tested is subject-verb agreement. The singular verb \"focuses\" agrees in number with the singular subject \"each one of these plays,\" which refers to each play individually. Choice B is incorrect because the plural verb \"focus\" doesn't agree in number with the singular subject \"each one of these plays.\" Choice C is incorrect because the plural verb \"are focused\" doesn't agree in number with the singular subject \"each one of these plays.\" Choice D is incorrect because the plural verb \"were focused\" doesn't agree in number with the singular subject \"each one of these plays.\"",
+    "rationale": "Choice A is the best answer. The convention being tested is subject-verb agreement. The singular verb \"focuses\" agrees in number with the singular subject \"each one of these plays.\" While the prepositional phrase \"of these plays\" within the subject contains a plural noun, the head of the subject (\"each one\") is singular, indicating that each individual play focuses on a single historical figure. Choice B is incorrect because the plural verb \"focus\" doesn't agree in number with the singular subject \"each one of these plays.\" Choice C is incorrect because the plural verb \"are focused\" doesn't agree in number with the singular subject \"each one of these plays.\" Choice D is incorrect because the plural verb \"were focused\" doesn't agree in number with the singular subject \"each one of these plays.\"",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -3207,6 +3568,25 @@
     },
     "correct": "B",
     "rationale": "Choice B is the best answer. The convention being tested is punctuation use between a main clause and a supplementary phrase. This choice correctly uses a comma to mark the boundary between the main clause (\"the portraits...quilts\") and the supplementary noun phrase (\"the stitching...fabric\") that provides a further description of how the portraits can be identified as quilts. Choice A is incorrect. A comma and the conjunction \"and\" can't be used in this way to join a main clause and a supplementary noun phrase. Choice C is incorrect because a semicolon can't be used in this way to join a main clause and a supplementary noun phrase. Choice D is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"the stitching.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "013359a0",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": "Assembling ______ by hand and in painstaking detail, Nigerian American artist Njideka Akunyili Crosby works at a methodical pace when\ncompleting her massive collage-based paintings.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "her",
+      "B": "that",
+      "C": "them",
+      "D": "it"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is pronoun-antecedent agreement. The plural pronoun \"them\" agrees in number with the plural antecedent \"her massive collage-based paintings\" and clearly indicates that Crosby assembles the paintings by hand. Choice A is incorrect because the pronoun \"her\" would illogically suggest that Crosby assembles herself, rather than her paintings. Choice B is incorrect because the singular pronoun \"that\" doesn't agree in number with the plural antecedent \"her massive collage-based paintings.\" Choice D is incorrect because the singular pronoun \"it\" doesn't agree in number with the plural antecedent \"her massive collage-based paintings.\"",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -3301,7 +3681,7 @@
       "D": "from—"
     },
     "correct": "C",
-    "rationale": "Choice C is the best answer. The word \"from\"introduces a prepositional phrase that modifies the noun \"pages\"and provides essential information about their origin. No additional punctuation is needed after \"from\"in this context. Choice A is incorrect. This choice results in a punctuation error, illogically separating the preposition \"from\"from the rest of the prepositional phrase with a colon. Also, a colon can only follow an independent clause, but what comes before the blank could not stand on its own as a complete sentence. Choice B is incorrect. This choice results in a punctuation error, illogically separating the preposition \"from\"from the rest of the prepositional phrase with a comma. Choice D is incorrect. This choice results in a punctuation error, illogically separating the preposition \"from\"from the rest of the prepositional phrase with a dash.",
+    "rationale": "Choice C is the best answer. The convention being tested is punctuation use within a sentence. No punctuation is needed between the preposition \"from\"and the noun phrase beginning with \"a collection.\"The word \"from\"introduces a prepositional phrase that modifies the noun \"pages\"and provides essential information about the pages'origin. Choice A is incorrect. No punctuation is needed within the prepositional phrase beginning with \"from.\"Choice B is incorrect. No punctuation is needed within the prepositional phrase beginning with \"from.\"Choice D is incorrect. No punctuation is needed within the prepositional phrase beginning with \"from.\"",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -3686,6 +4066,25 @@
     "graphTitle": ""
   },
   {
+    "id": "e4314288",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "The atomic structure of an element ______ the element's place on the periodic table.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "determining",
+      "B": "to determine",
+      "C": "having determined",
+      "D": "determines"
+    },
+    "correct": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is the use of verb forms within a sentence. A main clause requires a finite (tensed) verb to perform the action of the subject (in this case, \"the atomic structure of an element\"), and this choice supplies the finite present tense verb \"determines\" to indicate what the atomic structure does. Choice A is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"determining\" doesn't supply the main clause with a finite verb. Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to determine\" doesn't supply the main clause with a finite verb. Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"having determined\" doesn't supply the main clause with a finite verb.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "67667d72",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -3815,6 +4214,25 @@
     },
     "correct": "B",
     "rationale": "Choice B is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past tense verb \"was,\" used in conjunction with the prepositional phrase \"from outside the United States,\" correctly indicates that in the 1860s nearly 30% of the population in Los Angeles wasn't from the US. Choice A is incorrect because the present progressive tense verb \"is being\" doesn't indicate that the claim about Los Angeles's population refers to the population back in the 1860s. Choice C is incorrect because the present tense verb \"is\" doesn't indicate that the claim about Los Angeles's population refers to the population back in the 1860s. Choice D is incorrect because the future tense verb \"will be\" doesn't indicate that the claim about Los Angeles's population refers to the population back in the 1860s.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "900b87a4",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "A voluntary workforce established to make improvements to public lands, parks, and forests across the US, the Civilian Conservation Corps\n(CCC)—though widely popular—was not without its critics. For Aldo Leopold, the CCC was implicated in what ______ \"Idle CCC camps,\"he wrote,\n\"presented a widespread temptation to build new and often needless roads.\"\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "did he view as unnecessary development.",
+      "B": "did he view as unnecessary development?",
+      "C": "he viewed as unnecessary development.",
+      "D": "he viewed as unnecessary development?"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is end-of-sentence punctuation. This choice correctly uses a period to punctuate a declarative sentence that makes a statement about Leopold's perspective (\"For...development\"). Choice A is incorrect. The structure requires a declarative clause that makes a statement about Leopold's views, not an interrogative clause that asks a direct question, such as \"what did he view as unnecessary development.\"Choice B is incorrect. The structure requires a declarative clause that makes a statement about Leopold's views, not an interrogative clause that asks a direct question, such as \"what did he view as unnecessary development?\"Choice D is incorrect. It's unconventional to use a question mark in this way to punctuate a declarative sentence that makes a statement.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -4623,7 +5041,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "Medium",
-    "question": "Official measurements of the Mississippi River's length vary: according to the US Geologic Survey, the river is 2,300 miles long, whereas the\nEnvironmental Protection Agency records its length as 2,320 miles. This disparity can be explained in part by the fact that rivers such as the\nMississippi expand and contract as ______ sediment.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Official measurements of the Mississippi River's length vary: according to the US Geological Survey, the river is 2,300 miles long, whereas the\nEnvironmental Protection Agency records its length as 2,320 miles. This disparity can be explained in part by the fact that rivers such as the\nMississippi expand and contract as ______ sediment.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": {
       "A": "they accumulate",
       "B": "one accumulates",
@@ -4631,7 +5049,7 @@
       "D": "we accumulate"
     },
     "correct": "A",
-    "rationale": "Choice A is the best answer. The noun that goes with \"expand and contract\" is \"rivers,\" a plural noun. \"They\" is a third-person plural pronoun, so it can correctly stand in for \"rivers.\" Choice B is incorrect. This choice creates a pronoun-antecedent agreement error. \"One\" is a singular pronoun, but the noun that goes with \"expand and contract\" is \"rivers,\" a plural noun. Choice C is incorrect. This choice creates a pronoun-antecedent agreement error. \"It\" is a singular pronoun, but the noun that goes with \"expand and contract\" is \"rivers,\" a plural noun. Choice D is incorrect. This choice creates a pronoun- antecedent agreement error. The noun that goes with \"expand and contract\" is the plural noun \"rivers.\" Rivers are not people, so \"we\" can't be used to stand in for it.",
+    "rationale": "Choice A is the best answer. The convention being tested is pronoun-antecedent agreement. The plural pronoun \"they\" agrees in number with the plural antecedent \"rivers\" and clearly expresses the general statement that rivers expand and contract as they accumulate sediment. Secondarily, the plural verb \"accumulate\" agrees in number with the plural pronoun and its plural antecedent. Choice B is incorrect because the singular pronoun \"one\" doesn't agree in number with the plural antecedent \"rivers.\" Choice C is incorrect because the singular pronoun \"it\" doesn't agree in number with the plural antecedent \"rivers.\" Choice D is incorrect because the use of the personal pronoun \"we\" is illogical in this context; it suggests that a group of people (including the speaker) accumulate sediment, which doesn't make sense.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -4764,7 +5182,7 @@
       "D": "suspended"
     },
     "correct": "D",
-    "rationale": "Choice D is the best answer. The past tense of \"suspended\" matches the past tense of \"applied,\" which has the same subject (\"he\") and takes place in the same context: \"He applied…and [he] suspended.\" Choice A is incorrect. The perfect infinitive \"to have suspended\" doesn't match the past tense of \"applied,\" and it can't serve as a verb on its own. These are both verbs with the same subject and in the same context, so there's no need to shift tenses. Choice B is incorrect. The present participle \"suspending\" doesn't match the past tense of \"applied,\" and it can't serve as a verb on its own. These are both verbs with the same subject and in the same context, so there's no need to shift tenses. Choice C is incorrect. The infinitive \"to suspend\" doesn't match the past tense of \"applied,\" and it can't serve as a verb on its own. These are both verbs with the same subject and in the same context, so there's no need to shift tenses.",
+    "rationale": "Choice D is the best answer. The convention being tested is the use of verb forms within a sentence. The past tense verb \"suspended\" provides a second finite verb to complete the coordinated structure of the sentence, in which the two finite verbs (\"applied\" and \"suspended\") are used to describe what Gilliam did. Choice A is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to have suspended\" doesn't supply a second finite verb to complete the coordinated structure of the sentence. Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"suspending\" doesn't supply a second finite verb to complete the coordinated structure of the sentence. Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to suspend\" doesn't supply a second finite verb to complete the coordinated structure of the sentence.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -4803,6 +5221,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. The convention being tested is punctuation between a supplementary phrase and a main clause. This choice correctly uses a comma to mark the boundary between the supplementary phrase (\"A conceptual artist…world\"), which describes Mary Ping, and the main clause (\"Mary…America\"). Choice A is incorrect because it fails to mark the boundary between the supplementary phrase (\"A conceptual artist…world\") and the main clause (\"Mary…America\") with appropriate punctuation. Choice B is incorrect because a colon can't be used in this way to join the supplementary phrase (\"A conceptual artist…world\") and the main clause (\"Mary…America\"). In this context, the colon incorrectly suggests that the information in the supplementary phrase is an explanation or amplification of the information in the main clause (Mary Ping being chosen to curate the exhibition), which isn't the case. Choice C is incorrect because a semicolon can't be used in this way to join the supplementary phrase (\"A conceptual artist… world\") and the main clause (\"Mary…America\"). Semicolons are conventionally used to separate two main clauses or to separate items in a complex series.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "2f787240",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "The Okavango Delta is a vital water source and hub for biodiversity in southern Africa. Koketso Mookodi, a director of the National Geographic\nOkavango Wilderness Project (NGOWP) in Botswana, helps educate the public about ______ important place.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "those",
+      "B": "both",
+      "C": "these",
+      "D": "this"
+    },
+    "correct": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is the use of determiners. The singular demonstrative determiner \"this\" agrees in number with the singular noun \"place\" and clearly indicates that Mookodi wants to educate the public about the Okavango Delta. Choice A is incorrect because the plural demonstrative determiner \"those\" doesn't agree in number with the singular noun \"place.\" Choice B is incorrect because the plural determiner \"both\" doesn't agree in number with the singular noun \"place.\" Choice C is incorrect because the plural demonstrative determiner \"these\" doesn't agree in number with the singular noun \"place.\"",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -4860,6 +5297,25 @@
     },
     "correct": "B",
     "rationale": "Choice B is the best answer. The convention being tested is the use and punctuation of an integrated relative clause. This choice correctly uses the relative pronoun \"that\" and no punctuation to create an integrated relative clause that provides essential information about the noun phrase (\"a book packaging company\") that it modifies. Choice A is incorrect because it doesn't use a relative pronoun to link the verb phrase beginning with \"specializes\" to the noun phrase that it modifies (\"a book packaging company\"). Choice C is incorrect because it doesn't use a relative pronoun to link the verb phrase beginning with \"specializes\" to the noun phrase that it modifies (\"a book packaging company\"). Choice D is incorrect because no punctuation is needed between the integrated relative clause beginning with \"that specializes\" and the noun phrase that it modifies (\"a book packaging company\").",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "1309e256",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "Creek Council Tree (1967) and Cimarron Iron Bridge (1972) are two oil landscape paintings by renowned Pawnee Nation artist Brummett\nEchohawk. In 2023, ______ displayed alongside other works by Echohawk at the student-curated exhibition Brummett Echohawk: An Artist's\nJourney at the Oklahoma State University Museum of Art.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "they were",
+      "B": "this was",
+      "C": "it was",
+      "D": "some were"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is pronoun-antecedent agreement. The plural pronoun \"they\" agrees in number with the plural antecedent \"two oil landscape paintings,\" and clearly indicates that both paintings were displayed. Choice B is incorrect because the singular pronoun \"this\" doesn't agree in number with the plural antecedent, which refers to two paintings. Choice C is incorrect because the singular pronoun \"it\" doesn't agree in number with the plural antecedent, which refers to two paintings. Choice D is incorrect because the indefinite pronoun \"some\" is vague in this context; it doesn't clearly indicate whether one painting or both paintings were displayed.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -5073,6 +5529,44 @@
     "graphTitle": ""
   },
   {
+    "id": "bda63fb2",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "In the 1920s and 1930s, the singer Frank \"Machito\" Grillo performed with Cuba's most popular dance orchestras. However, the fusion of Latin\nmusic and American jazz that Machito innovated while performing in New York City is what has ______\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "his enduring fame earned him?",
+      "B": "earned him his enduring fame.",
+      "C": "his enduring fame earned him.",
+      "D": "earned him his enduring fame?"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is end-of-sentence punctuation and syntax. This choice correctly uses a period to punctuate a declarative sentence in which the linking verb \"is\" is followed by a fused relative clause (\"what has earned him his enduring fame\") that completes the sentence and makes a statement about what earned Machito his enduring fame. Choice A is incorrect. The structure requires a clause that completes the declarative sentence that begins with \"the fusion…is,\" not an interrogative clause that introduces a direct question, such as \"what has his enduring fame earned him?\" The word \"what\" functions not as a question word but as a fused relative pronoun (meaning \"the thing that\") to help explain what earned Machito his enduring fame. Choice C is incorrect because it results in a confusing and ungrammatical sentence that fails to complete the sentence with a logical statement about what earned Machito his enduring fame. Choice D is incorrect. It's unconventional to use a question mark in this way to punctuate a declarative sentence that makes a statement, such as \"However…fame.\" The word \"what\" functions not as a question word but as a fused relative pronoun (meaning \"the thing that\") to help explain what earned Machito his enduring fame.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "80dae197",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": "Creating personas—brief profiles of imaginary characters that represent key segments of a customer base—can help user experience (UX)\ndesigners think like and empathize with those using their products. Fictional yet realistic, ______\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "these personas include specific details (demographics, browsing habits, etc.) that UX designers draw from actual users.",
+      "B": "UX designers include specific details (demographics, browsing habits, etc.) drawn from actual users in these personas.",
+      "C": "actual users are the source of the specific details (demographics, browsing habits, etc.) that UX designers include in these personas.",
+      "D": "specific details that UX designers draw from actual users (demographics, browsing habits, etc.) are included in these personas."
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"these personas\" the subject of the sentence and places it immediately after the modifying phrase \"fictional yet realistic.\"In doing so, this choice clearly establishes that the personas—and not another noun in the sentence—are being described as fictional yet realistic. Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"UX designers\"immediately after the modifying phrase illogically suggests that the UX designers are fictional yet realistic. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"actual users\"immediately after the modifying phrase illogically suggests that the users are fictional yet realistic. Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"specific details\"immediately after the modifying phrase illogically suggests that the specific details are fictional yet realistic.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "952fd392",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -5126,6 +5620,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. \"A combination of fiction and memoir, poetry and prose\"is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match. Choice A is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. \"A combination of fiction and memoir, poetry and prose\"is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match. Choice B is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. \"A combination of fiction and memoir, poetry and prose\"is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match. Choice C is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. \"A combination of fiction and memoir, poetry and prose\"is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "de24f816",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": "A groundbreaking visual artist of her day, ______ including artists Vasily Kandinsky and Piet Mondrian.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "the explorations of Hilma af Klint into abstract modes of painting occurred well before those of many of her contemporaries,",
+      "B": "well before many of her contemporaries, Hilma af Klint explored abstract modes of painting,",
+      "C": "Hilma af Klint explored abstract modes of painting well before many of her contemporaries,",
+      "D": "Hilma af Klint, well before many of her contemporaries, explored abstract modes of painting,"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is subject-modifier placement. This choice makes \"Hilma af Klint\"the subject of the sentence and places it immediately after the modifying phrase \"a groundbreaking visual artist of her day.\"In doing so, this choice clearly establishes that Hilma af Klint—and not another noun in the sentence—is being described as a groundbreaking visual artist. Additionally, this choice places the noun phrase \"her contemporaries\"immediately before the modifying phrase \"including artists Vasily Kandinsky and Piet Mondrian,\"clearly establishing that Kandinsky and Mondrian are examples of Hilma af Klint's contemporaries. Choice A is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the explorations of Hilma af Klint\"immediately after the modifying phrase illogically suggests that the explorations are a groundbreaking visual artist. Choice B is incorrect because it results in a misplaced modifier and a generally unclear sentence structure. The placement of the phrase \"well before many of her contemporaries\" immediately after the opening modifier (\"a groundbreaking visual artist of her day\") separates the modifier from its intended subject (\"Hilma af Klint\"), thus failing to clearly establish who is being described as a groundbreaking visual artist. Additionally, this choice places the noun phrase \"painting\"directly before the modifying phrase \"including artists Vasily Kandinsky and Piet Mondrian,\"illogically suggesting that Kandinsky and Mondrian are examples of modes of painting. Choice D is incorrect because it results in a misplaced modifier. The placement of the noun phrase \"painting\"immediately before the modifying phrase \"including artists Vasily Kandinsky and Piet Mondrian\"illogically suggests that Kandinsky and Mondrian are examples of modes of painting.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -5510,6 +6023,25 @@
     "graphTitle": ""
   },
   {
+    "id": "7f69628d",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "The Tuskegee University Archives' collection includes an original 1957 photograph of Martin Luther King Jr. addressing a group of Tuskegee civil\nrights activists. Taken by P .H. Polk, the photo ______ King in profile, the glow of a stage light casting his silhouette onto the curtains behind him.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "shows",
+      "B": "having shown",
+      "C": "showing",
+      "D": "to show"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is the use of verb forms within a sentence. A main clause requires a finite (tensed) verb to perform the action of the subject (in this case, \"the photo\"), and this choice supplies the finite present tense verb \"shows\" to indicate what the photo depicts. Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"having shown\" doesn't supply the main clause with a finite verb. Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"showing\" doesn't supply the main clause with a finite verb. Choice D is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to show\" doesn't supply the main clause with a finite verb.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "96499989",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -5563,6 +6095,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. The convention being tested is the use of punctuation within a sentence. This choice uses a semicolon in a conventional way to join the first main clause (\"That the...involved\") and the second main clause (\"establishing...divisive\"). Further, the semicolon is the most appropriate choice when joining two separate, parallel statements, such as here, where the information following the semicolon contrasts with the information before. Choice A is incorrect because placing a colon after \"involved\" illogically indicates that the information in the second main clause (the precise location was the subject of disagreement) explains or amplifies the information in the previous main clause (the general location was agreed upon by all). Instead, the information in the second clause contrasts with the previous information. Choice B is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. Choice C is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "33a33faa",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "question": "The 2020 documentary Without a Whisper—Konnon:Kwe was directed by Katsitsionni Fox. It explores how Indigenous Haudenosaunee culture\nshaped the woman suffrage movement in the early nineteenth ______ how the personal and political authority Haudenosaunee women had in\ntheir communities influenced the first suffragists in the US.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "century revealing",
+      "B": "century, revealing",
+      "C": "century. Revealing",
+      "D": "century; revealing"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is the use of punctuation within a sentence. This choice correctly uses a comma to mark the boundary between the main clause (\"It explores…century\") and the supplementary element (\"revealing…US\") that provides additional information about the documentary. Choice A is incorrect because it fails to mark the boundary between the main clause and the supplementary element with appropriate punctuation. Without a comma, \"revealing\" could be misread as a restrictive (essential) modifier of \"century,\" suggesting that the sentence is describing a specific type of century rather than introducing additional information about the documentary. Choice C is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"revealing.\" Choice D is incorrect because a semicolon can't be used in this way to join the main clause (\"It explores…century\") and the supplementary element (\"revealing…US\"). A semicolon is conventionally used to join two main clauses, not a main clause and a supplementary phrase.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -5677,6 +6228,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. The convention being tested is punctuation between two main clauses. \"Aibonito is well known for its lush greenery\" and \"this distinction has earned it the fitting nickname… \" are both complete main clauses; a semicolon correctly joins them while signaling a close logical connection. Choice A is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction. Choice B is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. Choice C is incorrect. When coordinating two longer main clauses such as these, it's conventional to use a comma before the coordinating conjunction.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "a0ff56d6",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "You can see Brazilian artist Tarsila do Amaral's bold use of color in her painting Sol Poente (Setting Sun). Created in 1929, the painting ______\nbright green cacti towering in front of a candy-orange sky.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "featuring",
+      "B": "feature",
+      "C": "features",
+      "D": "to feature"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is the use of verb forms within a sentence. A main clause requires a finite (tensed) verb to perform the action of the subject (in this case, \"the painting\"), and this choice supplies the finite present tense verb \"features\" to indicate what the painting depicts. Choice A is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"featuring\" doesn't supply the main clause with a finite verb. Choice B is incorrect because the finite present tense plural verb \"feature\" doesn't agree in number with the singular subject \"the painting.\" Choice D is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to feature\" doesn't supply the main clause with a finite verb.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -6194,6 +6764,25 @@
     "graphTitle": ""
   },
   {
+    "id": "8e054a64",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "The first modern public zoo opened at the height of the French Revolution in 1793. Located in downtown Paris, the zoo was called the Menagerie\ndu Jardin des Plantes. It was filled with living animals that had been confiscated ______ the private collections of French aristocrats.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "from,",
+      "B": "from:",
+      "C": "from",
+      "D": "from;"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is punctuation use within a sentence. No punctuation is needed between the preposition \"from\" and its complement \"the private collections of French aristocrats.\" The complement completes the meaning of the preposition in the phrase \"confiscated from the private collections,\" and any punctuation between them results in an ungrammatical sentence. Choice A is incorrect because no punctuation is needed between the preposition and its complement. Choice B is incorrect because no punctuation is needed between the preposition and its complement. Choice D is incorrect because no punctuation is needed between the preposition and its complement.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "12013e06",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -6422,6 +7011,25 @@
     "graphTitle": ""
   },
   {
+    "id": "33e7cedf",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "A number of scientific phenomena have been named after nineteenth-century Czech physiologist Jan Evangelista Purkinje, including the Purkinje\neffect, which ______ the eye's tendency to perceive objects as blue tinted in low-light conditions.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "will have been",
+      "B": "was",
+      "C": "has been",
+      "D": "is"
+    },
+    "correct": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is the use of verbs to express tense in a sentence. It's conventional to use the present tense when describing a situation that is habitually or generally true. In this choice, the present tense verb \"is\" correctly indicates that the sentence is presenting a definition of the Purkinje effect and that the eye generally perceives objects in this way. Choice A is incorrect because the future perfect tense verb \"will have been\" doesn't indicate that the clause is presenting a situation that is habitually or generally true. Instead, this choice illogically suggests that the Purkinje effect will describe this tendency at some point in the future. Choice B is incorrect because the past tense verb \"was\" doesn't indicate that the clause is presenting a situation that is habitually or generally true. Instead, this choice illogically suggests that the definition of the Purkinje effect applied only in the past. Choice C is incorrect because the present perfect tense verb \"has been\" doesn't indicate that the clause is presenting a situation that is habitually or generally true. Instead, this choice illogically suggests that the definition of the Purkinje effect may have changed.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "5aa1fffd",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -6555,6 +7163,25 @@
     "graphTitle": ""
   },
   {
+    "id": "8cdf6472",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "During the Second World War, codebreakers working for the US military deciphered encrypted messages. Many of ______ codebreakers were\nwomen.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "that",
+      "B": "this",
+      "C": "these",
+      "D": "it"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is the use of determiners. The plural demonstrative determiner \"these\" agrees in number with the plural noun \"codebreakers.\" Choice A is incorrect. The singular demonstrative determiner \"that\" doesn't agree in number with the plural noun \"codebreakers.\" Choice B is incorrect. The singular demonstrative determiner \"this\" doesn't agree in number with the plural noun \"codebreakers.\" Choice D is incorrect. The singular pronoun \"it\" can't be used as a determiner to modify the noun \"codebreakers.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "50801257",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -6569,7 +7196,7 @@
       "D": "Union, finally acknowledging"
     },
     "correct": "A",
-    "rationale": "Choice A is the best answer. It's the only choice that offers a form of the verb \"acknowledge\" that can go with the subject \"International Astronomical Union\" to make a complete sentence. This might seem like an odd use of \"would,\" but when speaking from a point of view in the past, we can actually use \"would\" to express something that happened later. That's the case here: 200 years after Wang Zhenyi's death, the IAU would finally acknowledge her contributions. Choice B is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. \"To acknowledge\" can't do that. Choice C is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. \"Having acknowledged\" can't do that. Choice D is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. The \"-ing\" form can't do that.",
+    "rationale": "Choice A is the best answer. The convention being tested is the use of verb forms within a sentence. A main clause requires a finite (tensed) verb to perform the action of the subject (in this case \"the International Astronomical Union\"), and this choice supplies the finite modal verb phrase \"would finally acknowledge\" to indicate what the International Astronomical Union did. Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to finally acknowledge\" doesn't supply the main clause with a finite verb. Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"having finally acknowledged\" doesn't supply the main clause with a finite verb. Choice D is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"acknowledging\" doesn't supply the main clause with a finite verb.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -6645,7 +7272,7 @@
       "D": "superlubricity is reached when two surfaces'COF drops below 0.01."
     },
     "correct": "D",
-    "rationale": "Choice D is the best answer. The subject of the modifier \"a nearly frictionless state\"is \"superlubricity.\"Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\"must be the first word in the missing clause. Choice A is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\"is \"superlubricity.\"Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\"must be the first word in the missing clause. Choice B is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\"is \"superlubricity.\"Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause. Choice C is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\"is \"superlubricity.\"Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\"must be the first word in the missing clause.",
+    "rationale": "Choice D is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun \"superlubricity\"the subject of the sentence and places it immediately after the modifying phrase \"a nearly frictionless…state.\"In doing so, this choice clearly establishes that superlubricity—and not another noun in the sentence—is being described as nearly frictionless and extremely slippery. Choice A is incorrect because it results in a dangling modifier. Regardless of the introductory \"when…\"clause, the main subject \"two surfaces\" follows the modifying phrase (\"A nearly frictionless…state\"), illogically suggesting that the surfaces are the nearly frictionless, extremely slippery state. Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"two surfaces\"immediately after the modifying phrase illogically suggests that the surfaces are a nearly frictionless and extremely slippery state. Choice C is incorrect because it results in a dangling modifier. The placement of the gerund phrase \"reaching superlubricity\"immediately after the modifying phrase illogically suggests that the act of reaching superlubricity is the nearly frictionless, extremely slippery state.",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -7125,6 +7752,25 @@
     "graphTitle": ""
   },
   {
+    "id": "1e41ed45",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "question": "Following the formation of the European Union (EU) that same year, the organizers of the 1992 Tour de France wanted the bike race to reflect the\ncross-national flow of people and trade that the EU had made possible. The resulting course was 2,500 miles long ______ seven separate borders\nof neighboring countries, modeled a vision of the EU's unifying aims.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "and, crossed",
+      "B": "and, crossing",
+      "C": "and crossed",
+      "D": "and had crossed"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is the use of verb forms within a sentence. The sentence coordinates two verb phrases (\"was 2,500 miles long\" and \"modeled a vision of the EU's unifying aims\") to describe the course. This choice uses the nonfinite present participle \"crossing\" to correctly form a supplementary element (\"crossing…countries\") that modifies the sentence. Choice A is incorrect because it results in an ungrammatical sentence. The finite past tense verb \"crossed\" can't be used in this way to form a supplementary element in the sentence. Choice C is incorrect. This choice uses the finite past tense verb \"crossed,\" which coordinates with the previous verb phrase \"was 2,500 miles long,\" but strands the sentence's intended second coordinated verb phrase (\"modeled…aims\"), resulting in an ungrammatical sentence. Choice D is incorrect. This choice uses the finite past perfect tense verb \"had crossed,\" which coordinates with the previous verb phrase \"was 2,500 miles long,\" but strands the sentence's intended second coordinated verb phrase (\"modeled…aims\"), resulting in an ungrammatical sentence.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "dfbf5d33",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -7410,6 +8056,25 @@
     "graphTitle": ""
   },
   {
+    "id": "f4f8e2e5",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question": "When, in 2018, scientists in Germany discovered a fossilized brittle star with three thick, spine-studded arms positioned opposite three thin,\nundeveloped ones, they found something never before seen in the fossil ______ clonal fragmentation, a type of asexual reproduction, an animal\nsplits itself in two, each half then regrowing its missing limbs—just what the brittle star was doing.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "record, evidence of cloning, in",
+      "B": "record—evidence of cloning in",
+      "C": "record. Evidence of cloning in",
+      "D": "record: evidence of cloning. In"
+    },
+    "correct": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is punctuation use within and between sentences. In this choice, the colon correctly introduces the supplementary element \"evidence of cloning,\"which explains what the scientists found. Additionally, the period is correctly used to mark the boundary between one sentence (\"When…cloning\") and another (\"In…doing\"). Choice A is incorrect because it results in a comma splice. The comma after \"cloning\"can't be used in this way to mark the boundary between the two sentences (\"When…cloning\"and \"in…doing\"). Choice B is incorrect because it results in a run-on sentence. The sentences (\"When… cloning\"and \"in…doing\") are fused without punctuation and/or a conjunction. Choice C is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"evidence.\"",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "5ee7fb04",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -7425,6 +8090,25 @@
     },
     "correct": "C",
     "rationale": "Choice C is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"In modern…audience\") and another (\"To do…performance\"). Choice A is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"as.\" Choice B is incorrect because it results in a run-on sentence. The sentences (\"In modern…audience\" and \"To do…performance\") are fused without punctuation and/or a conjunction. Choice D is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "9e61b9a2",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": "The colors of Navajo (Diné) weaver Melissa Cody's work World Traveler (2014) recall both the Germantown revival, a weaving style developed by\nNavajo Nation ______ ago, and the color palette of the video games that Cody played as a child.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "artists over 160 years'",
+      "B": "artists over 160 years",
+      "C": "artist's over 160 year's",
+      "D": "artists' over 160 years"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is the use of plural nouns. The plural noun \"artists\" and the plural noun \"years\" correctly indicate that multiple artists developed the weaving style over many years. Choice A is incorrect because the context requires the plural noun \"years,\" not the plural possessive noun \"years'.\" Choice C is incorrect because the context requires the plural noun \"artists\" and the plural noun \"years,\" not the singular possessive noun \"artist's\" and the singular possessive noun \"year's.\" Choice D is incorrect because the context requires the plural noun \"artists,\" not the plural possessive noun \"artists'.\"",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -7486,6 +8170,25 @@
     "graphTitle": ""
   },
   {
+    "id": "a03d332c",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "Contrasting a high saturation color palette against dark paper and stoneware, Atlanta-based artist Jiha Moon creates fused pieces, wherein\nKorean folk art, Western contemporary art, and global popular culture mix. New York's Derek Eller Gallery ______ her work in a solo exhibition that\nran in early 2022.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "will feature",
+      "B": "features",
+      "C": "featured",
+      "D": "has been featured"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past tense verb \"featured\" correctly indicates that the gallery displayed Moon's work in an exhibition that occurred in the past (early 2022). Choice A is incorrect because the future tense verb \"will feature\" doesn't indicate that the exhibition occurred in the past. Choice B is incorrect because the present tense verb \"features\" doesn't indicate that the exhibition occurred in the past. Choice D is incorrect because the present perfect tense verb \"has been featured\" is ungrammatical in this context. The passive construction incorrectly treats \"New York's Derek Eller Gallery\" as the entity being featured, even though \"her work\" appears as an object.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "92f309b2",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -7501,6 +8204,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. The convention being tested is the use of punctuation within a sentence. This choice correctly uses a dash after the main clause (\"Later...name\") to introduce the supplementary element (\"Gangnam...Korea\") that identifies the place that inspired the song's name. Choice A is incorrect because a semicolon can't be used in this way to join the main clause (\"Later...name\") and the supplementary element (\"Gangnam...Korea\"). A semicolon is conventionally used to join two main clauses. Choice B is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"Gangnam.\"Choice C is incorrect because it fails to mark the boundary between the main clause and the supplementary element with appropriate punctuation.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "354bfcc0",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "question": "Any practicing actor inevitably confronts scenes in which the experiences of their character are not experiences they themselves have had. To\nthat end, the substitution technique taught in many acting schools, in which actors mentally superimpose their own experiences onto their\ncharacters', ______ actors to authentically portray otherwise unrelatable emotional incidents.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "have empowered",
+      "B": "empowers",
+      "C": "empowering",
+      "D": "empower"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is subject-verb agreement. The singular verb \"empowers\" agrees in number with the singular subject \"the substitution technique.\" Choice A is incorrect because the plural verb \"have empowered\" doesn't agree in number with the singular subject \"the substitution technique.\" Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"empowering\" doesn't supply the main clause with a finite singular verb. Choice D is incorrect because the plural verb \"empower\" doesn't agree in number with the singular subject \"the substitution technique.\"",
     "hasGraph": false,
     "graphTitle": ""
   },
@@ -7676,6 +8398,25 @@
     "graphTitle": ""
   },
   {
+    "id": "6adff39a",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question": "In the twentieth century, many countries developed secret codes. These codes were used ______ plans during wartime.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "communicates",
+      "B": "to communicate",
+      "C": "have communicated",
+      "D": "communicate"
+    },
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The convention being tested is the use of verb forms within a sentence. The nonfinite to-infinitive verb \"to communicate\" is correctly used to form a subordinate clause that indicates how the codes were used. Choice A is incorrect because it results in an ungrammatical sentence. The finite present tense verb \"communicates\" can't be used in this way to form a subordinate clause that indicates how the codes were used. Choice C is incorrect because it results in an ungrammatical sentence. The finite present perfect tense verb \"have communicated\" can't be used in this way to form a subordinate clause that indicates how the codes were used. Choice D is incorrect because it results in an ungrammatical sentence. The finite present tense/nonfinite base form verb \"communicate\" can't be used in this way to form a subordinate clause that indicates how the codes were used.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "cd2443c0",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -7733,6 +8474,25 @@
     "graphTitle": ""
   },
   {
+    "id": "5f19d8c8",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question": "During totality, people viewing a total solar eclipse may perceive shifts in the colors of nearby objects: bright reds appear ______ expert Takeshi\nYoshimatsu explains that this is caused in part by the moon blocking the sun's direct rays, which contain red wavelengths of light. Thus only\nindirect light—containing less-intense blue waves—reflects off objects.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "black, for one, vision",
+      "B": "black; for one vision,",
+      "C": "black, for one. Vision",
+      "D": "black. For one, vision"
+    },
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The convention being tested is punctuation use within and between sentences. The comma after \"black\"correctly sets off the supplementary phrase \"for one,\"which indicates that this is one example. The period after \"one\"is used correctly to mark the boundary between one sentence (\"During totality…one\") and another (\"Vision expert…light\"). Choice A is incorrect because it results in a run-on sentence. The sentences (\"During totality…one\"and \"vision expert…light\") are fused without punctuation and/or a conjunction to mark the boundary between them. Choice B is incorrect because placing the semicolon after \"black\" separates \"for one\"from the example it accompanies. The phrase \"for one\"is meant to indicate that \"black\"is one example of a perceived color shift. Furthermore, with the comma after \"vision,\"this choice treats \"for one vision\"as a phrase modifying \"expert Takeshi Yoshimatsu,\"which doesn't make sense in this context. \"Vision expert\"functions as a title describing Yoshimatsu. Choice D is incorrect because placing the period after \"black\"separates \"for one\"from the example it accompanies. The phrase \"for one\"is meant to indicate that \"black\"is one example of a perceived color shift. Beginning a new sentence with \"For one, vision expert Takeshi Yoshimatsu explains…\"creates an illogical construction where \"for one\"no longer connects to the example it should follow.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
     "id": "b8e13a74",
     "assessment": "SAT",
     "test": "Reading and Writing",
@@ -7786,6 +8546,25 @@
     },
     "correct": "D",
     "rationale": "Choice D is the best answer. The convention being tested is the use of punctuation within a sentence. The comma after \"swimming\"pairs with the dash after \"ciliates\"to offset the supplementary element (\"widely…ciliates\") that interrupts the main clause of the sentence. Choice A is incorrect. Adding the verb \"is\"here creates an ungrammatical sentence structure with two main verbs (\"is\"and \"bestows\") without appropriate punctuation and/or conjunction. Choice B is incorrect because it fails to offset the supplementary element with appropriate punctuation. Furthermore, adding the verb \"is\"here creates an ungrammatical sentence that has two finite verbs (\"is\"and \"bestows\") without appropriate punctuation and/or conjunction. Choice C is incorrect because it fails to offset the supplementary element with appropriate punctuation. Furthermore, adding the verb \"has been\"here creates an ungrammatical sentence that has two finite verbs (\"has been\"and \"bestows\") without appropriate punctuation and/or conjunction.",
+    "hasGraph": false,
+    "graphTitle": ""
+  },
+  {
+    "id": "cb9c006c",
+    "assessment": "SAT",
+    "test": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": "In addition to being a celebrated writer, musician, and educator, Zitkála-Šá (Yankton Dakota) was the cofounder of the National Council of\nAmerican ______ advocated for Native American civil rights throughout the 1920s and 1930s.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "Indians, which",
+      "B": "Indians",
+      "C": "Indians,",
+      "D": "Indians. Which"
+    },
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The convention being tested is the use and punctuation of a supplementary relative clause. This choice correctly uses a comma and the relative pronoun \"which\" to create a supplementary relative clause (\"which advocated…1930s\") that provides additional information about the National Council of American Indians. Choice B is incorrect because it results in an ungrammatical sentence. A comma and the relative pronoun \"which\" are needed to create a supplementary relative clause that describes what the National Council of American Indians did. Choice C is incorrect because it results in an ungrammatical sentence. The relative pronoun \"which\" is needed to create a supplementary relative clause that describes what the National Council of American Indians did. Choice D is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"Which.\" A relative clause beginning with \"which\" can't stand alone as a complete sentence.",
     "hasGraph": false,
     "graphTitle": ""
   },
