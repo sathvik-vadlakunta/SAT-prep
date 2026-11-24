@@ -285,6 +285,34 @@
   .start-btn:hover { background: var(--blue-dk); }
   .start-btn:disabled { background: #9cb3cc; cursor: not-allowed; }
 
+  /* ── Math question image ── */
+  .math-q-img { display: block; width: 100%; height: auto; border-radius: 6px; }
+
+  /* ── Free-response (math) ── */
+  .fr-box { padding: 4px 28px 20px; display: flex; flex-direction: column; gap: 10px; }
+  .fr-hint { font-size: 13px; color: var(--muted); }
+  .fr-reveal-btn {
+    padding: 12px; background: var(--blue); color: #fff; border: none;
+    border-radius: 9px; font-size: 14px; font-weight: 700; cursor: pointer;
+  }
+  .fr-reveal-btn:hover { background: var(--blue-dk); }
+  .fr-answer-box {
+    background: var(--gray); border: 1.5px solid var(--border);
+    border-radius: 9px; padding: 14px 16px;
+  }
+  .fr-answer-lbl { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin-bottom: 6px; }
+  .fr-answer-val { font-size: 16px; font-weight: 800; }
+  .fr-self { display: flex; gap: 10px; }
+  .fr-self-btn {
+    flex: 1; padding: 11px; border: 1.5px solid var(--border);
+    border-radius: 9px; font-size: 13px; font-weight: 700; cursor: pointer; background: #fff;
+  }
+  .fr-self-btn.got-it  { border-color: var(--green); color: var(--green); background: var(--green-lt); }
+  .fr-self-btn.missed  { border-color: var(--red);   color: var(--red);   background: var(--red-lt); }
+  .fr-result { padding: 10px 14px; border-radius: 9px; font-size: 13px; font-weight: 700; }
+  .fr-result.got-it { background: var(--green-lt); color: var(--green); }
+  .fr-result.missed { background: var(--red-lt);   color: var(--red); }
+
   /* ── Results ── */
   .results {
     position: fixed; inset: 0; z-index: 500;
@@ -433,6 +461,12 @@
           </div>
         </div>
       </div>
+      <div style="margin-top:8px">
+        <div class="mode-card" data-b="math" onclick="setBank('math')" style="text-align:center">
+          <div class="mc-t">&#x2211; Math &mdash; Hard Only</div>
+          <div class="mc-d">645 q · Algebra, Advanced Math, PS&amp;DA, Geometry</div>
+        </div>
+      </div>
     </div>
 
     <div class="section">
@@ -472,6 +506,9 @@ const BANKS = {
   sec: { file: 'questions2.json', key: 'sat_a2', label: 'Standard English Conventions', skills: ['Boundaries','Form, Structure, and Sense'] },
   eoi: { file: 'questions3.json', key: 'sat_a3', label: 'Expression of Ideas',          skills: ['Transitions','Rhetorical Synthesis'] },
   cs:  { file: 'questions4.json', key: 'sat_a4', label: 'Craft and Structure',          skills: ['Words in Context','Text Structure and Purpose','Cross-Text Connections'] },
+  math:{ file: 'questions5.json', key: 'sat_math', label: 'Math (Hard)',
+         skillField: 'domain',
+         skills: ['Algebra','Advanced Math','Problem-Solving and Data Analysis','Geometry and Trigonometry'] },
   all: { files: ['questions.json','questions2.json','questions3.json','questions4.json'],
          srcBanks: ['rw','sec','eoi','cs'],
          key: null,
@@ -575,6 +612,7 @@ async function setBank(bank) {
       try { ans = JSON.parse(localStorage.getItem(BANKS[bank].key) || '{}'); } catch(e) { ans = {}; }
     }
     filters.skill = new Set(BANKS[bank].skills);
+    if (bank === 'math') filters.diff.add('Hard');
   }
 
   renderHome();
@@ -656,7 +694,8 @@ function toggleChip(el) {
 }
 
 function buildQueue() {
-  let qs = ALL.filter(q => filters.diff.has(q.difficulty) && filters.skill.has(q.skill));
+  const sf = BANKS[currentBank].skillField || 'skill';
+  let qs = ALL.filter(q => filters.diff.has(q.difficulty) && filters.skill.has(q[sf]));
   if (mode === 'missed') qs = qs.filter(q => ans[q.id]?.chosen && !ans[q.id]?.correct);
   if (mode === 'unseen') qs = qs.filter(q => !ans[q.id]?.chosen);
   if (mode === 'random') qs = [...qs].sort(() => Math.random() - 0.5);
@@ -691,7 +730,7 @@ function renderQ() {
   picked = a?.chosen || null;
 
   // Header
-  const HDR = { rw:'SAT · R+W', sec:'SAT · SEC', eoi:'SAT · EOI', cs:'SAT · C+S', all:'SAT · All' };
+  const HDR = { rw:'SAT · R+W', sec:'SAT · SEC', eoi:'SAT · EOI', cs:'SAT · C+S', all:'SAT · All', math:'SAT · Math' };
   document.getElementById('hdrLeft').textContent = HDR[currentBank] || 'SAT · R+W';
   document.getElementById('hdrMid').textContent = q.test === 'Math' ? 'Math' : 'R+W';
   updateHdrStat();
@@ -718,7 +757,7 @@ function renderQ() {
   renderLeft(q);
 
   // RIGHT PANEL prompt
-  document.getElementById('qPrompt').textContent = getPrompt(q.question);
+  document.getElementById('qPrompt').textContent = q.questionImage ? '' : getPrompt(q.question || '');
 
   // Choices
   renderChoices(q);
@@ -755,6 +794,10 @@ function renderLeft(q) {
   const panel = document.getElementById('leftPanel');
   const ul = q.underlinedSentence || null;
 
+  if (q.questionImage) {
+    panel.innerHTML = `<img class="math-q-img" src="${q.questionImage}" alt="Math question">`;
+    return;
+  }
   if (q.hasGraph && q.graphImage) {
     const passage = getPassage(q.question);
     let html = `<img class="chart-img" src="${q.graphImage}" alt="Chart/table for this question">`;
@@ -793,6 +836,27 @@ function getPassage(text) {
 
 function renderChoices(q) {
   const a = ans[q.id];
+
+  if (q.questionImage) {
+    if (q.is_mcq) {
+      document.getElementById('choices').innerHTML = ['A','B','C','D'].map(letter => {
+        let cls = 'choice';
+        if (done) {
+          cls += ' locked';
+          if (letter === q.correct) cls += ' show-correct';
+          if (letter === a?.chosen) cls = `choice locked ${a.correct ? 'correct' : 'wrong'}`;
+        } else if (letter === picked) {
+          cls += ' sel';
+        }
+        const onclick = done ? '' : `onclick="pick('${letter}')"`;
+        return `<div class="${cls}" ${onclick}><div class="c-letter">${letter}</div></div>`;
+      }).join('');
+    } else {
+      renderFreeResponse(q, a);
+    }
+    return;
+  }
+
   document.getElementById('choices').innerHTML = ['A','B','C','D']
     .filter(l => q.choices[l])
     .map(letter => {
@@ -815,6 +879,51 @@ function renderChoices(q) {
     }).join('');
 }
 
+function renderFreeResponse(q, a) {
+  const choicesEl = document.getElementById('choices');
+  if (done) {
+    const wasCorrect = a?.correct;
+    choicesEl.innerHTML = `<div class="fr-box">
+      <div class="fr-answer-box">
+        <div class="fr-answer-lbl">Correct Answer</div>
+        <div class="fr-answer-val">${esc(q.correct)}</div>
+      </div>
+      <div class="fr-result ${wasCorrect ? 'got-it' : 'missed'}">${wasCorrect ? '✓ Got it' : '✗ Missed it'}</div>
+    </div>`;
+  } else {
+    choicesEl.innerHTML = `<div class="fr-box">
+      <div class="fr-hint">Solve on paper, then reveal the answer.</div>
+      <button class="fr-reveal-btn" id="frRevealBtn" onclick="revealFR()">Reveal Answer</button>
+      <div class="fr-answer-box" id="frAnswerBox" style="display:none">
+        <div class="fr-answer-lbl">Correct Answer</div>
+        <div class="fr-answer-val">${esc(q.correct)}</div>
+      </div>
+      <div class="fr-self" id="frSelf" style="display:none">
+        <button class="fr-self-btn got-it" onclick="selfReport(true)">✓ Got it</button>
+        <button class="fr-self-btn missed" onclick="selfReport(false)">✗ Missed it</button>
+      </div>
+    </div>`;
+  }
+}
+
+function revealFR() {
+  document.getElementById('frRevealBtn').style.display = 'none';
+  document.getElementById('frAnswerBox').style.display = '';
+  document.getElementById('frSelf').style.display = '';
+}
+
+function selfReport(wasCorrect) {
+  if (done) return;
+  const q = Q[idx];
+  ans[q.id] = { chosen: wasCorrect ? 'self-correct' : 'self-wrong', correct: wasCorrect, marked: ans[q.id]?.marked || false };
+  save();
+  done = true;
+  renderChoices(q);
+  document.getElementById('expl').classList.add('show');
+  updateActionBtn();
+  updateHdrStat();
+}
+
 function pick(letter) {
   if (done) return;
   picked = letter;
@@ -827,11 +936,16 @@ function pick(letter) {
 
 function updateActionBtn() {
   const btn = document.getElementById('actionBtn');
+  const q = Q[idx];
   if (done) {
     const last = idx >= Q.length - 1;
     btn.textContent = last ? 'See Results' : 'Next';
     btn.className   = 'btn-nav btn-next';
     btn.disabled    = false;
+  } else if (q?.questionImage && !q.is_mcq) {
+    btn.textContent = 'Submit';
+    btn.className   = 'btn-nav btn-submit';
+    btn.disabled    = true;
   } else {
     btn.textContent = 'Submit';
     btn.className   = 'btn-nav btn-submit';
