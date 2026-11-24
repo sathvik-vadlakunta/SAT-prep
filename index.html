@@ -410,7 +410,7 @@
         </div>
         <div class="mode-card" data-b="sec" onclick="setBank('sec')">
           <div class="mc-t">Standard English</div>
-          <div class="mc-d">421 q · Conventions</div>
+          <div class="mc-d">462 q · Conventions</div>
         </div>
         <div class="mode-card" data-b="eoi" onclick="setBank('eoi')">
           <div class="mc-t">Expression of Ideas</div>
@@ -422,9 +422,15 @@
         </div>
       </div>
       <div style="margin-top:8px">
-        <div class="mode-card" data-b="all" onclick="setBank('all')" style="text-align:center">
-          <div class="mc-t">Practice All</div>
-          <div class="mc-d">1,845 questions across all 4 sections</div>
+        <div class="mode-grid">
+          <div class="mode-card" data-b="all" onclick="setBank('all')" style="text-align:center">
+            <div class="mc-t">Practice All</div>
+            <div class="mc-d">1,886 q · all 4 sections</div>
+          </div>
+          <div class="mode-card" data-b="all" onclick="setAllRandom()" style="text-align:center">
+            <div class="mc-t">&#x1F500; Shuffle All</div>
+            <div class="mc-d">Random order · all sections</div>
+          </div>
         </div>
       </div>
     </div>
@@ -571,6 +577,15 @@ async function setBank(bank) {
     filters.skill = new Set(BANKS[bank].skills);
   }
 
+  renderHome();
+}
+
+async function setAllRandom() {
+  await setBank('all');
+  mode = 'random';
+  document.querySelectorAll('[data-m]').forEach(c =>
+    c.classList.toggle('active', c.dataset.m === 'random')
+  );
   renderHome();
 }
 
