@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SAT Prep — Question Bank</title>
-<script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0faa6"></script>
 <style>
   :root {
     --blue: #005A9C;
@@ -338,27 +337,6 @@
   .pb { height: 7px; border-radius: 4px; background: var(--blue); display: inline-block; min-width: 2px; }
   .pbw { display: flex; align-items: center; gap: 8px; }
 
-  /* ── Desmos panel ── */
-  .desmos-panel {
-    position: fixed; z-index: 150;
-    right: 20px; bottom: calc(var(--bottom-h) + 16px);
-    width: 500px; height: 460px; min-width: 300px; min-height: 260px;
-    background: #fff; border: 1.5px solid var(--border); border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(0,0,0,.18);
-    overflow: hidden; resize: both;
-  }
-  .desmos-panel.hidden { display: none; }
-  .desmos-drag-hdr {
-    position: absolute; top: 0; left: 0; right: 0; height: 36px;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0 12px; border-bottom: 1px solid var(--border);
-    background: var(--gray); cursor: move; user-select: none;
-    border-radius: 10px 10px 0 0; z-index: 1;
-  }
-  .desmos-drag-hdr span { font-size: 12px; font-weight: 700; color: var(--muted); }
-  .desmos-close { background: none; border: none; cursor: pointer; font-size: 20px; color: var(--muted); line-height: 1; padding: 0 2px; }
-  .desmos-close:hover { color: var(--text); }
-  #desmosContainer { position: absolute; top: 36px; left: 0; right: 0; bottom: 0; }
   .btn-hdr.active { background: var(--blue-lt); border-color: var(--blue); color: var(--blue); }
 
   /* scrollbars */
@@ -384,15 +362,6 @@
     <button class="btn-hdr" onclick="resetProgress()">Reset</button>
   </div>
 </header>
-
-<!-- Desmos Calculator Panel -->
-<div class="desmos-panel hidden" id="desmosPanel">
-  <div class="desmos-drag-hdr" id="desmosDragHdr">
-    <span>🧮 Graphing Calculator</span>
-    <button class="desmos-close" onclick="toggleDesmos()">×</button>
-  </div>
-  <div id="desmosContainer"></div>
-</div>
 
 <!-- Question shell -->
 <div class="shell" id="shell">
@@ -705,7 +674,8 @@ function renderHome() {
 
 function goHome() {
   stopTimer();
-  if (desmosOpen) toggleDesmos();
+  if (desmosPopup && !desmosPopup.closed) { desmosPopup.close(); desmosPopup = null; }
+  document.getElementById('desmosBtn').classList.remove('active');
   document.getElementById('desmosBtn').style.display = 'none';
   document.getElementById('home').classList.remove('hidden');
   document.getElementById('shell').classList.remove('active');
@@ -1099,65 +1069,34 @@ function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
-// ── Desmos Calculator ──
-let desmosCalc = null;
-let desmosOpen = false;
-
-function initDesmos() {
-  if (desmosCalc) return;
-  if (typeof Desmos === 'undefined') {
-    document.getElementById('desmosContainer').innerHTML =
-      '<div style="padding:24px;text-align:center;color:#667085;font-size:13px">Calculator script failed to load.<br>Check your network connection.</div>';
-    return;
-  }
-  const el = document.getElementById('desmosContainer');
-  desmosCalc = Desmos.GraphingCalculator(el, {
-    keypad: true, expressions: true, settingsMenu: false, zoomButtons: true,
-  });
-  // keep Desmos in sync whenever the panel is resized
-  new ResizeObserver(() => desmosCalc && desmosCalc.resize())
-    .observe(document.getElementById('desmosPanel'));
-}
+// ── Desmos Calculator (popup) ──
+let desmosPopup = null;
 
 function toggleDesmos() {
-  desmosOpen = !desmosOpen;
-  document.getElementById('desmosPanel').classList.toggle('hidden', !desmosOpen);
-  document.getElementById('desmosBtn').classList.toggle('active', desmosOpen);
-  if (desmosOpen) {
-    // #desmosContainer is position:absolute so it has real pixel dimensions
-    // as soon as the panel is unhidden — one rAF is enough for the paint
-    requestAnimationFrame(() => {
-      initDesmos();
-      desmosCalc && desmosCalc.resize();
-    });
+  if (desmosPopup && !desmosPopup.closed) {
+    desmosPopup.close();
+    desmosPopup = null;
+    document.getElementById('desmosBtn').classList.remove('active');
+    return;
   }
+  desmosPopup = window.open(
+    'https://www.desmos.com/calculator',
+    'DesmosCalculator',
+    'width=580,height=520,resizable=yes,scrollbars=yes,location=no,menubar=no,toolbar=no'
+  );
+  if (!desmosPopup) {
+    alert('Allow popups for this site to use the graphing calculator.');
+    return;
+  }
+  document.getElementById('desmosBtn').classList.add('active');
+  const monitor = setInterval(() => {
+    if (desmosPopup && desmosPopup.closed) {
+      document.getElementById('desmosBtn').classList.remove('active');
+      desmosPopup = null;
+      clearInterval(monitor);
+    }
+  }, 500);
 }
-
-// Drag support for the calculator panel
-(function () {
-  let dragging = false, ox = 0, oy = 0;
-  document.addEventListener('DOMContentLoaded', () => {
-    const hdr   = document.getElementById('desmosDragHdr');
-    const panel = document.getElementById('desmosPanel');
-    hdr.addEventListener('mousedown', e => {
-      if (e.target.classList.contains('desmos-close')) return;
-      dragging = true;
-      const r = panel.getBoundingClientRect();
-      panel.style.right = 'auto'; panel.style.bottom = 'auto';
-      panel.style.left  = r.left + 'px';
-      panel.style.top   = r.top  + 'px';
-      ox = e.clientX - r.left;
-      oy = e.clientY - r.top;
-      e.preventDefault();
-    });
-    document.addEventListener('mousemove', e => {
-      if (!dragging) return;
-      panel.style.left = (e.clientX - ox) + 'px';
-      panel.style.top  = (e.clientY - oy) + 'px';
-    });
-    document.addEventListener('mouseup', () => { dragging = false; });
-  });
-})();
 </script>
 </body>
 </html>
