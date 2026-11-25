@@ -349,6 +349,28 @@
 
   .btn-hdr.active { background: var(--blue-lt); border-color: var(--blue); color: var(--blue); }
 
+  /* ── Desmos panel ── */
+  .desmos-panel {
+    position: fixed; z-index: 150;
+    right: 20px; bottom: calc(var(--bottom-h) + 16px);
+    width: 520px; height: 480px; min-width: 320px; min-height: 280px;
+    background: #fff; border: 1.5px solid var(--border); border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,.18);
+    overflow: hidden; resize: both;
+  }
+  .desmos-panel.hidden { display: none; }
+  .desmos-drag-hdr {
+    position: absolute; top: 0; left: 0; right: 0; height: 36px;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 12px; border-bottom: 1px solid var(--border);
+    background: var(--gray); cursor: move; user-select: none;
+    border-radius: 10px 10px 0 0; z-index: 1;
+  }
+  .desmos-drag-hdr span { font-size: 12px; font-weight: 700; color: var(--muted); }
+  .desmos-close { background: none; border: none; cursor: pointer; font-size: 20px; color: var(--muted); line-height: 1; padding: 0 2px; }
+  .desmos-close:hover { color: var(--text); }
+  .desmos-frame { position: absolute; top: 36px; left: 0; right: 0; bottom: 0; width: 100%; height: calc(100% - 36px); border: none; }
+
   /* scrollbars */
   .left::-webkit-scrollbar, .right::-webkit-scrollbar, .qmap-panel::-webkit-scrollbar { width: 4px; }
   .left::-webkit-scrollbar-thumb, .right::-webkit-scrollbar-thumb, .qmap-panel::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
@@ -372,6 +394,16 @@
     <button class="btn-hdr" onclick="resetProgress()">Reset</button>
   </div>
 </header>
+
+<!-- Desmos Calculator Panel -->
+<div class="desmos-panel hidden" id="desmosPanel">
+  <div class="desmos-drag-hdr" id="desmosDragHdr">
+    <span>🧮 Graphing Calculator</span>
+    <button class="desmos-close" onclick="toggleDesmos()">×</button>
+  </div>
+  <iframe class="desmos-frame" src="about:blank" data-src="https://www.desmos.com/calculator"
+          allow="fullscreen" title="Desmos Graphing Calculator"></iframe>
+</div>
 
 <!-- Question shell -->
 <div class="shell" id="shell">
@@ -514,6 +546,8 @@
 
 <script>
 // ── Data & State ──
+const IMG_V = '4';   // increment when images are regenerated to bust browser cache
+
 const BANKS = {
   rw:  { file: 'questions.json',  key: 'sat_a',  label: 'R&W · Information and Ideas',  skills: ['Inferences','Central Ideas and Details','Command of Evidence'] },
   sec: { file: 'questions2.json', key: 'sat_a2', label: 'Standard English Conventions', skills: ['Boundaries','Form, Structure, and Sense'] },
@@ -684,8 +718,7 @@ function renderHome() {
 
 function goHome() {
   stopTimer();
-  if (desmosPopup && !desmosPopup.closed) { desmosPopup.close(); desmosPopup = null; }
-  document.getElementById('desmosBtn').classList.remove('active');
+  if (desmosOpen) toggleDesmos();
   document.getElementById('desmosBtn').style.display = 'none';
   document.getElementById('home').classList.remove('hidden');
   document.getElementById('shell').classList.remove('active');
@@ -812,7 +845,7 @@ function renderLeft(q) {
   const ul = q.underlinedSentence || null;
 
   if (q.questionImage) {
-    panel.innerHTML = `<img class="math-q-img" src="${q.questionImage}" alt="Math question">`;
+    panel.innerHTML = `<img class="math-q-img" src="${q.questionImage}?v=${IMG_V}" alt="Math question">`;
     return;
   }
   if (q.hasGraph && q.graphImage) {
@@ -868,7 +901,7 @@ function renderChoices(q) {
         const onclick = done ? '' : `onclick="pick('${letter}')"`;
         const imgSrc = q.choiceImages && q.choiceImages[letter];
         const content = imgSrc
-          ? `<img src="${imgSrc}" class="choice-img" alt="${letter}">`
+          ? `<img src="${imgSrc}?v=${IMG_V}" class="choice-img" alt="${letter}">`
           : `<div class="c-letter">${letter}</div>`;
         return `<div class="${cls}" data-letter="${letter}" ${onclick}>${content}</div>`;
       }).join('');
@@ -1084,33 +1117,49 @@ function esc(s) {
 }
 
 // ── Desmos Calculator (popup) ──
-let desmosPopup = null;
+// ── Desmos Calculator (embedded iframe panel) ──
+let desmosOpen = false;
 
 function toggleDesmos() {
-  if (desmosPopup && !desmosPopup.closed) {
-    desmosPopup.close();
-    desmosPopup = null;
-    document.getElementById('desmosBtn').classList.remove('active');
-    return;
-  }
-  desmosPopup = window.open(
-    'https://www.desmos.com/calculator',
-    'DesmosCalculator',
-    'width=580,height=520,resizable=yes,scrollbars=yes,location=no,menubar=no,toolbar=no'
-  );
-  if (!desmosPopup) {
-    alert('Allow popups for this site to use the graphing calculator.');
-    return;
-  }
-  document.getElementById('desmosBtn').classList.add('active');
-  const monitor = setInterval(() => {
-    if (desmosPopup && desmosPopup.closed) {
-      document.getElementById('desmosBtn').classList.remove('active');
-      desmosPopup = null;
-      clearInterval(monitor);
+  desmosOpen = !desmosOpen;
+  const panel = document.getElementById('desmosPanel');
+  panel.classList.toggle('hidden', !desmosOpen);
+  document.getElementById('desmosBtn').classList.toggle('active', desmosOpen);
+  if (desmosOpen) {
+    // Lazy-load the iframe on first open
+    const frame = panel.querySelector('iframe');
+    if (frame.src === location.origin + '/') frame.src = 'about:blank'; // reset if needed
+    if (frame.src === 'about:blank' || frame.src === '') {
+      frame.src = frame.dataset.src;
     }
-  }, 500);
+  }
 }
+
+// Drag support
+(function () {
+  let dragging = false, ox = 0, oy = 0;
+  document.addEventListener('DOMContentLoaded', () => {
+    const hdr   = document.getElementById('desmosDragHdr');
+    const panel = document.getElementById('desmosPanel');
+    hdr.addEventListener('mousedown', e => {
+      if (e.target.classList.contains('desmos-close')) return;
+      dragging = true;
+      const r = panel.getBoundingClientRect();
+      panel.style.right = 'auto'; panel.style.bottom = 'auto';
+      panel.style.left  = r.left + 'px';
+      panel.style.top   = r.top  + 'px';
+      ox = e.clientX - r.left;
+      oy = e.clientY - r.top;
+      e.preventDefault();
+    });
+    document.addEventListener('mousemove', e => {
+      if (!dragging) return;
+      panel.style.left = (e.clientX - ox) + 'px';
+      panel.style.top  = (e.clientY - oy) + 'px';
+    });
+    document.addEventListener('mouseup', () => { dragging = false; });
+  });
+})();
 </script>
 </body>
 </html>
