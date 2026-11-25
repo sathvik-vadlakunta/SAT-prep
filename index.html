@@ -342,22 +342,23 @@
   .desmos-panel {
     position: fixed; z-index: 150;
     right: 20px; bottom: calc(var(--bottom-h) + 16px);
-    width: 480px; height: 440px; min-width: 280px; min-height: 220px;
+    width: 500px; height: 460px; min-width: 300px; min-height: 260px;
     background: #fff; border: 1.5px solid var(--border); border-radius: 12px;
     box-shadow: 0 8px 32px rgba(0,0,0,.18);
-    display: flex; flex-direction: column; resize: both; overflow: hidden;
+    overflow: hidden; resize: both;
   }
   .desmos-panel.hidden { display: none; }
   .desmos-drag-hdr {
+    position: absolute; top: 0; left: 0; right: 0; height: 36px;
     display: flex; align-items: center; justify-content: space-between;
-    padding: 7px 12px; border-bottom: 1px solid var(--border);
-    background: var(--gray); flex-shrink: 0;
-    cursor: move; user-select: none; border-radius: 10px 10px 0 0;
+    padding: 0 12px; border-bottom: 1px solid var(--border);
+    background: var(--gray); cursor: move; user-select: none;
+    border-radius: 10px 10px 0 0; z-index: 1;
   }
   .desmos-drag-hdr span { font-size: 12px; font-weight: 700; color: var(--muted); }
   .desmos-close { background: none; border: none; cursor: pointer; font-size: 20px; color: var(--muted); line-height: 1; padding: 0 2px; }
   .desmos-close:hover { color: var(--text); }
-  #desmosContainer { flex: 1; }
+  #desmosContainer { position: absolute; top: 36px; left: 0; right: 0; bottom: 0; }
   .btn-hdr.active { background: var(--blue-lt); border-color: var(--blue); color: var(--blue); }
 
   /* scrollbars */
@@ -1104,10 +1105,18 @@ let desmosOpen = false;
 
 function initDesmos() {
   if (desmosCalc) return;
-  desmosCalc = Desmos.GraphingCalculator(
-    document.getElementById('desmosContainer'),
-    { keypad: true, expressions: true, settingsMenu: false, zoomButtons: true }
-  );
+  if (typeof Desmos === 'undefined') {
+    document.getElementById('desmosContainer').innerHTML =
+      '<div style="padding:24px;text-align:center;color:#667085;font-size:13px">Calculator script failed to load.<br>Check your network connection.</div>';
+    return;
+  }
+  const el = document.getElementById('desmosContainer');
+  desmosCalc = Desmos.GraphingCalculator(el, {
+    keypad: true, expressions: true, settingsMenu: false, zoomButtons: true,
+  });
+  // keep Desmos in sync whenever the panel is resized
+  new ResizeObserver(() => desmosCalc && desmosCalc.resize())
+    .observe(document.getElementById('desmosPanel'));
 }
 
 function toggleDesmos() {
@@ -1115,10 +1124,11 @@ function toggleDesmos() {
   document.getElementById('desmosPanel').classList.toggle('hidden', !desmosOpen);
   document.getElementById('desmosBtn').classList.toggle('active', desmosOpen);
   if (desmosOpen) {
-    // Wait for browser to lay out the now-visible container before Desmos measures it
+    // #desmosContainer is position:absolute so it has real pixel dimensions
+    // as soon as the panel is unhidden — one rAF is enough for the paint
     requestAnimationFrame(() => {
       initDesmos();
-      requestAnimationFrame(() => desmosCalc && desmosCalc.resize());
+      desmosCalc && desmosCalc.resize();
     });
   }
 }
