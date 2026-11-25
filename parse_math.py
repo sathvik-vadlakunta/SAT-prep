@@ -81,6 +81,52 @@ def render_question_image(page, qid):
     pix.save(img_path)
     return f'images/math/{qid}.png'
 
+def render_choice_images(page, qid, out_dir):
+    """Crop each A/B/C/D choice as a separate PNG for the right-panel buttons."""
+    blocks = page.get_text('blocks')
+
+    # Find where the "Answer" section header ends (choices start below it)
+    answer_y1 = None
+    for x0, by0, x1, by1, btext, bno, btype in blocks:
+        if btext.strip() == 'Answer':
+            answer_y1 = by1
+            break
+    if answer_y1 is None:
+        return {}
+
+    # Find each choice block (starts with A., B., C., or D.)
+    choice_tops = {}
+    for x0, by0, x1, by1, btext, bno, btype in blocks:
+        t = btext.strip()
+        if re.match(r'^[A-D]\.', t) and by0 > answer_y1:
+            letter = t[0]
+            if letter not in choice_tops:  # take first occurrence per letter
+                choice_tops[letter] = by0
+    if len(choice_tops) != 4:
+        return {}
+
+    # Find where choices end
+    end_y = page.rect.height
+    for label in ('Correct Answer:', 'Rationale'):
+        rects = page.search_for(label)
+        if rects:
+            end_y = rects[0].y0 - 2
+            break
+
+    letters = sorted(choice_tops, key=lambda l: choice_tops[l])
+    mat = pymupdf.Matrix(2.0, 2.0)
+    result = {}
+    for i, letter in enumerate(letters):
+        y_top = choice_tops[letter] - 3
+        y_bot = (choice_tops[letters[i+1]] - 3) if i + 1 < len(letters) else end_y
+        clip = pymupdf.Rect(page.rect.x0, y_top, page.rect.x1, y_bot)
+        pix = page.get_pixmap(matrix=mat, clip=clip, colorspace=pymupdf.csRGB)
+        fname = f'{qid}_{letter}.png'
+        pix.save(os.path.join(out_dir, fname))
+        result[letter] = f'images/math/{fname}'
+    return result
+
+
 def extract_choices_text(text):
     choices = {}
     answer_match = re.search(
@@ -135,8 +181,6 @@ def main():
             if fb:
                 correct = fb.group(1).strip()
         is_mcq    = correct in ('A', 'B', 'C', 'D')
-
-        choices  = extract_choices_text(text) if is_mcq else {}
         rationale = clean_rationale(text)
 
         try:
@@ -145,6 +189,14 @@ def main():
             print(f'  image error {qid}: {e}')
             img_path = None
             img_errors += 1
+
+        # For MCQ, render each choice as a mini image (all math choices are formulas)
+        choice_images = {}
+        if is_mcq:
+            try:
+                choice_images = render_choice_images(page, qid, OUT_IMG_DIR)
+            except Exception as e:
+                print(f'  choice image error {qid}: {e}')
 
         questions.append({
             'id':            qid,
@@ -155,7 +207,8 @@ def main():
             'difficulty':    'Hard',
             'correct':       correct,
             'is_mcq':        is_mcq,
-            'choices':       choices,
+            'choices':       {},
+            'choiceImages':  choice_images,
             'rationale':     rationale,
             'questionImage': img_path,
         })

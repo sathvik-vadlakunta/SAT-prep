@@ -160,6 +160,16 @@
   .choice.wrong .c-letter     { border-color: var(--red); background: var(--red); color: #fff; }
   .choice.show-correct .c-letter { border-color: var(--green); background: var(--green); color: #fff; }
 
+  .choice-img {
+    display: block; max-width: 100%; height: auto;
+    border-radius: 4px;
+  }
+  .choice:has(.choice-img) { padding: 8px 12px; }
+  .choice.sel:has(.choice-img)        { outline: 2px solid var(--blue); }
+  .choice.correct:has(.choice-img)    { outline: 2px solid var(--green); background: var(--green-lt); }
+  .choice.wrong:has(.choice-img)      { outline: 2px solid var(--red);   background: var(--red-lt); }
+  .choice.show-correct:has(.choice-img) { outline: 2px solid var(--green); background: var(--green-lt); }
+
   /* explanation */
   .explanation {
     margin: 0 16px 16px;
@@ -856,7 +866,11 @@ function renderChoices(q) {
           cls += ' sel';
         }
         const onclick = done ? '' : `onclick="pick('${letter}')"`;
-        return `<div class="${cls}" ${onclick}><div class="c-letter">${letter}</div></div>`;
+        const imgSrc = q.choiceImages && q.choiceImages[letter];
+        const content = imgSrc
+          ? `<img src="${imgSrc}" class="choice-img" alt="${letter}">`
+          : `<div class="c-letter">${letter}</div>`;
+        return `<div class="${cls}" data-letter="${letter}" ${onclick}>${content}</div>`;
       }).join('');
     } else {
       renderFreeResponse(q, a);
@@ -879,7 +893,7 @@ function renderChoices(q) {
         cls += ' sel';
       }
       const onclick = done ? '' : `onclick="pick('${letter}')"`;
-      return `<div class="${cls}" ${onclick}>
+      return `<div class="${cls}" data-letter="${letter}" ${onclick}>
         <div class="c-letter">${letter}</div>
         <div style="flex:1">${esc(q.choices[letter])}</div>
       </div>`;
@@ -935,7 +949,7 @@ function pick(letter) {
   if (done) return;
   picked = letter;
   document.querySelectorAll('.choice').forEach(el => {
-    const l = el.querySelector('.c-letter')?.textContent;
+    const l = el.dataset.letter || el.querySelector('.c-letter')?.textContent;
     el.classList.toggle('sel', l === letter);
   });
   updateActionBtn();
