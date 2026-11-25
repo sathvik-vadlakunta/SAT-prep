@@ -56,9 +56,13 @@ def render_question_image(page, qid):
             y_start = by1 + 4
             break
 
-    # Bottom crop: use "Correct Answer:" as the default floor
-    ca_rects = page.search_for('Correct Answer:')
-    y_end = ca_rects[0].y0 - 4 if ca_rects else page.rect.height
+    # Bottom crop: "Correct Answer:" first, then "Rationale" as fallback
+    y_end = page.rect.height
+    for label in ('Correct Answer:', 'Rationale'):
+        rects = page.search_for(label)
+        if rects:
+            y_end = rects[0].y0 - 4
+            break
 
     # For MCQ pages there's a standalone "Answer" section header above the choices.
     # Crop at that so the choices don't appear in the image (they're rendered as buttons).
@@ -125,6 +129,11 @@ def main():
 
         correct_m = re.search(r'Correct Answer:\s*([^\n]+)', text)
         correct   = correct_m.group(1).strip() if correct_m else ''
+        # Fallback: extract from "The correct answer is X." in rationale
+        if not correct:
+            fb = re.search(r'The correct answer is ([A-Za-z0-9./\- ]+?)\.', text)
+            if fb:
+                correct = fb.group(1).strip()
         is_mcq    = correct in ('A', 'B', 'C', 'D')
 
         choices  = extract_choices_text(text) if is_mcq else {}
