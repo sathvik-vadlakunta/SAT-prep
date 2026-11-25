@@ -1115,9 +1115,11 @@ function toggleDesmos() {
   document.getElementById('desmosPanel').classList.toggle('hidden', !desmosOpen);
   document.getElementById('desmosBtn').classList.toggle('active', desmosOpen);
   if (desmosOpen) {
-    initDesmos();
-    // give Desmos a tick to measure its container after unhide
-    setTimeout(() => desmosCalc && desmosCalc.resize(), 50);
+    // Wait for browser to lay out the now-visible container before Desmos measures it
+    requestAnimationFrame(() => {
+      initDesmos();
+      requestAnimationFrame(() => desmosCalc && desmosCalc.resize());
+    });
   }
 }
 

@@ -41,10 +41,21 @@ def parse_metadata(text):
     return test, domain, skill, difficulty
 
 def render_question_image(page, qid):
-    """Render page area above 'Correct Answer:' as a PNG and return rel path."""
-    rects = page.search_for('Correct Answer:')
-    y_crop = rects[0].y0 - 4 if rects else page.rect.height
-    clip = pymupdf.Rect(page.rect.x0, page.rect.y0, page.rect.x1, y_crop)
+    """Render just the question content — from below the metadata to above Correct Answer:."""
+    # Top crop: find the difficulty label (last row of the metadata table).
+    # It's always the first occurrence of Hard/Medium/Easy on the page.
+    y_start = page.rect.y0
+    for diff in ('Hard', 'Medium', 'Easy'):
+        rects = page.search_for(diff)
+        if rects:
+            y_start = rects[0].y1 + 6  # just below the difficulty cell
+            break
+
+    # Bottom crop: just above "Correct Answer:"
+    ca_rects = page.search_for('Correct Answer:')
+    y_end = ca_rects[0].y0 - 4 if ca_rects else page.rect.height
+
+    clip = pymupdf.Rect(page.rect.x0, y_start, page.rect.x1, y_end)
     mat  = pymupdf.Matrix(1.5, 1.5)
     pix  = page.get_pixmap(matrix=mat, clip=clip, colorspace=pymupdf.csRGB)
     img_path = os.path.join(OUT_IMG_DIR, f'{qid}.png')
