@@ -41,19 +41,34 @@ def parse_metadata(text):
     return test, domain, skill, difficulty
 
 def render_question_image(page, qid):
-    """Render just the question content — from below the metadata to above Correct Answer:."""
-    # Top crop: find the difficulty label (last row of the metadata table).
-    # It's always the first occurrence of Hard/Medium/Easy on the page.
+    """Render question content only — below metadata, above answer choices/correct answer."""
+    # Top crop: just below the difficulty label in the metadata table.
     y_start = page.rect.y0
     for diff in ('Hard', 'Medium', 'Easy'):
         rects = page.search_for(diff)
         if rects:
-            y_start = rects[0].y1 + 6  # just below the difficulty cell
+            y_start = rects[0].y1 + 6
             break
 
-    # Bottom crop: just above "Correct Answer:"
+    # Also skip the "Question" section header itself
+    for x0, by0, x1, by1, btext, bno, btype in page.get_text('blocks'):
+        if btext.strip() == 'Question' and by0 > y_start:
+            y_start = by1 + 4
+            break
+
+    # Bottom crop: use "Correct Answer:" as the default floor
     ca_rects = page.search_for('Correct Answer:')
     y_end = ca_rects[0].y0 - 4 if ca_rects else page.rect.height
+
+    # For MCQ pages there's a standalone "Answer" section header above the choices.
+    # Crop at that so the choices don't appear in the image (they're rendered as buttons).
+    for x0, by0, x1, by1, btext, bno, btype in page.get_text('blocks'):
+        if btext.strip() == 'Answer' and y_start < by0 < y_end:
+            y_end = by0 - 4
+            break
+
+    # Safety: always render at least 80 px of content
+    y_end = max(y_end, y_start + 80)
 
     clip = pymupdf.Rect(page.rect.x0, y_start, page.rect.x1, y_end)
     mat  = pymupdf.Matrix(1.5, 1.5)
