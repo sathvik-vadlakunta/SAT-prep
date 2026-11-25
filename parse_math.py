@@ -66,13 +66,17 @@ def render_question_image(page, qid):
 
     # For MCQ pages there's a standalone "Answer" section header above the choices.
     # Crop at that so the choices don't appear in the image (they're rendered as buttons).
+    answer_block_found = False
     for x0, by0, x1, by1, btext, bno, btype in page.get_text('blocks'):
         if btext.strip() == 'Answer' and y_start < by0 < y_end:
             y_end = by0 - 4
+            answer_block_found = True
             break
 
-    # Safety: always render at least 80 px of content
-    y_end = max(y_end, y_start + 80)
+    # Safety: only apply minimum height for free-response (no Answer block).
+    # For MCQ, the Answer block may be very close to y_start for short questions.
+    if not answer_block_found:
+        y_end = max(y_end, y_start + 80)
 
     clip = pymupdf.Rect(page.rect.x0, y_start, page.rect.x1, y_end)
     mat  = pymupdf.Matrix(1.5, 1.5)
